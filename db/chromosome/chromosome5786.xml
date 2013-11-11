@@ -1,0 +1,10 @@
+<chromosome id="5786" primary-parent-id="5751"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="4" src-id="0" dest-id="3" weight="0.47997780388960565"/>
+<connection id="5" src-id="1" dest-id="3" weight="-4.004622382097684"/>
+<neuron id="415" type="hid" activation="sigmoid"/>
+<connection id="416" src-id="2" dest-id="415" weight="2.2415285307675976"/>
+<connection id="417" src-id="415" dest-id="3" weight="-0.6275761422831501"/>
+</chromosome>
