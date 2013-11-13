@@ -4,20 +4,22 @@ import com.anji.integration.Activator;
 
 public class NEATController extends Controller{
 	
+	private static final int MAX_JUMP = 100;
+	
 	private Activator activator;
-	private int fitness;
+	private int fitness = 0;
 
 	public NEATController(Activator acti){
 		this.activator = acti;
 	}
 	
 	public void reset() {
-		System.out.println("Restarting the race!");
+		//System.out.println("Restarting the race!");
 		
 	}
 
 	public void shutdown() {
-		System.out.println("Bye bye!");	
+		//System.out.println("Bye bye!");	
 	}
 
 	@Override
@@ -133,11 +135,14 @@ public class NEATController extends Controller{
 	}
 	
 	private void storeFitness(double d) {
-		fitness = (int)d;
-		System.out.println("Stored fitness: "+d);
+		int newFit = (int)d;
+		if(newFit > fitness && fitness + MAX_JUMP > newFit){
+			fitness = newFit;
+		}
 	}
 
 	public int getFitness() {
+		System.out.println(">> Get fitness: "+fitness);
 		return fitness;
 	}
 }

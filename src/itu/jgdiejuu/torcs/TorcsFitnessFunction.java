@@ -16,7 +16,9 @@ import com.anji.util.Properties;
 @SuppressWarnings("serial")
 public class TorcsFitnessFunction implements BulkFitnessFunction, Configurable {
 
-	private final static int MAX_FITNESS = 13337;
+	//private static final int MAX_STEPS = 1500;
+	
+	private static final int MAX_FITNESS = 13337;
 	private ActivatorTranscriber activatorFactory;
 	
 	public int getMaxFitnessValue() {

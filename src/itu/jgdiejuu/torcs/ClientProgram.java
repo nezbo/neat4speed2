@@ -66,6 +66,7 @@ public class ClientProgram {
 				inMsg = mySocket.receive(UDP_TIMEOUT);
 			} while (inMsg == null || inMsg.indexOf("***identified***") < 0);
 
+			System.out.println("Client Connected.");
 			/*
 			 * Start to drive
 			 */
@@ -83,7 +84,16 @@ public class ClientProgram {
 					 */
 					if (inMsg.indexOf("***shutdown***") >= 0) {
 						shutdownOccurred = true;
-						System.out.println("Server shutdown!");
+						if (verbose) System.out.println("Server shutdown!");
+						break;
+					}
+					
+					/*
+					 * Check if BulkNEATController is done
+					 */
+					if (driver instanceof BulkNEATController && ((BulkNEATController)driver).isFinished()) {
+						shutdownOccurred = true;
+						if (verbose) System.out.println("BulkNEATController done!");
 						break;
 					}
 
@@ -117,8 +127,8 @@ public class ClientProgram {
 		 */
 		driver.shutdown();
 		mySocket.close();
-		System.out.println("Client shutdown.");
-		System.out.println("Bye, bye!");
+		if (verbose)System.out.println("Client shutdown.");
+		if (verbose)System.out.println("Bye, bye!");
 
 	}
 
@@ -186,13 +196,13 @@ public class ClientProgram {
 			}
 		}
 		
-		System.out.println("port="+port);
-		System.out.println("host="+host);
-		System.out.println("clientId="+clientId);
-		System.out.println("verbose="+verbose);
-		System.out.println("maxEpisodes="+maxEpisodes);
-		System.out.println("maxSteps="+maxSteps);
-		System.out.println("stage="+stage);
-		System.out.println("trackName="+trackName);
+		if (verbose) System.out.println("port="+port);
+		if (verbose) System.out.println("host="+host);
+		if (verbose) System.out.println("clientId="+clientId);
+		if (verbose) System.out.println("verbose="+verbose);
+		if (verbose) System.out.println("maxEpisodes="+maxEpisodes);
+		if (verbose) System.out.println("maxSteps="+maxSteps);
+		if (verbose) System.out.println("stage="+stage);
+		if (verbose) System.out.println("trackName="+trackName);
 	}
 }
