@@ -1,5 +1,6 @@
 package itu.jgdiejuu.torcs;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.jgap.Chromosome;
@@ -12,6 +13,8 @@ public class BulkNEATController extends Controller {
 	private static final int MAX_STEPS = 1500;
 	
 	private boolean finished = false;
+	private ArrayList<Integer> fitnesses;
+	
 	private List<Chromosome> genotypes;
 	private NEATController controller = null;
 	private int curStep = 0;
@@ -22,17 +25,22 @@ public class BulkNEATController extends Controller {
 	public BulkNEATController(List<Chromosome> genotypes, ActivatorTranscriber activatorFactory){
 		this.genotypes = genotypes;
 		this.factory = activatorFactory;
+		fitnesses = new ArrayList<Integer>(genotypes.size());
+		
 		createController();
 	}
 
 	@Override
 	public Action control(SensorModel sensors) {
 		if(curStep < MAX_STEPS){
+			if(curStep == 0)
+				System.out.println(">> Controller's first action");
+			
 			curStep++;
 			return controller.control(sensors);
 		}else{
 			// save fitness
-			genotypes.get(curGene).setFitnessValue(controller.getFitness());
+			fitnesses.add(controller.getFitness());
 			
 			// change variables
 			curGene++;
@@ -47,6 +55,9 @@ public class BulkNEATController extends Controller {
 			
 			Action result = new Action();
 			result.restartRace = true;
+			
+			//System.out.println(">> Reset sent");
+			
 			return result;
 		}
 	}
@@ -55,6 +66,9 @@ public class BulkNEATController extends Controller {
 		return finished;
 	}
 	
+	public List<Integer> getFitnesses(){
+		return fitnesses;
+	}
 	
 	private void createController() {
 		try {
@@ -65,7 +79,7 @@ public class BulkNEATController extends Controller {
 
 	@Override
 	public void reset() {
-		System.out.println("Reset call received");
+		//System.out.println(">> Reset call received");
 	}
 
 	@Override

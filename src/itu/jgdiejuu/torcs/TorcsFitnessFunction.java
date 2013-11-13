@@ -28,7 +28,11 @@ public class TorcsFitnessFunction implements BulkFitnessFunction, Configurable {
 	@Override
 	final public void evaluate( List<Chromosome> genotypes ) {
 		
-		ArrayList<Integer> fitnesses = new ArrayList<Integer>(genotypes.size());
+		BulkNEATController controller = new BulkNEATController(genotypes, activatorFactory);
+		ClientProgram.main(new String[]{"-","maxEpisodes:1337"}, controller);
+		List<Integer> fitnesses = controller.getFitnesses();
+		
+		/*ArrayList<Integer> fitnesses = new ArrayList<Integer>(genotypes.size());
 		
 		for(Chromosome genotype : genotypes){
 			try {
@@ -40,7 +44,7 @@ public class TorcsFitnessFunction implements BulkFitnessFunction, Configurable {
 				fitnesses.add(controller.getFitness());
 				
 			} catch (TranscriberException e) { e.printStackTrace(); fitnesses.add(0); }
-		}
+		}*/
 		
 		// make sure none is negative (add the lowest negative values absolute to all)
 		int minimum = Collections.min(fitnesses);

@@ -55,6 +55,7 @@ public class ClientProgram {
 		
 		long curEpisode = 0;
 		boolean shutdownOccurred = false;
+		System.out.println("Client Connected.");
 		do {
 
 			/*
@@ -65,8 +66,7 @@ public class ClientProgram {
 				mySocket.send(initStr);
 				inMsg = mySocket.receive(UDP_TIMEOUT);
 			} while (inMsg == null || inMsg.indexOf("***identified***") < 0);
-
-			System.out.println("Client Connected.");
+			
 			/*
 			 * Start to drive
 			 */
@@ -102,8 +102,7 @@ public class ClientProgram {
 					 */
 					if (inMsg.indexOf("***restart***") >= 0) {
 						driver.reset();
-						if (verbose)
-							System.out.println("Server restarting!");
+						if(verbose) System.out.println("Server restarting!");
 						break;
 					}
 
