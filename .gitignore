@@ -4,3 +4,7 @@
 *.jar
 *.war
 *.ear
+test/
+bin/
+db/
+nevt/
