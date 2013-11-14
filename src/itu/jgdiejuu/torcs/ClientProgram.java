@@ -67,6 +67,7 @@ public class ClientProgram {
 				inMsg = mySocket.receive(UDP_TIMEOUT);
 			} while (inMsg == null || inMsg.indexOf("***identified***") < 0);
 			
+			System.out.println("New Episode");
 			/*
 			 * Start to drive
 			 */

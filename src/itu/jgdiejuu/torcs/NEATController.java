@@ -8,6 +8,12 @@ public class NEATController extends Controller{
 	
 	private Activator activator;
 	private int fitness = 0;
+	
+	private double lastDiff = -1.0;
+	private double lastDist = 0.0;
+	private int lastTick = 0;
+	private int tick = 0;
+	private static final int TICKS_PER_SAVE = 125;
 
 	public NEATController(Activator acti){
 		this.activator = acti;
@@ -24,8 +30,19 @@ public class NEATController extends Controller{
 
 	@Override
 	public Action control(SensorModel sensors) {
-		storeFitness(sensors.getDistanceFromStartLine());
+		double dist = sensors.getDistanceFromStartLine();
+		updateDiff(dist);
+		storeFitness(dist);
 		return convertOutput(activator.next(covertInput(sensors)));
+	}
+
+	private void updateDiff(double dist) {
+		if(tick == lastTick + TICKS_PER_SAVE){
+			lastTick = tick;
+			lastDiff = Math.abs(dist - lastDist);
+			lastDist = dist;
+		}
+		tick++;
 	}
 
 	private double[] covertInput(SensorModel sensors) {
@@ -144,5 +161,10 @@ public class NEATController extends Controller{
 	public int getFitness() {
 		System.out.println(">> Get fitness: "+fitness);
 		return fitness;
+	}
+	
+	// Meters moved last 5 seconds.
+	public double getDeltaFive(){
+		return lastDiff;
 	}
 }
