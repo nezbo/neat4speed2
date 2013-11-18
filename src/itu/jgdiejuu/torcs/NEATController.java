@@ -154,7 +154,7 @@ public class NEATController extends Controller{
 		result.accelerate = clamp(output[0],0,1);
 		result.brake = clamp(output[1],0,1);
 		result.clutch = clamp(output[2],0,1);
-		result.steering = normalizeSteering(output[4]);
+		result.steering = normalizeSteering(output[3]);
 		// not used focus
 		// not used meta
 		return result;
