@@ -35,7 +35,9 @@ public class NEATController extends Controller{
 		double dist = sensors.getDistanceFromStartLine();
 		updateDiff(dist);
 		storeFitness(dist);
-		return convertOutput(activator.next(covertInput(sensors)));
+		Action result = convertOutput(activator.next(covertInput(sensors)));
+		result.gear = automaticGear(sensors);
+		return result;
 	}
 
 	//based on Anders' code - rewritten for 
@@ -67,7 +69,7 @@ public class NEATController extends Controller{
 	}
 
 	private double[] covertInput(SensorModel sensors) {
-		double[] result = new double[26];
+		double[] result = new double[24];
 		result[0] = normalizeAngle(sensors.getAngleToTrackAxis());
 		// not used curLapTime
 		// not used damage
@@ -75,38 +77,38 @@ public class NEATController extends Controller{
 		// not used distRaced
 		// not used focus
 		// not used fuel
-		result[1] = automaticGear(sensors);;
+		
 		//not used lastLapTime
 		double[] opp = normalizeOpponents(sensors.getOpponentSensors());
-		result[2] = opp[0];
-		result[3] = opp[1];
-		result[4] = opp[2];
-		result[5] = opp[3];
-		result[6] = opp[4];
-		result[7] = opp[5];
-		result[8] = opp[6];
-		result[9] = opp[7];
+		result[1] = opp[0];
+		result[2] = opp[1];
+		result[3] = opp[2];
+		result[4] = opp[3];
+		result[5] = opp[4];
+		result[6] = opp[5];
+		result[7] = opp[6];
+		result[8] = opp[7];
 		// not used racePos
-		result[10] = normalizeRPM(sensors.getRPM());
-		result[11] = normalizeSpeed(sensors.getSpeed()); // speedX
-		result[12] = normalizeSpeed(sensors.getLateralSpeed()); // speedY
-		result[13] = normalizeSpeed(sensors.getZSpeed()); // speedZ
+		//result[9] = normalizeRPM(sensors.getRPM());
+		result[9] = normalizeSpeed(sensors.getSpeed()); // speedX
+		result[10] = normalizeSpeed(sensors.getLateralSpeed()); // speedY
+		result[11] = normalizeSpeed(sensors.getZSpeed()); // speedZ
 		double[] track = normalizeTrack(sensors.getTrackEdgeSensors());
-		result[14] = track[0];
-		result[15] = track[1];
-		result[16] = track[2];
-		result[17] = track[3];
-		result[18] = track[4];
-		result[19] = track[5];
-		result[20] = track[6];
-		result[21] = track[7];
-		result[22] = track[8];
-		result[23] = track[9];
-		result[24] = normalizeTrackPos(sensors.getTrackPosition());
+		result[12] = track[0];
+		result[13] = track[1];
+		result[14] = track[2];
+		result[15] = track[3];
+		result[16] = track[4];
+		result[17] = track[5];
+		result[18] = track[6];
+		result[19] = track[7];
+		result[20] = track[8];
+		result[21] = track[9];
+		result[22] = normalizeTrackPos(sensors.getTrackPosition());
 		// not used wheelSpinVel
 		// not used z
 		//result[24] = normalizedGear(sensors.getGear());
-		result[25] = 1.0;
+		result[23] = 1.0;
 		
 		return result;
 	}
@@ -152,7 +154,6 @@ public class NEATController extends Controller{
 		result.accelerate = clamp(output[0],0,1);
 		result.brake = clamp(output[1],0,1);
 		result.clutch = clamp(output[2],0,1);
-		result.gear = getGear(output[3]);
 		result.steering = normalizeSteering(output[4]);
 		// not used focus
 		// not used meta
