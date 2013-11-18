@@ -32,20 +32,6 @@ public class TorcsFitnessFunction implements BulkFitnessFunction, Configurable {
 		ClientProgram.main(new String[]{"-","maxEpisodes:1337"}, controller);
 		List<Integer> fitnesses = controller.getFitnesses();
 		
-		/*ArrayList<Integer> fitnesses = new ArrayList<Integer>(genotypes.size());
-		
-		for(Chromosome genotype : genotypes){
-			try {
-				Activator activator = activatorFactory.newActivator( genotype );
-				NEATController controller = new NEATController(activator);
-				ClientProgram.main(new String[]{"-"}, controller);
-				
-				// get output somehow?
-				fitnesses.add(controller.getFitness());
-				
-			} catch (TranscriberException e) { e.printStackTrace(); fitnesses.add(0); }
-		}*/
-		
 		// make sure none is negative (add the lowest negative values absolute to all)
 		int minimum = Collections.min(fitnesses);
 		if(minimum < 0){

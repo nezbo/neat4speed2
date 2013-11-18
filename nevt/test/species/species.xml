@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="./graphSpeciesRefresh.xsl" ?>
 <!DOCTYPE run SYSTEM "../run.dtd">
-<run name="testrun" timedatestamp="[20131113 14:33:25 - 20131114 12:43:54]" >
+<run name="testrun" timedatestamp="[20131113 14:33:25 - 20131114 13:20:14]" >
 <search-parameters>
 <population-size>100</population-size>
 <generations>75</generations>
@@ -3153,6 +3153,632 @@
 </specie>
 <specie id="28641" count="1">
 <chromosome id="28641" fitness="1" />
+</specie>
+</generation>
+<generation id="12" >
+<fitness>
+<max>2057</max>
+<min>1</min>
+<avg>326</avg>
+</fitness>
+<complexity>
+<champ>297</champ>
+<max>1500</max>
+<min>297</min>
+<avg>894.79</avg>
+</complexity>
+<specie id="3349" count="1">
+<chromosome id="3349" fitness="2057" />
+</specie>
+<specie id="7180" count="1">
+<chromosome id="7180" fitness="2057" />
+</specie>
+<specie id="9897" count="1">
+<chromosome id="9897" fitness="2057" />
+</specie>
+<specie id="9906" count="1">
+<chromosome id="9906" fitness="2057" />
+</specie>
+<specie id="9909" count="1">
+<chromosome id="9909" fitness="2057" />
+</specie>
+<specie id="9937" count="1">
+<chromosome id="9937" fitness="2057" />
+</specie>
+<specie id="14683" count="1">
+<chromosome id="14683" fitness="2057" />
+</specie>
+<specie id="14707" count="1">
+<chromosome id="14707" fitness="2057" />
+</specie>
+<specie id="20915" count="1">
+<chromosome id="20915" fitness="2057" />
+</specie>
+<specie id="20933" count="1">
+<chromosome id="20933" fitness="2057" />
+</specie>
+<specie id="33922" count="1">
+<chromosome id="33922" fitness="1" />
+</specie>
+<specie id="33923" count="1">
+<chromosome id="33923" fitness="99" />
+</specie>
+<specie id="33924" count="1">
+<chromosome id="33924" fitness="1" />
+</specie>
+<specie id="33925" count="1">
+<chromosome id="33925" fitness="99" />
+</specie>
+<specie id="33926" count="1">
+<chromosome id="33926" fitness="99" />
+</specie>
+<specie id="33927" count="1">
+<chromosome id="33927" fitness="1" />
+</specie>
+<specie id="33928" count="1">
+<chromosome id="33928" fitness="1" />
+</specie>
+<specie id="33929" count="1">
+<chromosome id="33929" fitness="1" />
+</specie>
+<specie id="33930" count="1">
+<chromosome id="33930" fitness="1" />
+</specie>
+<specie id="33931" count="1">
+<chromosome id="33931" fitness="1" />
+</specie>
+<specie id="33932" count="1">
+<chromosome id="33932" fitness="1" />
+</specie>
+<specie id="33933" count="1">
+<chromosome id="33933" fitness="1" />
+</specie>
+<specie id="33934" count="1">
+<chromosome id="33934" fitness="1" />
+</specie>
+<specie id="33935" count="1">
+<chromosome id="33935" fitness="1" />
+</specie>
+<specie id="33936" count="1">
+<chromosome id="33936" fitness="99" />
+</specie>
+<specie id="33937" count="1">
+<chromosome id="33937" fitness="99" />
+</specie>
+<specie id="33938" count="1">
+<chromosome id="33938" fitness="99" />
+</specie>
+<specie id="33939" count="1">
+<chromosome id="33939" fitness="1" />
+</specie>
+<specie id="33940" count="1">
+<chromosome id="33940" fitness="1" />
+</specie>
+<specie id="33941" count="1">
+<chromosome id="33941" fitness="99" />
+</specie>
+<specie id="33942" count="1">
+<chromosome id="33942" fitness="1" />
+</specie>
+<specie id="33943" count="1">
+<chromosome id="33943" fitness="2056" />
+</specie>
+<specie id="33944" count="1">
+<chromosome id="33944" fitness="1" />
+</specie>
+<specie id="33945" count="1">
+<chromosome id="33945" fitness="1" />
+</specie>
+<specie id="33946" count="1">
+<chromosome id="33946" fitness="1" />
+</specie>
+<specie id="33947" count="1">
+<chromosome id="33947" fitness="1" />
+</specie>
+<specie id="33948" count="1">
+<chromosome id="33948" fitness="1" />
+</specie>
+<specie id="33949" count="1">
+<chromosome id="33949" fitness="1" />
+</specie>
+<specie id="33950" count="1">
+<chromosome id="33950" fitness="1" />
+</specie>
+<specie id="33951" count="1">
+<chromosome id="33951" fitness="2056" />
+</specie>
+<specie id="33952" count="1">
+<chromosome id="33952" fitness="99" />
+</specie>
+<specie id="33953" count="1">
+<chromosome id="33953" fitness="1" />
+</specie>
+<specie id="33954" count="1">
+<chromosome id="33954" fitness="1" />
+</specie>
+<specie id="33955" count="1">
+<chromosome id="33955" fitness="2057" />
+</specie>
+<specie id="33956" count="1">
+<chromosome id="33956" fitness="1" />
+</specie>
+<specie id="33957" count="1">
+<chromosome id="33957" fitness="1" />
+</specie>
+<specie id="33958" count="1">
+<chromosome id="33958" fitness="1" />
+</specie>
+<specie id="33959" count="1">
+<chromosome id="33959" fitness="1" />
+</specie>
+<specie id="33960" count="1">
+<chromosome id="33960" fitness="1" />
+</specie>
+<specie id="33961" count="1">
+<chromosome id="33961" fitness="1" />
+</specie>
+<specie id="33962" count="1">
+<chromosome id="33962" fitness="1" />
+</specie>
+<specie id="33963" count="1">
+<chromosome id="33963" fitness="1" />
+</specie>
+<specie id="33964" count="1">
+<chromosome id="33964" fitness="1" />
+</specie>
+<specie id="33965" count="1">
+<chromosome id="33965" fitness="1" />
+</specie>
+<specie id="33966" count="1">
+<chromosome id="33966" fitness="1" />
+</specie>
+<specie id="33967" count="1">
+<chromosome id="33967" fitness="1" />
+</specie>
+<specie id="33968" count="1">
+<chromosome id="33968" fitness="1" />
+</specie>
+<specie id="33969" count="1">
+<chromosome id="33969" fitness="1" />
+</specie>
+<specie id="33970" count="1">
+<chromosome id="33970" fitness="99" />
+</specie>
+<specie id="33971" count="1">
+<chromosome id="33971" fitness="1" />
+</specie>
+<specie id="33972" count="1">
+<chromosome id="33972" fitness="1" />
+</specie>
+<specie id="33973" count="1">
+<chromosome id="33973" fitness="99" />
+</specie>
+<specie id="33974" count="1">
+<chromosome id="33974" fitness="1" />
+</specie>
+<specie id="33975" count="1">
+<chromosome id="33975" fitness="99" />
+</specie>
+<specie id="33976" count="1">
+<chromosome id="33976" fitness="1" />
+</specie>
+<specie id="33977" count="1">
+<chromosome id="33977" fitness="1" />
+</specie>
+<specie id="33978" count="1">
+<chromosome id="33978" fitness="2057" />
+</specie>
+<specie id="33979" count="1">
+<chromosome id="33979" fitness="1" />
+</specie>
+<specie id="33980" count="1">
+<chromosome id="33980" fitness="1" />
+</specie>
+<specie id="33981" count="1">
+<chromosome id="33981" fitness="1" />
+</specie>
+<specie id="33982" count="1">
+<chromosome id="33982" fitness="99" />
+</specie>
+<specie id="33983" count="1">
+<chromosome id="33983" fitness="1" />
+</specie>
+<specie id="33984" count="1">
+<chromosome id="33984" fitness="1" />
+</specie>
+<specie id="33985" count="1">
+<chromosome id="33985" fitness="1" />
+</specie>
+<specie id="33986" count="1">
+<chromosome id="33986" fitness="1" />
+</specie>
+<specie id="33987" count="1">
+<chromosome id="33987" fitness="1" />
+</specie>
+<specie id="33988" count="1">
+<chromosome id="33988" fitness="99" />
+</specie>
+<specie id="33989" count="1">
+<chromosome id="33989" fitness="1" />
+</specie>
+<specie id="33990" count="1">
+<chromosome id="33990" fitness="1" />
+</specie>
+<specie id="33991" count="1">
+<chromosome id="33991" fitness="1" />
+</specie>
+<specie id="33992" count="1">
+<chromosome id="33992" fitness="99" />
+</specie>
+<specie id="33993" count="1">
+<chromosome id="33993" fitness="1" />
+</specie>
+<specie id="33994" count="1">
+<chromosome id="33994" fitness="1" />
+</specie>
+<specie id="33995" count="1">
+<chromosome id="33995" fitness="2057" />
+</specie>
+<specie id="33996" count="1">
+<chromosome id="33996" fitness="1" />
+</specie>
+<specie id="33997" count="1">
+<chromosome id="33997" fitness="1" />
+</specie>
+<specie id="33998" count="1">
+<chromosome id="33998" fitness="1" />
+</specie>
+<specie id="33999" count="1">
+<chromosome id="33999" fitness="1" />
+</specie>
+<specie id="34000" count="1">
+<chromosome id="34000" fitness="99" />
+</specie>
+<specie id="34001" count="1">
+<chromosome id="34001" fitness="1" />
+</specie>
+<specie id="34002" count="1">
+<chromosome id="34002" fitness="1" />
+</specie>
+<specie id="34003" count="1">
+<chromosome id="34003" fitness="99" />
+</specie>
+<specie id="34004" count="1">
+<chromosome id="34004" fitness="1" />
+</specie>
+<specie id="34005" count="1">
+<chromosome id="34005" fitness="1" />
+</specie>
+<specie id="34006" count="1">
+<chromosome id="34006" fitness="1" />
+</specie>
+<specie id="34007" count="1">
+<chromosome id="34007" fitness="1" />
+</specie>
+<specie id="34008" count="1">
+<chromosome id="34008" fitness="1" />
+</specie>
+<specie id="34009" count="1">
+<chromosome id="34009" fitness="99" />
+</specie>
+<specie id="34010" count="1">
+<chromosome id="34010" fitness="1" />
+</specie>
+<specie id="34011" count="1">
+<chromosome id="34011" fitness="1" />
+</specie>
+</generation>
+<generation id="13" >
+<fitness>
+<max>2057</max>
+<min>1</min>
+<avg>488</avg>
+</fitness>
+<complexity>
+<champ>297</champ>
+<max>1488</max>
+<min>297</min>
+<avg>894.61</avg>
+</complexity>
+<specie id="3349" count="1">
+<chromosome id="3349" fitness="2057" />
+</specie>
+<specie id="7180" count="1">
+<chromosome id="7180" fitness="2057" />
+</specie>
+<specie id="9897" count="1">
+<chromosome id="9897" fitness="2057" />
+</specie>
+<specie id="9906" count="1">
+<chromosome id="9906" fitness="2057" />
+</specie>
+<specie id="9909" count="1">
+<chromosome id="9909" fitness="2057" />
+</specie>
+<specie id="9937" count="1">
+<chromosome id="9937" fitness="2057" />
+</specie>
+<specie id="14683" count="1">
+<chromosome id="14683" fitness="2057" />
+</specie>
+<specie id="14707" count="1">
+<chromosome id="14707" fitness="2057" />
+</specie>
+<specie id="20915" count="1">
+<chromosome id="20915" fitness="2057" />
+</specie>
+<specie id="20933" count="1">
+<chromosome id="20933" fitness="2057" />
+</specie>
+<specie id="38043" count="1">
+<chromosome id="38043" fitness="1" />
+</specie>
+<specie id="38044" count="1">
+<chromosome id="38044" fitness="1" />
+</specie>
+<specie id="38045" count="1">
+<chromosome id="38045" fitness="99" />
+</specie>
+<specie id="38046" count="1">
+<chromosome id="38046" fitness="1" />
+</specie>
+<specie id="38047" count="1">
+<chromosome id="38047" fitness="99" />
+</specie>
+<specie id="38048" count="1">
+<chromosome id="38048" fitness="1" />
+</specie>
+<specie id="38049" count="1">
+<chromosome id="38049" fitness="1" />
+</specie>
+<specie id="38050" count="1">
+<chromosome id="38050" fitness="99" />
+</specie>
+<specie id="38051" count="1">
+<chromosome id="38051" fitness="99" />
+</specie>
+<specie id="38052" count="1">
+<chromosome id="38052" fitness="1" />
+</specie>
+<specie id="38053" count="1">
+<chromosome id="38053" fitness="99" />
+</specie>
+<specie id="38054" count="1">
+<chromosome id="38054" fitness="1" />
+</specie>
+<specie id="38055" count="1">
+<chromosome id="38055" fitness="1" />
+</specie>
+<specie id="38056" count="1">
+<chromosome id="38056" fitness="99" />
+</specie>
+<specie id="38057" count="1">
+<chromosome id="38057" fitness="1" />
+</specie>
+<specie id="38058" count="1">
+<chromosome id="38058" fitness="2057" />
+</specie>
+<specie id="38059" count="1">
+<chromosome id="38059" fitness="99" />
+</specie>
+<specie id="38060" count="1">
+<chromosome id="38060" fitness="1" />
+</specie>
+<specie id="38061" count="1">
+<chromosome id="38061" fitness="1" />
+</specie>
+<specie id="38062" count="1">
+<chromosome id="38062" fitness="1" />
+</specie>
+<specie id="38063" count="1">
+<chromosome id="38063" fitness="1" />
+</specie>
+<specie id="38064" count="1">
+<chromosome id="38064" fitness="2056" />
+</specie>
+<specie id="38065" count="1">
+<chromosome id="38065" fitness="1" />
+</specie>
+<specie id="38066" count="1">
+<chromosome id="38066" fitness="1" />
+</specie>
+<specie id="38067" count="1">
+<chromosome id="38067" fitness="2057" />
+</specie>
+<specie id="38068" count="1">
+<chromosome id="38068" fitness="2057" />
+</specie>
+<specie id="38069" count="1">
+<chromosome id="38069" fitness="99" />
+</specie>
+<specie id="38070" count="1">
+<chromosome id="38070" fitness="2056" />
+</specie>
+<specie id="38071" count="1">
+<chromosome id="38071" fitness="1" />
+</specie>
+<specie id="38072" count="1">
+<chromosome id="38072" fitness="1" />
+</specie>
+<specie id="38073" count="1">
+<chromosome id="38073" fitness="2057" />
+</specie>
+<specie id="38074" count="1">
+<chromosome id="38074" fitness="1" />
+</specie>
+<specie id="38075" count="1">
+<chromosome id="38075" fitness="99" />
+</specie>
+<specie id="38076" count="1">
+<chromosome id="38076" fitness="1" />
+</specie>
+<specie id="38077" count="1">
+<chromosome id="38077" fitness="1" />
+</specie>
+<specie id="38078" count="1">
+<chromosome id="38078" fitness="99" />
+</specie>
+<specie id="38079" count="1">
+<chromosome id="38079" fitness="2056" />
+</specie>
+<specie id="38080" count="1">
+<chromosome id="38080" fitness="1" />
+</specie>
+<specie id="38081" count="1">
+<chromosome id="38081" fitness="1" />
+</specie>
+<specie id="38082" count="1">
+<chromosome id="38082" fitness="1" />
+</specie>
+<specie id="38083" count="1">
+<chromosome id="38083" fitness="2057" />
+</specie>
+<specie id="38084" count="1">
+<chromosome id="38084" fitness="99" />
+</specie>
+<specie id="38085" count="1">
+<chromosome id="38085" fitness="1" />
+</specie>
+<specie id="38086" count="1">
+<chromosome id="38086" fitness="1" />
+</specie>
+<specie id="38087" count="1">
+<chromosome id="38087" fitness="1" />
+</specie>
+<specie id="38088" count="1">
+<chromosome id="38088" fitness="1" />
+</specie>
+<specie id="38089" count="1">
+<chromosome id="38089" fitness="1" />
+</specie>
+<specie id="38090" count="1">
+<chromosome id="38090" fitness="1" />
+</specie>
+<specie id="38091" count="1">
+<chromosome id="38091" fitness="1" />
+</specie>
+<specie id="38092" count="1">
+<chromosome id="38092" fitness="2057" />
+</specie>
+<specie id="38093" count="1">
+<chromosome id="38093" fitness="1" />
+</specie>
+<specie id="38094" count="1">
+<chromosome id="38094" fitness="1" />
+</specie>
+<specie id="38095" count="1">
+<chromosome id="38095" fitness="1" />
+</specie>
+<specie id="38096" count="1">
+<chromosome id="38096" fitness="1" />
+</specie>
+<specie id="38097" count="1">
+<chromosome id="38097" fitness="2057" />
+</specie>
+<specie id="38098" count="1">
+<chromosome id="38098" fitness="1" />
+</specie>
+<specie id="38099" count="1">
+<chromosome id="38099" fitness="1" />
+</specie>
+<specie id="38100" count="1">
+<chromosome id="38100" fitness="1" />
+</specie>
+<specie id="38101" count="1">
+<chromosome id="38101" fitness="1" />
+</specie>
+<specie id="38102" count="1">
+<chromosome id="38102" fitness="1" />
+</specie>
+<specie id="38103" count="1">
+<chromosome id="38103" fitness="1" />
+</specie>
+<specie id="38104" count="1">
+<chromosome id="38104" fitness="1" />
+</specie>
+<specie id="38105" count="1">
+<chromosome id="38105" fitness="2057" />
+</specie>
+<specie id="38106" count="1">
+<chromosome id="38106" fitness="1808" />
+</specie>
+<specie id="38107" count="1">
+<chromosome id="38107" fitness="1" />
+</specie>
+<specie id="38108" count="1">
+<chromosome id="38108" fitness="1" />
+</specie>
+<specie id="38109" count="1">
+<chromosome id="38109" fitness="1" />
+</specie>
+<specie id="38110" count="1">
+<chromosome id="38110" fitness="99" />
+</specie>
+<specie id="38111" count="1">
+<chromosome id="38111" fitness="1" />
+</specie>
+<specie id="38112" count="1">
+<chromosome id="38112" fitness="1" />
+</specie>
+<specie id="38113" count="1">
+<chromosome id="38113" fitness="1" />
+</specie>
+<specie id="38114" count="1">
+<chromosome id="38114" fitness="99" />
+</specie>
+<specie id="38115" count="1">
+<chromosome id="38115" fitness="1" />
+</specie>
+<specie id="38116" count="1">
+<chromosome id="38116" fitness="1" />
+</specie>
+<specie id="38117" count="1">
+<chromosome id="38117" fitness="1" />
+</specie>
+<specie id="38118" count="1">
+<chromosome id="38118" fitness="99" />
+</specie>
+<specie id="38119" count="1">
+<chromosome id="38119" fitness="1" />
+</specie>
+<specie id="38120" count="1">
+<chromosome id="38120" fitness="99" />
+</specie>
+<specie id="38121" count="1">
+<chromosome id="38121" fitness="1" />
+</specie>
+<specie id="38122" count="1">
+<chromosome id="38122" fitness="2057" />
+</specie>
+<specie id="38123" count="1">
+<chromosome id="38123" fitness="1" />
+</specie>
+<specie id="38124" count="1">
+<chromosome id="38124" fitness="99" />
+</specie>
+<specie id="38125" count="1">
+<chromosome id="38125" fitness="99" />
+</specie>
+<specie id="38126" count="1">
+<chromosome id="38126" fitness="1" />
+</specie>
+<specie id="38127" count="1">
+<chromosome id="38127" fitness="1" />
+</specie>
+<specie id="38128" count="1">
+<chromosome id="38128" fitness="1" />
+</specie>
+<specie id="38129" count="1">
+<chromosome id="38129" fitness="1" />
+</specie>
+<specie id="38130" count="1">
+<chromosome id="38130" fitness="1" />
+</specie>
+<specie id="38131" count="1">
+<chromosome id="38131" fitness="1" />
+</specie>
+<specie id="38132" count="1">
+<chromosome id="38132" fitness="1" />
 </specie>
 </generation>
 </run>
