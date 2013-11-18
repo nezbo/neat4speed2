@@ -8,6 +8,7 @@ public class NEATController extends Controller{
 	
 	private Activator activator;
 	private int fitness = 0;
+	private int lastLaps = 0;
 	
 	private double lastDiff = -1.0;
 	private double lastDist = 0.0;
@@ -153,14 +154,17 @@ public class NEATController extends Controller{
 	
 	private void storeFitness(double d) {
 		int newFit = (int)d;
-		if(newFit > fitness && fitness + MAX_JUMP > newFit){
+		if(newFit > fitness && fitness + MAX_JUMP > newFit){ // legal progress
+			fitness = newFit;
+		}else if(newFit < MAX_JUMP && fitness > 5*MAX_JUMP){ // new lap
+			lastLaps += fitness;
 			fitness = newFit;
 		}
 	}
 
 	public int getFitness() {
-		System.out.println(">> Get fitness: "+fitness);
-		return fitness;
+		System.out.println(">> Get fitness: "+(fitness+lastLaps));
+		return fitness + lastLaps;
 	}
 	
 	// Meters moved last 5 seconds.
