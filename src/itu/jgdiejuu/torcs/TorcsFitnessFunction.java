@@ -1,15 +1,12 @@
 package itu.jgdiejuu.torcs;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 import org.jgap.BulkFitnessFunction;
 import org.jgap.Chromosome;
 
-import com.anji.integration.Activator;
 import com.anji.integration.ActivatorTranscriber;
-import com.anji.integration.TranscriberException;
 import com.anji.util.Configurable;
 import com.anji.util.Properties;
 

@@ -34,7 +34,7 @@ public class BulkNEATController extends Controller {
 	public Action control(SensorModel sensors) {
 		if(curStep < MAX_STEPS && !disqualified()){
 			if(curStep == 0)
-				System.out.println(">> Controller's first action");
+				System.out.println(">> Controller #"+(curGene+1));
 			
 			curStep++;
 			return controller.control(sensors);
