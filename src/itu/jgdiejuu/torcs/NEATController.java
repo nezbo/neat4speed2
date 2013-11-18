@@ -1,6 +1,7 @@
 package itu.jgdiejuu.torcs;
 
 import com.anji.integration.Activator;
+import itu.jgdiejuu.torcs.Controller;
 
 public class NEATController extends Controller{
 	
@@ -36,6 +37,25 @@ public class NEATController extends Controller{
 		return convertOutput(activator.next(covertInput(sensors)));
 	}
 
+	//based on Anders' code - rewritten for 
+	private int automaticGear(SensorModel sensormodel){
+		
+		int gear = sensormodel.getGear();
+			        
+		switch(gear){
+			case 6: if(sensormodel.getRPM() < 2000){gear = 5;} break;
+			case 5: if(sensormodel.getRPM() > 7000){gear = 6;}else if(sensormodel.getRPM() < 2000){gear = 4;} break;
+			case 4:	if(sensormodel.getRPM() > 7000){gear = 5;}else if(sensormodel.getRPM() < 2000){gear = 3;} break;
+			case 3: if(sensormodel.getRPM() > 7000){gear = 4;}else if(sensormodel.getRPM() < 2000){gear = 2;} break;
+			case 2: if(sensormodel.getRPM() > 7000){gear = 3;}else if(sensormodel.getRPM() < 2000){gear = 1;} break;
+			case 1: if(sensormodel.getRPM() > 7000){gear = 2;} break;
+			case 0: gear = 1; break;
+			case -1:  gear = 1; break;
+		}
+			  
+		return gear;				
+	}
+	
 	private void updateDiff(double dist) {
 		if(tick == lastTick + TICKS_PER_SAVE){
 			lastTick = tick;
@@ -54,7 +74,7 @@ public class NEATController extends Controller{
 		// not used distRaced
 		// not used focus
 		// not used fuel
-		result[1] = normalizedGear(sensors.getGear());
+		result[1] = automaticGear(sensors);;
 		//not used lastLapTime
 		double[] opp = normalizeOpponents(sensors.getOpponentSensors());
 		result[2] = opp[0];
@@ -84,7 +104,7 @@ public class NEATController extends Controller{
 		result[24] = normalizeTrackPos(sensors.getTrackPosition());
 		// not used wheelSpinVel
 		// not used z
-		
+		//result[24] = normalizedGear(sensors.getGear());
 		result[25] = 1.0;
 		
 		return result;
