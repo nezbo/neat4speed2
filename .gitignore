@@ -4,7 +4,7 @@
 *.jar
 *.war
 *.ear
-test/
-bin/
-db/
-nevt/
+test/*
+bin/*
+db/*
+nevt/*
