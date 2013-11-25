@@ -85,7 +85,7 @@ public class ClientProgram {
 					 */
 					if (inMsg.indexOf("***shutdown***") >= 0) {
 						shutdownOccurred = true;
-						if (verbose) System.out.println("Server shutdown!");
+						System.out.println("Server shutdown!");
 						break;
 					}
 					
@@ -94,7 +94,7 @@ public class ClientProgram {
 					 */
 					if (driver instanceof BulkNEATController && ((BulkNEATController)driver).isFinished()) {
 						shutdownOccurred = true;
-						if (verbose) System.out.println("BulkNEATController done!");
+						System.out.println("BulkNEATController done!");
 						break;
 					}
 
@@ -103,7 +103,7 @@ public class ClientProgram {
 					 */
 					if (inMsg.indexOf("***restart***") >= 0) {
 						driver.reset();
-						if(verbose) System.out.println("Server restarting!");
+						System.out.println("Server restarting race!");
 						break;
 					}
 

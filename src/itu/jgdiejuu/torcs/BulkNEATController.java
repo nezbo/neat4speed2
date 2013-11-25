@@ -41,6 +41,8 @@ public class BulkNEATController extends Controller {
 			curStep++;
 			return controller.control(sensors);
 		}else{
+			Action result = new Action();
+			
 			// print reason
 			if(disqualified()){
 				System.out.println(">>\tController Stuck: d="+controller.getDeltaFive());
@@ -60,21 +62,17 @@ public class BulkNEATController extends Controller {
 			// go to next
 			if(curGene < genotypes.size()){
 				createController();
+				result.restartRace = true;
 			}else{
 				finished = true;
 			}
-			
-			Action result = new Action();
-			result.restartRace = true;
-			
-			//System.out.println(">> Reset sent");
 			
 			return result;
 		}
 	}
 	
 	private boolean disqualified() {
-		return !(controller.getDeltaFive() > 1.0 || controller.getDeltaFive() < 0);
+		return !(controller.getDeltaFive() >= 1.0 || controller.getDeltaFive() < 0);
 	}
 
 	public boolean isFinished(){
