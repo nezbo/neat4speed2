@@ -17,11 +17,6 @@ public class NEATController extends Controller{
 	private int tick = 0;
 	private static final int TICKS_PER_SAVE = 125;
 	
-	//gearticks
-	private static final int TICKS_PER_GEAR = 12;
-	private int lastGearTick = 0;
-	private int gearTick = 0;
-	
 	public NEATController(Activator acti){
 		this.activator = acti;
 	}
@@ -40,9 +35,13 @@ public class NEATController extends Controller{
 		double dist = sensors.getDistanceFromStartLine();
 		updateDiff(dist);
 		storeFitness(dist);
+		
 		Action result = convertOutput(activator.next(covertInput(sensors)));
-		result.gear = automaticGear(sensors);
-		return result;
+		if(!manualGear){
+			result.clutch = 0;//clamp(output[2],0,1);<--old clutch
+			result.gear = automaticGear();
+		}
+		return result
 	}
 
 	//based on Anders' code - rewritten for 
@@ -60,7 +59,6 @@ public class NEATController extends Controller{
 			case 0: gear = 1; break;
 			case -1:  gear = 1; break;
 		}
-		gearTick++;
 		return gear;				
 	}
 	
@@ -158,7 +156,7 @@ public class NEATController extends Controller{
 		Action result = new Action();
 		result.accelerate = clamp(output[0],0,1);
 		result.brake = clamp(output[1],0,1);
-		result.clutch = 0;//clamp(output[2],0,1);<--old clutch
+		result.steering = normalizeSteering(output[3]);
 		result.steering = normalizeSteering(output[3]);
 		// not used focus
 		// not used meta
