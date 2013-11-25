@@ -47,11 +47,11 @@ public class NEATController extends Controller{
 			        
 		switch(gear){
 			case 6: if(sensormodel.getRPM() < 2000){gear = 5;} break;
-			case 5: if(sensormodel.getRPM() > 7000){gear = 6;}else if(sensormodel.getRPM() < 2000){gear = 4;} break;
-			case 4:	if(sensormodel.getRPM() > 7000){gear = 5;}else if(sensormodel.getRPM() < 2000){gear = 3;} break;
-			case 3: if(sensormodel.getRPM() > 7000){gear = 4;}else if(sensormodel.getRPM() < 2000){gear = 2;} break;
-			case 2: if(sensormodel.getRPM() > 7000){gear = 3;}else if(sensormodel.getRPM() < 2000){gear = 1;} break;
-			case 1: if(sensormodel.getRPM() > 7000){gear = 2;} break;
+			case 5: if(sensormodel.getRPM() > 9000){gear = 6;}else if(sensormodel.getRPM() < 2000){gear = 4;} break;
+			case 4:	if(sensormodel.getRPM() > 9000){gear = 5;}else if(sensormodel.getRPM() < 2000){gear = 3;} break;
+			case 3: if(sensormodel.getRPM() > 9000){gear = 4;}else if(sensormodel.getRPM() < 2000){gear = 2;} break;
+			case 2: if(sensormodel.getRPM() > 9000){gear = 3;}else if(sensormodel.getRPM() < 2000){gear = 1;} break;
+			case 1: if(sensormodel.getRPM() > 9000){gear = 2;} break;
 			case 0: gear = 1; break;
 			case -1:  gear = 1; break;
 		}
