@@ -6,16 +6,26 @@ import itu.jgdiejuu.torcs.Controller;
 public class NEATController extends Controller{
 	
 	private static final int MAX_JUMP = 100;
+	private static final int TICKS_PER_SAVE = 125; // Approx. 5 seconds.
 	
+	private boolean shutdown = false;
+	
+	// distance
 	private Activator activator;
-	private double fitness = 0.0;
+	private double dist = 0.0;
 	private double lastLaps = 0.0;
+	private int laps = 0;
 	
+	// change in position in the last TICKS_PER_SAVE
 	private double lastDiff = -1.0;
 	private double lastDist = 0.0;
 	private int lastTick = 0;
 	private int tick = 0;
-	private static final int TICKS_PER_SAVE = 125;
+
+	// position and overtakes
+	private int curPos = 1;
+	private int ownTakes = 0;
+	private int taken = 0;
 
 	public NEATController(Activator acti){
 		this.activator = acti;
@@ -27,14 +37,20 @@ public class NEATController extends Controller{
 	}
 
 	public void shutdown() {
-		//System.out.println("Bye bye!");	
+		shutdown = true;
+	}
+	
+	public boolean isShowDown(){
+		return shutdown;
 	}
 
 	@Override
 	public Action control(SensorModel sensors) {
 		double dist = sensors.getDistanceFromStartLine();
 		updateDiff(dist);
-		storeFitness(dist);
+		storeDistance(dist);
+		storePosition(sensors.getRacePosition());
+		
 		Action result = convertOutput(activator.next(covertInput(sensors)));
 		result.gear = automaticGear(sensors);
 		return result;
@@ -173,18 +189,49 @@ public class NEATController extends Controller{
 		return Math.max(min, Math.min(max, value));
 	}
 	
-	private void storeFitness(double newFit) {
-		if(newFit > fitness && fitness + MAX_JUMP > newFit){ // legal progress
-			fitness = newFit;
-		}else if(newFit < MAX_JUMP && fitness > 5*MAX_JUMP){ // new lap
-			lastLaps += fitness;
-			fitness = newFit;
+	private void storeDistance(double newFit) {
+		if(newFit > dist && dist + MAX_JUMP > newFit){ // legal progress
+			dist = newFit;
+		}else if(newFit < MAX_JUMP && dist > 5*MAX_JUMP){ // new lap
+			laps++;
+			lastLaps += dist;
+			dist = newFit;
 		}
 	}
+	
+	private void storePosition(int racePosition) {
+		if(racePosition > curPos){ // overtaken someone
+			ownTakes++;
+		}else if(racePosition < curPos){ // someone overtook
+			taken++;
+		}
+	
+		curPos = racePosition;
+	}
+	
+	public int getLaps(){
+		return laps;
+	}
+	
+	// Gets the last known position. 1 is best.
+	public int getCurrentPosition(){
+		return curPos;
+	}
+	
+	// Times the controller has overtaken others.
+	public int getNumberOvertaken(){
+		return taken;
+	}
+	
+	// Times the controller HAS BEEN overtaken by others.
+	public int getNumberOvertakes(){
+		return ownTakes;
+	}
 
-	public int getFitness() {
-		System.out.println(">> Get fitness: "+(fitness+lastLaps));
-		return (int)(fitness + lastLaps);
+	// The farthest the controller has been from the start line + laps
+	public int getMaxDistance() {
+		System.out.println(">> Get fitness: "+(dist+lastLaps));
+		return (int)(dist + lastLaps);
 	}
 	
 	// Meters moved last 5 seconds.

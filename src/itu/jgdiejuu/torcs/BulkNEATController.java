@@ -10,7 +10,7 @@ import com.anji.integration.TranscriberException;
 
 public class BulkNEATController extends Controller {
 	
-	private static final int MAX_STEPS = 4000;
+	private static final int MAX_STEPS = 8000; // about 2½ minute
 	
 	private boolean finished = false;
 	private ArrayList<Integer> fitnesses;
@@ -32,15 +32,24 @@ public class BulkNEATController extends Controller {
 
 	@Override
 	public Action control(SensorModel sensors) {
-		if(curStep < MAX_STEPS && !disqualified()){
+		if(curStep < MAX_STEPS && !disqualified() && !controller.isShowDown()){
 			if(curStep == 0)
 				System.out.println(">> Controller #"+(curGene+1));
 			
 			curStep++;
 			return controller.control(sensors);
 		}else{
+			// print reason
+			if(disqualified()){
+				System.out.println(">>\tController Stuck: d="+controller.getDeltaFive());
+			}else if(controller.isShowDown()){
+				System.out.println(">>\tController Finished: time="+curStep);
+			}else{
+				System.out.println(">>\tController Out of Time: "+curStep+" = "+MAX_STEPS);
+			}
+			
 			// save fitness
-			fitnesses.add(controller.getFitness());
+			fitnesses.add(controller.getMaxDistance());
 			
 			// change variables
 			curGene++;
