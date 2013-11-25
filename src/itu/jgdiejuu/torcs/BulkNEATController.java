@@ -21,8 +21,10 @@ public class BulkNEATController extends Controller {
 	private int curGene = 0;
 
 	private ActivatorTranscriber factory;
+	private boolean manualGear;
 
-	public BulkNEATController(List<Chromosome> genotypes, ActivatorTranscriber activatorFactory){
+	public BulkNEATController(List<Chromosome> genotypes, ActivatorTranscriber activatorFactory, boolean manualGear){
+		this.manualGear = manualGear;
 		this.genotypes = genotypes;
 		this.factory = activatorFactory;
 		fitnesses = new ArrayList<Integer>(genotypes.size());
@@ -85,7 +87,7 @@ public class BulkNEATController extends Controller {
 	
 	private void createController() {
 		try {
-			controller = new NEATController(factory.newActivator(genotypes.get(curGene)));
+			controller = new NEATController(factory.newActivator(genotypes.get(curGene)),manualGear);
 		} catch (TranscriberException e) { e.printStackTrace(); controller = null; }
 		
 	}
