@@ -21,6 +21,11 @@ public class NEATController extends Controller{
 	private double lastDist = 0.0;
 	private int lastTick = 0;
 	private int tick = 0;
+<<<<<<< HEAD
+	private static final int TICKS_PER_SAVE = 125;
+	
+	public NEATController(Activator acti){
+=======
 
 	// position and overtakes
 	private int curPos = 1;
@@ -28,6 +33,7 @@ public class NEATController extends Controller{
 	private int taken = 0;
 
 	public NEATController(Activator acti, boolean manualGear){
+>>>>>>> 4debe58ed628b4838b779e3387b15b98dc74fc62
 		this.activator = acti;
 	}
 	
@@ -48,12 +54,19 @@ public class NEATController extends Controller{
 	public Action control(SensorModel sensors) {
 		double dist = sensors.getDistanceFromStartLine();
 		updateDiff(dist);
+<<<<<<< HEAD
+		storeFitness(dist);
+=======
 		storeDistance(dist);
 		storePosition(sensors.getRacePosition());
+>>>>>>> 4debe58ed628b4838b779e3387b15b98dc74fc62
 		
 		Action result = convertOutput(activator.next(covertInput(sensors)));
-		result.gear = automaticGear(sensors);
-		return result;
+		if(!manualGear){
+			result.clutch = 0;//clamp(output[2],0,1);<--old clutch
+			result.gear = automaticGear();
+		}
+		return result
 	}
 
 	//based on Anders' code - rewritten for 
@@ -71,7 +84,10 @@ public class NEATController extends Controller{
 			case 0: gear = 1; break;
 			case -1:  gear = 1; break;
 		}
+<<<<<<< HEAD
+=======
 		
+>>>>>>> 4debe58ed628b4838b779e3387b15b98dc74fc62
 		return gear;				
 	}
 	
@@ -169,7 +185,7 @@ public class NEATController extends Controller{
 		Action result = new Action();
 		result.accelerate = clamp(output[0],0,1);
 		result.brake = clamp(output[1],0,1);
-		result.clutch = 0;//clamp(output[2],0,1);<--old clutch
+		result.steering = normalizeSteering(output[3]);
 		result.steering = normalizeSteering(output[3]);
 		// not used focus
 		// not used meta
