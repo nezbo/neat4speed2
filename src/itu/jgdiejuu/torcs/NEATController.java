@@ -83,7 +83,7 @@ public class NEATController extends Controller{
 	private void updateDiff(double dist) {
 		if(tick == lastTick + TICKS_PER_SAVE){
 			lastTick = tick;
-			lastDiff = Math.abs(dist - lastDist);
+			lastDiff = dist - lastDist;
 			lastDist = dist;
 		}
 		tick++;
