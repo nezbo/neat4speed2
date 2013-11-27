@@ -34,9 +34,7 @@ public class BulkNEATController extends Controller {
 
 	@Override
 	public Action control(SensorModel sensors) {
-		if(curStep < MAX_STEPS && !disqualified() && !controller.isShowDown()){
-			if(curStep == 0)
-				System.out.println(">> Controller #"+(curGene+1));
+		if(curStep < MAX_STEPS && !disqualified()){
 			
 			curStep++;
 			return controller.control(sensors);
@@ -45,9 +43,7 @@ public class BulkNEATController extends Controller {
 			
 			// print reason
 			if(disqualified()){
-				System.out.println(">>\tController Stuck: d="+controller.getDeltaFive());
-			}else if(controller.isShowDown()){
-				System.out.println(">>\tController Finished: time="+curStep);
+				System.out.println(">>\tController Stuck: d="+controller.getDeltaFive()+" step "+curStep);
 			}else{
 				System.out.println(">>\tController Out of Time: "+curStep+" = "+MAX_STEPS);
 			}
@@ -64,6 +60,7 @@ public class BulkNEATController extends Controller {
 				createController();
 				result.restartRace = true;
 			}else{
+				System.out.println("BULK out of genes");
 				finished = true;
 			}
 			
@@ -72,7 +69,7 @@ public class BulkNEATController extends Controller {
 	}
 	
 	private boolean disqualified() {
-		return !(controller.getDeltaFive() >= 1.0 || controller.getDeltaFive() < 0);
+		return !(controller.getDeltaFive() >= 1.0 /*|| controller.getDeltaFive() < 0*/);
 	}
 
 	public boolean isFinished(){
@@ -85,6 +82,7 @@ public class BulkNEATController extends Controller {
 	
 	private void createController() {
 		try {
+			System.out.println(">> Controller #"+(curGene+1));
 			controller = new NEATController(factory.newActivator(genotypes.get(curGene)),manualGear);
 		} catch (TranscriberException e) { e.printStackTrace(); controller = null; }
 		

@@ -31,13 +31,13 @@ public class TorcsFitnessFunction implements BulkFitnessFunction, Configurable {
 		List<Integer> fitnesses = controller.getFitnesses();
 		
 		// make sure none is negative (add the lowest negative values absolute to all)
-		int minimum = Collections.min(fitnesses);
+		/*int minimum = Collections.min(fitnesses);
 		if(minimum < 0){
 			minimum = Math.abs(minimum);
 			for(int i = 0; i < fitnesses.size(); i++){
 				fitnesses.set(i, fitnesses.get(i) + minimum);
 			}
-		}
+		}*/
 		
 		// save fitnesses
 		for(int i = 0; i < genotypes.size(); i++){
