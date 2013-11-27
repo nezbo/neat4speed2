@@ -1,0 +1,269 @@
+
+D:\Dropbox\workspace-laptop\ANJI>evolve.bat torcs-manual.properties 
+ANJI v2.0, Copyright (C) 2004 Derek James and Philip Tucker
+ANJI comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under the conditions of the GNU General Public License.
+INFO  loaded properties from torcs-manual.properties
+INFO  Properties: run.reset == false
+INFO  Properties: random.seed == 0
+INFO  Properties: id.file == ./test/db/id.xml
+INFO  Properties: survival.rate == 0.1
+INFO  Properties: selector.roulette == false
+INFO  Properties: selector.elitism == true
+INFO  Properties: selector.elitism.min.specie.size == 6
+INFO  Properties: remove.connection.mutation.rate == null [0.01]
+INFO  Properties: remove.connection.max.weight == null [0.1]
+INFO  Properties: remove.connection.strategy == null [skewed]
+INFO  Properties: topology.mutation.classic == null [false]
+INFO  Properties: add.connection.mutation.rate == 0.03
+INFO  Properties: recurrent == best_guess
+INFO  Properties: add.neuron.mutation.rate == 0.03
+INFO  Properties: weight.mutation.rate == 0.75
+INFO  Properties: weight.mutation.std.dev == 1.5
+INFO  Properties: prune.mutation.rate == null [1.0]
+INFO  Properties: popul.size == 50
+INFO  Properties: initial.topology.activation == sigmoid
+INFO  Properties: initial.topology.activation.input == null [null]
+INFO  Properties: initial.topology.activation.output == null [null]
+INFO  Properties: neat.id.file == ./test/db/neatid.xml
+INFO  couldn't load NEAT ids from file, starting with new mapping
+INFO  Properties: stimulus.size == 26
+INFO  Properties: initial.topology.num.hidden.neurons == 0
+INFO  Properties: response.size == 4
+INFO  Properties: initial.topology.fully.connected == true
+INFO  Properties: weight.min == -500.0
+INFO  Properties: weight.max == 500.0
+INFO  Properties: chrom.compat.excess.coeff == 1.0
+INFO  Properties: chrom.compat.disjoint.coeff == 1.0
+INFO  Properties: chrom.compat.common.coeff == 0.04
+INFO  Properties: speciation.threshold == 0.2
+INFO  Properties: persistence.class == com.anji.persistence.FilePersistence
+INFO  Properties: base.dir == ./test/db
+INFO  Properties: num.generations == 60
+INFO  Properties: fitness.target == 0.999
+INFO  Properties: fitness.threshold == null [0.999]
+INFO  Properties: run.name == testrun
+INFO  Properties: persist.all == false
+INFO  Properties: persist.champions == true
+INFO  Properties: persist.last == false
+INFO  Properties: presentation.dir == ./nevt/test
+INFO  Properties: fitness_function.class == itu.jgdiejuu.torcs.TorcsFitnessFunction
+INFO  Properties: itu.manual == true
+INFO  Properties: ann.type == anji
+INFO  Properties: recurrent.cycles == 1
+INFO  Properties: recurrent == best_guess
+INFO  random genotype
+INFO  Run: start
+INFO  Generation 0: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.6900000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.8600000000001273 step 251
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.7300000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.5500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.8200000000001637 step 751
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.599999999999909 step 5001
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.5 step 876
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.8699999999998909 step 876
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.75 step 251
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.2799999999999727 step 251
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.8900000000001 step 251
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.8100000000001728 step 251
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.6399999999998727 step 251
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 110
+INFO  neurons->connection id map size == 936
+INFO  species count: 42
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=134 score=7.497938067031566E-5 size=134
+INFO  Generation 0: end [12:37:45 - 12:46:04] [499021]
+INFO  Generation 1: start
+>> Controller #1
+Client Connected.
