@@ -82,7 +82,7 @@ public class BulkNEATController extends Controller {
 	
 	private void createController() {
 		try {
-			System.out.println(">> Controller #"+(curGene+1));
+			System.out.println(">> Controller #"+(curGene+1) + " id: "+genotypes.get(curGene).getId());
 			controller = new NEATController(factory.newActivator(genotypes.get(curGene)),manualGear);
 		} catch (TranscriberException e) { e.printStackTrace(); controller = null; }
 		

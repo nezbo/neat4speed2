@@ -267,3 +267,3142 @@ INFO  Generation 0: end [12:37:45 - 12:46:04] [499021]
 INFO  Generation 1: start
 >> Controller #1
 Client Connected.
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.6900000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.2300000000000182 step 751
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 751
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.6099999999999 step 251
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.2400000000000091 step 7876
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.8800000000001091 step 376
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.25 step 251
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.43000000000006366 step 251
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.6700000000000728 step 626
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.8199999999999363 step 626
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.9100000000000819 step 251
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.4900000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 626
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 1001
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.8300000000001546 step 1501
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.6600000000000819 step 251
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 160
+INFO  neurons->connection id map size == 1174
+INFO  species count: 44
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=134 score=7.497938067031566E-5 size=134
+INFO  Generation 1: end [12:46:04 - 12:54:34] [509669]
+INFO  Generation 2: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.6900000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.21000000000003638 step 251
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.75 step 501
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.15000000000009095 step 626
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.8700000000001182 step 251
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.12319999999999709 step 751
+>> Get fitness: 53.576
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 53.5779
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.5099999999999909 step 251
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 226
+INFO  neurons->connection id map size == 1483
+INFO  species count: 43
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1500 score=0.00397390717552673 size=167
+INFO  Generation 2: end [12:54:34 - 13:03:02] [507552]
+INFO  Generation 3: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.10020000000000095 step 751
+>> Get fitness: 53.6121
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 53.6137
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.6900000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.6899999999998272 step 626
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.14999999999986358 step 5501
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.09000000000014552 step 3376
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.8199999999999363 step 251
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 626
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.599999999999909 step 1251
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.41000000000008185 step 251
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.20000000000004547 step 501
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.32999999999992724 step 251
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.041900000000001825 step 751
+>> Get fitness: 30.9612
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.2899999999999636 step 626
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.5 step 876
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.849999999999909 step 626
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.7800000000002001 step 1501
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.4810000000000514 step 3876
+>> Get fitness: 280.83
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.8299999999999272 step 626
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.900000000000091 step 626
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 301
+INFO  neurons->connection id map size == 1929
+INFO  species count: 43
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1915 score=0.020994226587688385 size=207
+INFO  Generation 3: end [13:03:02 - 13:11:34] [512637]
+INFO  Generation 4: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.4810000000000514 step 3876
+>> Get fitness: 280.83
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.041900000000001825 step 751
+>> Get fitness: 30.9612
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.12639999999999674 step 751
+>> Get fitness: 53.2148
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.7300000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.8199999999999363 step 626
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.8500000000001364 step 1501
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.40000000000009095 step 626
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.30999999999994543 step 3376
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.040000000000190994 step 251
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.5599999999999454 step 251
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.11999999999989086 step 626
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.9500000000000455 step 626
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.7199999999997999 step 5001
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.8199999999999363 step 626
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.849999999999909 step 1251
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.6800000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.900000000000091 step 2501
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.40000000000009095 step 1876
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.959999999999809 step 626
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.7799999999999727 step 501
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.6200000000001182 step 251
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.9900000000000091 step 626
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.7599999999999909 step 376
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.2400000000000091 step 5126
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.11000000000012733 step 1501
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.8099999999999454 step 251
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 359
+INFO  neurons->connection id map size == 2191
+INFO  species count: 47
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1915 score=0.020994226587688385 size=207
+INFO  Generation 4: end [13:11:34 - 13:20:11] [516363]
+INFO  Generation 5: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.4810000000000514 step 3876
+>> Get fitness: 280.83
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.041900000000001825 step 751
+>> Get fitness: 30.9612
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.12639999999999674 step 751
+>> Get fitness: 53.2148
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.19000000000005457 step 1501
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.7100000000000364 step 251
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.04455000000000009 step 626
+>> Get fitness: 6.93054
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.3400000000001455 step 876
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.5699999999999363 step 2876
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.2899999999999636 step 376
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.9900000000000091 step 5001
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.040000000000190994 step 251
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.7899999999999636 step 501
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.22000000000002728 step 1001
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.8199999999999363 step 626
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.6299999999998818 step 876
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.12000000000011823 step 501
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.14010000000000034 step 1876
+>> Get fitness: 33.8357
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.5699999999999363 step 7626
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.015799999999998704 step 1001
+>> Get fitness: 78.7368
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 3126
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.8399999999999181 step 626
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.7400000000000091 step 5376
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.5799999999999272 step 251
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.8099999999999454 step 626
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.8600000000001273 step 1001
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.8800000000001091 step 1376
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.029999999999972715 step 626
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.2600000000002183 step 251
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.9465000000000003 step 1126
+>> Get fitness: 49.8284
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.7899999999999636 step 626
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 435
+INFO  neurons->connection id map size == 2610
+INFO  species count: 47
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1915 score=0.020994226587688385 size=207
+INFO  Generation 5: end [13:20:11 - 13:28:50] [519174]
+INFO  Generation 6: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.4810000000000514 step 3876
+>> Get fitness: 280.83
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.015799999999998704 step 1001
+>> Get fitness: 78.7368
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.14010000000000034 step 1876
+>> Get fitness: 33.8357
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.12639999999999674 step 751
+>> Get fitness: 53.2148
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.9465000000000003 step 1126
+>> Get fitness: 49.8284
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.5199999999999818 step 251
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 1001
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.9499999999998181 step 3376
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.08999999999991815 step 3501
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.7599999999999909 step 3001
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.2699999999999818 step 376
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.7999999999999545 step 626
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.2699999999999818 step 501
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.8699999999998909 step 626
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.08999999999991815 step 3501
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.17000000000007276 step 3501
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 1001
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.2999999999999545 step 251
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.650000000000091 step 501
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.6800000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.5099999999999909 step 251
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.32900000000000773 step 4001
+>> Get fitness: 220.686
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 519
+INFO  neurons->connection id map size == 3168
+INFO  species count: 49
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1915 score=0.020994226587688385 size=207
+INFO  Generation 6: end [13:28:50 - 13:37:28] [518635]
+INFO  Generation 7: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.32900000000000773 step 4001
+>> Get fitness: 220.686
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.4810000000000514 step 3876
+>> Get fitness: 280.83
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.015799999999998704 step 1001
+>> Get fitness: 78.7368
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.14010000000000034 step 1876
+>> Get fitness: 33.8357
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.9465000000000003 step 1126
+>> Get fitness: 49.8284
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.21000000000003638 step 1751
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.8399999999999181 step 626
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.5699999999999363 step 6251
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.4900000000000091 step 376
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.36000000000012733 step 1001
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.4900000000000091 step 876
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.7899999999999636 step 626
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.5499999999999545 step 1501
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.08999999999991815 step 3501
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.08999999999991815 step 4751
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.2699999999999818 step 251
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.6899999999998272 step 5001
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 626
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.6900000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.6399999999998727 step 6126
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 2126
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.2400000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.7400000000000091 step 501
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.06999999999993634 step 751
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.8299999999999272 step 4001
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 1001
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.8099999999999454 step 626
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.08000000000015461 step 251
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.08999999999991815 step 3501
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.2699999999999818 step 1876
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 585
+INFO  neurons->connection id map size == 3511
+INFO  species count: 48
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1915 score=0.020994226587688385 size=207
+INFO  Generation 7: end [13:37:28 - 13:46:12] [523667]
+INFO  Generation 8: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.32900000000000773 step 4001
+>> Get fitness: 220.686
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.4810000000000514 step 3876
+>> Get fitness: 280.83
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.015799999999998704 step 1001
+>> Get fitness: 78.7368
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.14010000000000034 step 1876
+>> Get fitness: 33.8357
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.9465000000000003 step 1126
+>> Get fitness: 49.8284
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.4099999999998545 step 4876
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.5899999999999181 step 626
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.08999999999991815 step 3501
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.7699999999999818 step 501
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.9600000000000364 step 501
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.16000000000008185 step 1126
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.8199999999999363 step 626
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.040000000000190994 step 251
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.8099999999999454 step 626
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.8100000000001728 step 251
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.6900000000000546 step 3001
+>> Get fitness: 15.6493
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.7799999999999727 step 626
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.37000000000011823 step 1251
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.30999999999994543 step 6501
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.38000000000010914 step 501
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.08000000000015461 step 376
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.25 step 251
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.8699999999998909 step 626
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.8699999999998909 step 4876
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.9775999999999954 step 751
+>> Get fitness: 43.6189
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.13000000000010914 step 876
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.8199999999999363 step 626
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.32999999999992724 step 5126
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.5899999999999181 step 251
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.8199999999999363 step 626
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.049999999999954525 step 751
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.849999999999909 step 626
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.2300000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.9900000000000091 step 501
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.08999999999991815 step 3501
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 876
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 638
+INFO  neurons->connection id map size == 3757
+INFO  species count: 48
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1915 score=0.020994226587688385 size=207
+INFO  Generation 8: end [13:46:12 - 13:54:54] [522242]
+INFO  Generation 9: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.4810000000000514 step 3876
+>> Get fitness: 280.83
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.32900000000000773 step 4001
+>> Get fitness: 220.686
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.015799999999998704 step 1001
+>> Get fitness: 78.7368
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.9775999999999954 step 751
+>> Get fitness: 43.6189
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.14010000000000034 step 1876
+>> Get fitness: 33.8357
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.010000000000218279 step 1001
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.2400000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 2126
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.9099999999998545 step 251
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 1206.45
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.36000000000012733 step 1251
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.7000000000000455 step 251
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 4577.914
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.4600000000000364 step 2876
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.049999999999954525 step 3126
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.9099999999998545 step 626
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.08999999999991815 step 751
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.7899999999999636 step 626
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.7699999999999818 step 251
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.6399999999998727 step 251
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.2579400000000005 step 1126
+>> Get fitness: 14.0386
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.8799999999998818 step 1501
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.40699999999998226 step 3876
+>> Get fitness: 289.293
+>> Controller #38
+Server resetting race!
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.5299999999999727 step 251
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.2899999999999636 step 251
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.09999999999990905 step 626
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.8599999999999 step 626
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.15000000000009095 step 251
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.75 step 626
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.33999999999991815 step 251
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 754
+INFO  neurons->connection id map size == 4577
+INFO  species count: 48
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=4851 score=0.3431806253280348 size=312
+INFO  Generation 9: end [13:54:54 - 14:03:38] [524020]
+INFO  Generation 10: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.849999999999909 step 626
+>> Get fitness: 0.0
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.05200000000002092 step 4751
+>> Get fitness: 529.619
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.47000000000025466 step 376
+>> Get fitness: 0.0
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.5027699999999999 step 2126
+>> Get fitness: 4.86703
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 501
+>> Get fitness: 0.0
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.06999999999970896 step 251
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.8400000000001455 step 751
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.6900000000000546 step 626
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.47000000000025466 step 501
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.07000000000016371 step 251
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.8600000000001273 step 626
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.849999999999909 step 626
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.900000000000091 step 376
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.5900000000001455 step 501
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.03000000000020009 step 251
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.02999999999974534 step 251
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.42000000000007276 step 501
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.11000000000012733 step 251
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.05999999999994543 step 501
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.20000000000027285 step 251
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.03000000000020009 step 251
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.05999999999994543 step 251
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 829
+INFO  neurons->connection id map size == 4889
+INFO  species count: 49
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=4846 score=0.03966409237459698 size=307
+INFO  Generation 10: end [14:03:38 - 14:12:02] [503489]
+INFO  Generation 11: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.05200000000002092 step 4751
+>> Get fitness: 529.619
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.5027699999999999 step 2126
+>> Get fitness: 4.86703
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.849999999999909 step 626
+>> Get fitness: 0.0
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.47000000000025466 step 376
+>> Get fitness: 0.0
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 501
+>> Get fitness: 0.0
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.48989999999999867 step 1126
+>> Get fitness: 25.6817
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.8699999999998909 step 501
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.9099999999998545 step 376
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.07999999999992724 step 251
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.03000000000020009 step 251
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.9099999999998545 step 376
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.9600000000000364 step 751
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.2699999999999818 step 626
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.07999999999992724 step 251
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.02999999999974534 step 501
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.9500000000002728 step 501
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 501
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.02999999999974534 step 251
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.8200000000001637 step 376
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.8600000000001273 step 626
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.6100000000001273 step 501
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 501
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.8800000000001091 step 376
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 907
+INFO  neurons->connection id map size == 5147
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=4846 score=0.03966409237459698 size=307
+INFO  Generation 11: end [14:12:02 - 14:20:27] [504755]
+INFO  Generation 12: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.05200000000002092 step 4751
+>> Get fitness: 529.619
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.48989999999999867 step 1126
+>> Get fitness: 25.6817
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.5027699999999999 step 2126
+>> Get fitness: 4.86703
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.849999999999909 step 626
+>> Get fitness: 0.0
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.47000000000025466 step 376
+>> Get fitness: 0.0
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 501
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.830000000000382 step 376
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.900000000000091 step 376
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.44000000000005457 step 501
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.9099999999998545 step 376
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.1999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.7100000000000364 step 501
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.0472999999999999 step 1626
+>> Get fitness: 14.2868
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.9099999999998545 step 376
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.8899999999998727 step 376
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.25 step 501
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.0237999999999996 step 1626
+>> Get fitness: 9.08368
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.06999999999970896 step 251
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.15000000000009095 step 626
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.8600000000001273 step 751
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.8000000000001819 step 376
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 970
+INFO  neurons->connection id map size == 5375
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=4846 score=0.03966409237459698 size=307
+INFO  Generation 12: end [14:20:27 - 14:28:52] [505564]
+INFO  Generation 13: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.05200000000002092 step 4751
+>> Get fitness: 529.619
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.48989999999999867 step 1126
+>> Get fitness: 25.6817
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.0472999999999999 step 1626
+>> Get fitness: 14.2868
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.0237999999999996 step 1626
+>> Get fitness: 9.08368
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.5027699999999999 step 2126
+>> Get fitness: 4.86703
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.9499999999998181 step 501
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.4600000000000364 step 251
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.30999999999994543 step 501
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.4899999999997817 step 501
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.10679999999999978 step 876
+>> Get fitness: 38.0868
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999763531 step 501
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.4800000000000182 step 501
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.06999999999970896 step 251
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.07000000000016371 step 501
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.9099999999998545 step 376
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.9100000000003092 step 501
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.3799999999996544 step 501
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.03000000000020009 step 501
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.17000000000007276 step 251
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.4800000000000182 step 501
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.650000000000091 step 501
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.5199999999999818 step 376
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.02999999999974534 step 501
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.4800000000000182 step 501
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.5799999999999272 step 501
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999763531 step 501
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.05999999999994543 step 501
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 1031
+INFO  neurons->connection id map size == 5672
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=4846 score=0.03966409237459698 size=307
+INFO  Generation 13: end [14:28:52 - 14:37:18] [505694]
+INFO  Generation 14: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.05200000000002092 step 4751
+>> Get fitness: 529.619
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.10679999999999978 step 876
+>> Get fitness: 38.0868
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.48989999999999867 step 1126
+>> Get fitness: 25.6817
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.0472999999999999 step 1626
+>> Get fitness: 14.2868
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.0237999999999996 step 1626
+>> Get fitness: 9.08368
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.21000000000003638 step 501
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 376
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.43000000000029104 step 501
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.20000000000027285 step 501
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.06999999999970896 step 501
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.49000000000023647 step 501
+>> Get fitness: 0.0
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 501
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.2899999999999636 step 251
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.010000000000218279 step 626
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.09999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.5799999999999272 step 501
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.3200000000001637 step 501
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.9099999999998545 step 376
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.009999999999763531 step 501
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.669999999999618 step 626
+>> Get fitness: 0.0
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 1093
+INFO  neurons->connection id map size == 5949
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=4846 score=0.03966409237459698 size=307
+INFO  Generation 14: end [14:37:18 - 14:45:53] [514575]
+INFO  Generation 15: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.09700000000003683 step 4376
+>> Get fitness: 439.427
+>> Controller #2
+Server resetting race!
+>>	Controller Stuck: d=0.11639999999999873 step 876
+>> Get fitness: 37.4197
+>> Controller #3
+Server resetting race!
+>>	Controller Stuck: d=0.729099999999999 step 1126
+>> Get fitness: 37.4216
+>> Controller #4
+Server resetting race!
+>>	Controller Stuck: d=0.034399999999999764 step 1501
+>> Get fitness: 25.7979
+>> Controller #5
+Server resetting race!
+>>	Controller Stuck: d=0.9699999999997999 step 251
+>> Get fitness: 12.3252
+>> Controller #6
+Server resetting race!
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>> Controller #7
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #8
+Server resetting race!
+>>	Controller Stuck: d=0.7799999999997453 step 376
+>> Get fitness: 0.0
+>> Controller #9
+Server resetting race!
+>>	Controller Stuck: d=0.07999999999992724 step 251
+>> Get fitness: 0.0
+>> Controller #10
+Server resetting race!
+>>	Controller Stuck: d=0.9099999999998545 step 376
+>> Get fitness: 0.0
+>> Controller #11
+Server resetting race!
+>>	Controller Stuck: d=0.07999999999992724 step 251
+>> Get fitness: 0.0
+>> Controller #12
+Server resetting race!
+>>	Controller Stuck: d=0.4099999999998545 step 251
+>> Get fitness: 0.0
+>> Controller #13
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #14
+Server resetting race!
+>>	Controller Stuck: d=0.01999999999998181 step 501
+>> Get fitness: 0.0
+>> Controller #15
+Server resetting race!
+>>	Controller Stuck: d=0.010000000000218279 step 501
+>> Get fitness: 0.0
+>> Controller #16
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #17
+Server resetting race!
+>>	Controller Stuck: d=0.03059999999999974 step 1251
+>> Get fitness: 12.8393
+>> Controller #18
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 12.8399
+>> Controller #19
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #20
+Server resetting race!
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>> Controller #21
+Server resetting race!
+>>	Controller Stuck: d=0.11000000000012733 step 501
+>> Get fitness: 0.0
+>> Controller #22
+Server resetting race!
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>> Controller #23
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #24
+Server resetting race!
+>>	Controller Stuck: d=0.930000000000291 step 376
+>> Get fitness: 0.0
+>> Controller #25
+Server resetting race!
+>>	Controller Stuck: d=0.13999999999987267 step 251
+>> Get fitness: 0.0
+>> Controller #26
+Server resetting race!
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>> Controller #27
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #28
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #29
+Server resetting race!
+>>	Controller Stuck: d=0.8699999999998909 step 251
+>> Get fitness: 0.0
+>> Controller #30
+Server resetting race!
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>> Controller #31
+Server resetting race!
+>>	Controller Stuck: d=0.8158000000000003 step 1876
+>> Get fitness: 4.73019
+>> Controller #32
+Server resetting race!
+>>	Controller Stuck: d=0.0589999999999975 step 3626
+>> Get fitness: 208.714
+>> Controller #33
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #34
+Server resetting race!
+>>	Controller Stuck: d=0.30999999999994543 step 251
+>> Get fitness: 0.0
+>> Controller #35
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>> Controller #36
+Server resetting race!
+>>	Controller Stuck: d=0.6199999999998909 step 501
+>> Get fitness: 0.0
+>> Controller #37
+Server resetting race!
+>>	Controller Stuck: d=0.6799999999998363 step 251
+>> Get fitness: 0.0
+>> Controller #38
+Server resetting race!
+>>	Controller Stuck: d=0.03599999999999781 step 751
+>> Get fitness: 31.6364
+>> Controller #39
+Server resetting race!
+>>	Controller Stuck: d=0.9600000000000364 step 376
+>> Get fitness: 31.637
+>> Controller #40
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #41
+Server resetting race!
+>>	Controller Stuck: d=0.49000000000023647 step 501
+>> Get fitness: 0.0
+>> Controller #42
+Server resetting race!
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>> Controller #43
+Server resetting race!
+>>	Controller Stuck: d=0.9400000000000546 step 751
+>> Get fitness: 0.0
+>> Controller #44
+Server resetting race!
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #45
+Server resetting race!
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>> Controller #46
+Server resetting race!
+>>	Controller Stuck: d=0.18000000000029104 step 501
+>> Get fitness: 0.0
+>> Controller #47
+Server resetting race!
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #48
+Server resetting race!
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>> Controller #49
+Server resetting race!
+>>	Controller Stuck: d=0.8198500000000006 step 1626
+>> Get fitness: 5.39075
+>> Controller #50
+Server resetting race!
+>>	Controller Stuck: d=0.849999999999909 step 251
+>> Get fitness: 5.02188
+BULK out of genes
+BulkNEATController done!
+INFO  connection->neuron id map size == 1182
+INFO  neurons->connection id map size == 6505
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=4846 score=0.032915948114268574 size=307
+INFO  Generation 15: end [14:45:53 - 14:54:27] [514661]
+INFO  Generation 16: start
+>> Controller #1
+Client Connected.
+>>	Controller Stuck: d=0.04399999999998272 step 4626
+>> Get fitness: 509.976
+>> Controller #2
+Server resetting race!
