@@ -103,7 +103,7 @@ public class ClientProgram {
 					 */
 					if (inMsg.indexOf("***restart***") >= 0) {
 						driver.reset();
-						System.out.println("Server restarting race!");
+						System.out.println("Server resetting race!");
 						break;
 					}
 

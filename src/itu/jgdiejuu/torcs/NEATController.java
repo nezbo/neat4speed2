@@ -8,19 +8,17 @@ public class NEATController extends Controller{
 	private static final int MAX_JUMP = 100;
 	private static final int TICKS_PER_SAVE = 125; // Approx. 5 seconds.
 	
-	private boolean shutdown = false;
-	
 	// distance
 	private Activator activator;
 	private double dist = 0.0;
 	private double lastLaps = 0.0;
 	private int laps = 0;
 	
-	// change in position in the last TICKS_PER_SAVE
-	private double lastDiff = -1.0;
-	private double lastDist = 0.0;
-	private int lastTick = 0;
-	private int tick = 0;
+    // change in position in the last TICKS_PER_SAVE
+    private double lastDiff = 10.0;
+    private double lastDist = 0.0;
+    private int lastTick = 0;
+    private int tick = 0;
 
 	// position and overtakes
 	private int curPos = 1;
@@ -39,20 +37,12 @@ public class NEATController extends Controller{
 		
 	}
 
-	public void shutdown() {
-		shutdown = true;
-	}
-	
-	public boolean isShowDown(){
-		return shutdown;
-	}
-
 	@Override
 	public Action control(SensorModel sensors) {
-		double dist = sensors.getDistanceFromStartLine();
-		updateDiff(dist);
-		storeDistance(dist);
-		storePosition(sensors.getRacePosition());
+        double dist = sensors.getDistanceFromStartLine();
+        updateDiff(dist);
+        storeDistance(dist);
+        storePosition(sensors.getRacePosition());
 		
 		Action result = convertOutput(activator.next(covertInput(sensors)));
 		if(!manualGear){
@@ -80,14 +70,14 @@ public class NEATController extends Controller{
 		return gear;				
 	}
 	
-	private void updateDiff(double dist) {
-		if(tick == lastTick + TICKS_PER_SAVE){
-			lastTick = tick;
-			lastDiff = Math.abs(dist - lastDist);
-			lastDist = dist;
-		}
-		tick++;
-	}
+    private void updateDiff(double dist) {
+        if(tick == lastTick + TICKS_PER_SAVE){
+                lastTick = tick;
+                lastDiff = Math.abs(dist - lastDist);
+                lastDist = dist;
+        }
+        tick++;
+    }
 
 	private double[] covertInput(SensorModel sensors) {
 		double[] result = new double[manualGear ? 26 : 24];
@@ -252,5 +242,11 @@ public class NEATController extends Controller{
 	// Meters moved last 5 seconds.
 	public double getDeltaFive(){
 		return lastDiff;
+	}
+
+	@Override
+	public void shutdown() {
+		// TODO Auto-generated method stub
+		
 	}
 }
