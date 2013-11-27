@@ -60,7 +60,7 @@ public class BulkNEATController extends Controller {
 				createController();
 				result.restartRace = true;
 			}else{
-				System.out.println("BULK out of genes");
+				//System.out.println("BULK out of genes");
 				finished = true;
 			}
 			
