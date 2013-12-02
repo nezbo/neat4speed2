@@ -1,0 +1,4318 @@
+
+D:\Dropbox\workspace-laptop\ANJI>evolve.bat torcs.properties 
+ANJI v2.0, Copyright (C) 2004 Derek James and Philip Tucker
+ANJI comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under the conditions of the GNU General Public License.
+INFO  loaded properties from torcs.properties
+INFO  Properties: run.reset == false
+INFO  Properties: random.seed == 0
+INFO  Properties: id.file == ./test/db/id.xml
+INFO  Properties: survival.rate == 0.1
+INFO  Properties: selector.roulette == false
+INFO  Properties: selector.elitism == true
+INFO  Properties: selector.elitism.min.specie.size == 6
+INFO  Properties: remove.connection.mutation.rate == null [0.01]
+INFO  Properties: remove.connection.max.weight == null [0.1]
+INFO  Properties: remove.connection.strategy == null [skewed]
+INFO  Properties: topology.mutation.classic == null [false]
+INFO  Properties: add.connection.mutation.rate == 0.03
+INFO  Properties: recurrent == disallowed
+INFO  Properties: add.neuron.mutation.rate == 0.03
+INFO  Properties: weight.mutation.rate == 0.75
+INFO  Properties: weight.mutation.std.dev == 1.5
+INFO  Properties: prune.mutation.rate == null [1.0]
+INFO  Properties: popul.size == 50
+INFO  Properties: initial.topology.activation == sigmoid
+INFO  Properties: initial.topology.activation.input == null [null]
+INFO  Properties: initial.topology.activation.output == null [null]
+INFO  Properties: neat.id.file == ./test/db/neatid.xml
+INFO  couldn't load NEAT ids from file, starting with new mapping
+INFO  Properties: stimulus.size == 24
+INFO  Properties: initial.topology.num.hidden.neurons == 0
+INFO  Properties: response.size == 3
+INFO  Properties: initial.topology.fully.connected == true
+INFO  Properties: weight.min == -500.0
+INFO  Properties: weight.max == 500.0
+INFO  Properties: chrom.compat.excess.coeff == 1.0
+INFO  Properties: chrom.compat.disjoint.coeff == 1.0
+INFO  Properties: chrom.compat.common.coeff == 0.04
+INFO  Properties: speciation.threshold == 0.2
+INFO  Properties: persistence.class == com.anji.persistence.FilePersistence
+INFO  Properties: base.dir == ./test/db
+INFO  Properties: num.generations == 60
+INFO  Properties: fitness.target == 0.999
+INFO  Properties: fitness.threshold == null [0.999]
+INFO  Properties: run.name == testrun
+INFO  Properties: persist.all == false
+INFO  Properties: persist.champions == true
+INFO  Properties: persist.last == false
+INFO  Properties: presentation.dir == ./nevt/test
+INFO  Properties: fitness_function.class == itu.jgdiejuu.torcs.TorcsFitnessFunction
+INFO  Properties: itu.manual == false
+INFO  Properties: ann.type == anji
+INFO  Properties: recurrent.cycles == 1
+INFO  Properties: recurrent == disallowed
+INFO  random genotype
+INFO  Run: start
+INFO  Generation 0: start
+>> Controller #1 - id: 99
+Client Connected.
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #2 - id: 100
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #3 - id: 101
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #4 - id: 102
+>>	Controller Stuck: d=0.290000000000191 step 251
+>> Get fitness: 0.0
+>> Controller #5 - id: 103
+>>	Controller Stuck: d=0.2599999999999909 step 251
+>> Get fitness: 0.0
+>> Controller #6 - id: 104
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #7 - id: 105
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #8 - id: 106
+>>	Controller Stuck: d=0.11999999999989086 step 376
+>> Get fitness: 0.0
+>> Controller #9 - id: 107
+>>	Controller Stuck: d=0.01999999999998181 step 501
+>> Get fitness: 0.0
+>> Controller #10 - id: 108
+>>	Controller Stuck: d=0.9300000000000637 step 876
+>> Get fitness: 0.0
+>> Controller #11 - id: 109
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #12 - id: 110
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #13 - id: 111
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #14 - id: 112
+>>	Controller Stuck: d=0.6799999999998363 step 1751
+>> Get fitness: 0.0
+>> Controller #15 - id: 113
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #16 - id: 114
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #17 - id: 115
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 116
+>>	Controller Stuck: d=0.8400000000001455 step 251
+>> Get fitness: 0.0
+>> Controller #19 - id: 117
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #20 - id: 118
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #21 - id: 119
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #22 - id: 120
+>>	Controller Stuck: d=0.36999999999989086 step 251
+>> Get fitness: 0.0
+>> Controller #23 - id: 121
+>>	Controller Stuck: d=0.8900000000001 step 251
+>> Get fitness: 0.0
+>> Controller #24 - id: 122
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #25 - id: 123
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #26 - id: 124
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #27 - id: 125
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #28 - id: 126
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #29 - id: 127
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #30 - id: 128
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #31 - id: 129
+>>	Controller Stuck: d=0.5199999999999818 step 2001
+>> Get fitness: 0.0
+>> Controller #32 - id: 130
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #33 - id: 131
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #34 - id: 132
+>>	Controller Stuck: d=0.4900000000000091 step 626
+>> Get fitness: 0.0
+>> Controller #35 - id: 133
+>>	Controller Stuck: d=0.10000000000013642 step 1001
+>> Get fitness: 0.0
+>> Controller #36 - id: 134
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #37 - id: 135
+>>	Controller Stuck: d=0.6600000000000819 step 376
+>> Get fitness: 0.0
+>> Controller #38 - id: 136
+>>	Controller Stuck: d=0.42000000000007276 step 251
+>> Get fitness: 0.0
+>> Controller #39 - id: 137
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #40 - id: 138
+>>	Controller Stuck: d=0.22000000000002728 step 501
+>> Get fitness: 0.0
+>> Controller #41 - id: 139
+>>	Controller Stuck: d=0.38999999999987267 step 1001
+>> Get fitness: 0.0
+>> Controller #42 - id: 140
+>>	Controller Stuck: d=0.38999999999987267 step 876
+>> Get fitness: 0.0
+>> Controller #43 - id: 141
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #44 - id: 142
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #45 - id: 143
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #46 - id: 144
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #47 - id: 145
+>>	Controller Stuck: d=0.0500000000001819 step 626
+>> Get fitness: 0.0
+>> Controller #48 - id: 146
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #49 - id: 147
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #50 - id: 148
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 51
+INFO  neurons->connection id map size == 673
+INFO  species count: 2
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=99 score=7.497938067031566E-5 size=99
+INFO  Generation 0: end [12:00:57 - 12:09:16] [498882]
+INFO  Generation 1: start
+>> Controller #1 - id: 99
+Client Connected.
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #2 - id: 100
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #3 - id: 101
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #4 - id: 102
+>>	Controller Stuck: d=0.2799999999999727 step 251
+>> Get fitness: 0.0
+>> Controller #5 - id: 103
+>>	Controller Stuck: d=0.2599999999999909 step 251
+>> Get fitness: 0.0
+>> Controller #6 - id: 801
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #7 - id: 802
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #8 - id: 803
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #9 - id: 804
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #10 - id: 805
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #11 - id: 806
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #12 - id: 807
+>>	Controller Stuck: d=0.22000000000002728 step 1001
+>> Get fitness: 0.0
+>> Controller #13 - id: 808
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #14 - id: 809
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #15 - id: 810
+>>	Controller Stuck: d=0.08999999999991815 step 251
+>> Get fitness: 0.0
+>> Controller #16 - id: 811
+>>	Controller Stuck: d=0.03999999999996362 step 376
+>> Get fitness: 0.0
+>> Controller #17 - id: 812
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 813
+>>	Controller Stuck: d=0.7999999999999545 step 251
+>> Get fitness: 0.0
+>> Controller #19 - id: 814
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #20 - id: 815
+>>	Controller Stuck: d=0.900000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #21 - id: 816
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #22 - id: 817
+>>	Controller Stuck: d=0.029999999999972715 step 1001
+>> Get fitness: 0.0
+>> Controller #23 - id: 818
+>>	Controller Stuck: d=0.41000000000008185 step 251
+>> Get fitness: 0.0
+>> Controller #24 - id: 819
+>>	Controller Stuck: d=0.2599999999999909 step 1001
+>> Get fitness: 0.0
+>> Controller #25 - id: 820
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #26 - id: 821
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #27 - id: 822
+>>	Controller Stuck: d=0.3180999999999994 step 626
+>> Get fitness: 21.0201
+>> Controller #28 - id: 823
+>>	Controller Stuck: d=0.040000000000190994 step 251
+>> Get fitness: 0.0
+>> Controller #29 - id: 824
+>>	Controller Stuck: d=0.6600000000000819 step 251
+>> Get fitness: 0.0
+>> Controller #30 - id: 825
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #31 - id: 826
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #32 - id: 827
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #33 - id: 828
+>>	Controller Stuck: d=0.2799999999999727 step 3126
+>> Get fitness: 0.0
+>> Controller #34 - id: 829
+>>	Controller Stuck: d=0.900000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #35 - id: 830
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #36 - id: 831
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #37 - id: 832
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #38 - id: 833
+>>	Controller Stuck: d=0.15000000000009095 step 501
+>> Get fitness: 0.0
+>> Controller #39 - id: 834
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #40 - id: 835
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #41 - id: 836
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #42 - id: 837
+>>	Controller Stuck: d=0.5576000000000079 step 2376
+>> Get fitness: 88.7744
+>> Controller #43 - id: 838
+>>	Controller Stuck: d=0.900000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #44 - id: 839
+>>	Controller Stuck: d=0.2599999999999909 step 751
+>> Get fitness: 0.0
+>> Controller #45 - id: 840
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #46 - id: 841
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #47 - id: 842
+>>	Controller Stuck: d=0.900000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #48 - id: 843
+>>	Controller Stuck: d=0.15999999999985448 step 1376
+>> Get fitness: 0.0
+>> Controller #49 - id: 844
+>>	Controller Stuck: d=0.8900000000001 step 251
+>> Get fitness: 0.0
+>> Controller #50 - id: 845
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 70
+INFO  neurons->connection id map size == 870
+INFO  species count: 11
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=837 score=0.0065981854989877785 size=103
+INFO  Generation 1: end [12:09:16 - 12:17:46] [510371]
+INFO  Generation 2: start
+>> Controller #1 - id: 837
+Client Connected.
+>>	Controller Stuck: d=0.5576000000000079 step 2376
+>> Get fitness: 88.7744
+>> Controller #2 - id: 99
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #3 - id: 100
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #4 - id: 101
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #5 - id: 102
+>>	Controller Stuck: d=0.2799999999999727 step 251
+>> Get fitness: 0.0
+>> Controller #6 - id: 1062
+>>	Controller Stuck: d=0.9200000000000728 step 876
+>> Get fitness: 0.0
+>> Controller #7 - id: 1063
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #8 - id: 1064
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #9 - id: 1065
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #10 - id: 1066
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #11 - id: 1067
+>>	Controller Stuck: d=0.9100000000000819 step 251
+>> Get fitness: 0.0
+>> Controller #12 - id: 1068
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #13 - id: 1069
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #14 - id: 1070
+>>	Controller Stuck: d=0.12000000000011823 step 251
+>> Get fitness: 0.0
+>> Controller #15 - id: 1071
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #16 - id: 1072
+>>	Controller Stuck: d=0.22999999999979082 step 1376
+>> Get fitness: 0.0
+>> Controller #17 - id: 1073
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 3239.8900000000003
+>> Controller #18 - id: 1074
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #19 - id: 1075
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #20 - id: 1076
+>>	Controller Stuck: d=0.2300000000000182 step 1001
+>> Get fitness: 0.0
+>> Controller #21 - id: 1077
+>>	Controller Stuck: d=0.029999999999972715 step 626
+>> Get fitness: 0.0
+>> Controller #22 - id: 1078
+>>	Controller Stuck: d=0.7100000000000364 step 251
+>> Get fitness: 0.0
+>> Controller #23 - id: 1079
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #24 - id: 1080
+>>	Controller Stuck: d=0.13000000000010914 step 626
+>> Get fitness: 0.0
+>> Controller #25 - id: 1081
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #26 - id: 1082
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #27 - id: 1083
+>>	Controller Stuck: d=0.06999999999993634 step 1376
+>> Get fitness: 0.0
+>> Controller #28 - id: 1084
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #29 - id: 1085
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #30 - id: 1086
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #31 - id: 1087
+>>	Controller Stuck: d=0.08999999999991815 step 1376
+>> Get fitness: 0.0
+>> Controller #32 - id: 1088
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #33 - id: 1089
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #34 - id: 1090
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #35 - id: 1091
+>>	Controller Stuck: d=0.19000000000005457 step 1376
+>> Get fitness: 0.0
+>> Controller #36 - id: 1092
+>>	Controller Stuck: d=0.03999999999996362 step 1001
+>> Get fitness: 0.0
+>> Controller #37 - id: 1093
+>>	Controller Stuck: d=0.8599999999999 step 1751
+>> Get fitness: 0.0
+>> Controller #38 - id: 1094
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #39 - id: 1095
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #40 - id: 1096
+>>	Controller Stuck: d=0.900000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #41 - id: 1097
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #42 - id: 1098
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #43 - id: 1099
+>>	Controller Stuck: d=0.32999999999992724 step 626
+>> Get fitness: 0.0
+>> Controller #44 - id: 1100
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #45 - id: 1101
+>>	Controller Stuck: d=0.03999999999996362 step 376
+>> Get fitness: 0.0
+>> Controller #46 - id: 1102
+>>	Controller Stuck: d=0.009999999999990905 step 1001
+>> Get fitness: 0.0
+>> Controller #47 - id: 1103
+>>	Controller Stuck: d=0.6600000000000819 step 251
+>> Get fitness: 0.0
+>> Controller #48 - id: 1104
+>>	Controller Stuck: d=0.040000000000190994 step 251
+>> Get fitness: 0.0
+>> Controller #49 - id: 1105
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #50 - id: 1106
+>>	Controller Stuck: d=0.5800000000001546 step 501
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 81
+INFO  neurons->connection id map size == 987
+INFO  species count: 17
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1073 score=0.24285821399115243 size=106
+INFO  Generation 2: end [12:17:46 - 12:26:19] [512970]
+INFO  Generation 3: start
+>> Controller #1 - id: 1073
+Client Connected.
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 3239.8900000000003
+>> Controller #2 - id: 837
+>>	Controller Stuck: d=0.5576000000000079 step 2376
+>> Get fitness: 88.7744
+>> Controller #3 - id: 99
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #4 - id: 100
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #5 - id: 101
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #6 - id: 1235
+>>	Controller Stuck: d=0.23810000000000286 step 1626
+>> Get fitness: 23.9389
+>> Controller #7 - id: 1236
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #8 - id: 1237
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #9 - id: 1238
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #10 - id: 1239
+>>	Controller Stuck: d=0.19000000000005457 step 251
+>> Get fitness: 0.0
+>> Controller #11 - id: 1240
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #12 - id: 1241
+>>	Controller Stuck: d=0.30999999999994543 step 1376
+>> Get fitness: 0.0
+>> Controller #13 - id: 1242
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #14 - id: 1243
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #15 - id: 1244
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #16 - id: 1245
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #17 - id: 1246
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 1247
+>>	Controller Stuck: d=0.6800000000000637 step 1751
+>> Get fitness: 2.72284
+>> Controller #19 - id: 1248
+>>	Controller Stuck: d=0.9900000000000091 step 876
+>> Get fitness: 0.0
+>> Controller #20 - id: 1249
+>>	Controller Stuck: d=0.900000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #21 - id: 1250
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #22 - id: 1251
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #23 - id: 1252
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #24 - id: 1253
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #25 - id: 1254
+>>	Controller Stuck: d=0.2599999999999909 step 1376
+>> Get fitness: 0.0
+>> Controller #26 - id: 1255
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #27 - id: 1256
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #28 - id: 1257
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #29 - id: 1258
+>>	Controller Stuck: d=0.03999999999996362 step 1376
+>> Get fitness: 0.0
+>> Controller #30 - id: 1259
+>>	Controller Stuck: d=0.16000000000008185 step 1376
+>> Get fitness: 0.0
+>> Controller #31 - id: 1260
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #32 - id: 1261
+>>	Controller Stuck: d=0.07000000000016371 step 501
+>> Get fitness: 0.0
+>> Controller #33 - id: 1262
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #34 - id: 1263
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #35 - id: 1264
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>> Controller #36 - id: 1265
+>>	Controller Stuck: d=0.20000000000004547 step 1376
+>> Get fitness: 0.0
+>> Controller #37 - id: 1266
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #38 - id: 1267
+>>	Controller Stuck: d=0.2599999999999909 step 1376
+>> Get fitness: 0.0
+>> Controller #39 - id: 1268
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #40 - id: 1269
+>>	Controller Stuck: d=0.03000000000020009 step 1126
+>> Get fitness: 0.0
+>> Controller #41 - id: 1270
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #42 - id: 1271
+>>	Controller Stuck: d=0.07000000000016371 step 1501
+>> Get fitness: 0.0
+>> Controller #43 - id: 1272
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 88.9411
+>> Controller #44 - id: 1273
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #45 - id: 1274
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #46 - id: 1275
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #47 - id: 1276
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #48 - id: 1277
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #49 - id: 1278
+>>	Controller Stuck: d=0.10999999999989996 step 1001
+>> Get fitness: 0.0
+>> Controller #50 - id: 1279
+>>	Controller Stuck: d=0.040000000000190994 step 251
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 86
+INFO  neurons->connection id map size == 1043
+INFO  species count: 22
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1073 score=0.24285821399115243 size=106
+INFO  Generation 3: end [12:26:19 - 12:34:55] [515357]
+INFO  Generation 4: start
+>> Controller #1 - id: 1073
+Client Connected.
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 3239.8900000000003
+>> Controller #2 - id: 1235
+>>	Controller Stuck: d=0.23810000000000286 step 1626
+>> Get fitness: 23.9389
+>> Controller #3 - id: 837
+>>	Controller Stuck: d=0.5576000000000079 step 2376
+>> Get fitness: 88.7744
+>> Controller #4 - id: 1272
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 88.9411
+>> Controller #5 - id: 99
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #6 - id: 1341
+>>	Controller Stuck: d=0.08480000000000132 step 3001
+>> Get fitness: 39.3412
+>> Controller #7 - id: 1342
+>>	Controller Stuck: d=0.22100000000000364 step 4626
+>> Get fitness: 4411.9169999999995
+>> Controller #8 - id: 1343
+>>	Controller Stuck: d=0.009999999999990905 step 1001
+>> Get fitness: 0.0
+>> Controller #9 - id: 1344
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #10 - id: 1345
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #11 - id: 1346
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #12 - id: 1347
+>>	Controller Stuck: d=0.8899999999998727 step 251
+>> Get fitness: 0.0
+>> Controller #13 - id: 1348
+>>	Controller Stuck: d=0.35999999999989996 step 501
+>> Get fitness: 0.0
+>> Controller #14 - id: 1349
+>>	Controller Stuck: d=0.0500000000001819 step 1001
+>> Get fitness: 0.0
+>> Controller #15 - id: 1350
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #16 - id: 1351
+>>	Controller Stuck: d=0.22000000000002728 step 1001
+>> Get fitness: 0.0
+>> Controller #17 - id: 1352
+>>	Controller Stuck: d=0.9600000000000364 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 1353
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #19 - id: 1354
+>>	Controller Stuck: d=0.13000000000010914 step 376
+>> Get fitness: 0.0
+>> Controller #20 - id: 1355
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #21 - id: 1356
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #22 - id: 1357
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #23 - id: 1358
+>>	Controller Stuck: d=0.2700000000002092 step 376
+>> Get fitness: 0.0
+>> Controller #24 - id: 1359
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #25 - id: 1360
+>>	Controller Stuck: d=0.790000000000191 step 751
+>> Get fitness: 0.0
+>> Controller #26 - id: 1361
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #27 - id: 1362
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #28 - id: 1363
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #29 - id: 1364
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #30 - id: 1365
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9377.400000000001
+>> Controller #31 - id: 1366
+>>	Controller Stuck: d=0.7100000000000364 step 1126
+>> Get fitness: 0.0
+>> Controller #32 - id: 1367
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #33 - id: 1368
+>>	Controller Stuck: d=0.09999999999990905 step 1376
+>> Get fitness: 0.0
+>> Controller #34 - id: 1369
+>>	Controller Stuck: d=0.10000000000013642 step 1001
+>> Get fitness: 0.0
+>> Controller #35 - id: 1370
+>>	Controller Stuck: d=0.049999999999954525 step 1501
+>> Get fitness: 0.0
+>> Controller #36 - id: 1371
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 0.0
+>> Controller #37 - id: 1372
+>>	Controller Stuck: d=0.6099999999999 step 1626
+>> Get fitness: 1123.01
+>> Controller #38 - id: 1373
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #39 - id: 1374
+>>	Controller Stuck: d=0.21000000000003638 step 1376
+>> Get fitness: 0.0
+>> Controller #40 - id: 1375
+>>	Controller Stuck: d=0.9099999999998545 step 626
+>> Get fitness: 0.0
+>> Controller #41 - id: 1376
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #42 - id: 1377
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #43 - id: 1378
+>>	Controller Stuck: d=0.10999999999989996 step 1376
+>> Get fitness: 0.0
+>> Controller #44 - id: 1379
+>>	Controller Stuck: d=0.43000000000006366 step 376
+>> Get fitness: 0.0
+>> Controller #45 - id: 1380
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #46 - id: 1381
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #47 - id: 1382
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #48 - id: 1383
+>>	Controller Stuck: d=0.8699999999998909 step 876
+>> Get fitness: 0.0
+>> Controller #49 - id: 1384
+>>	Controller Stuck: d=0.1899999999998272 step 1001
+>> Get fitness: 0.0
+>> Controller #50 - id: 1385
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 98
+INFO  neurons->connection id map size == 1382
+INFO  species count: 16
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1365 score=0.70308165254555 size=121
+INFO  Generation 4: end [12:34:55 - 12:43:36] [521631]
+INFO  Generation 5: start
+>> Controller #1 - id: 1235
+Client Connected.
+>>	Controller Stuck: d=0.23810000000000286 step 1626
+>> Get fitness: 23.9389
+>> Controller #2 - id: 1342
+>>	Controller Stuck: d=0.22100000000000364 step 4626
+>> Get fitness: 4411.9169999999995
+>> Controller #3 - id: 1365
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9377.400000000001
+>> Controller #4 - id: 1372
+>>	Controller Stuck: d=0.6099999999999 step 1626
+>> Get fitness: 1123.01
+>> Controller #5 - id: 1073
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 3239.8900000000003
+>> Controller #6 - id: 1737
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #7 - id: 1738
+>>	Controller Stuck: d=0.03999999999996362 step 876
+>> Get fitness: 0.0
+>> Controller #8 - id: 1739
+>>	Controller Stuck: d=0.0500000000001819 step 1001
+>> Get fitness: 0.0
+>> Controller #9 - id: 1740
+>>	Controller Stuck: d=0.05999999999994543 step 1751
+>> Get fitness: 0.0
+>> Controller #10 - id: 1741
+>>	Controller Stuck: d=0.07999999999992724 step 1501
+>> Get fitness: 0.0
+>> Controller #11 - id: 1742
+>>	Controller Stuck: d=0.16999999999984539 step 1376
+>> Get fitness: 0.0
+>> Controller #12 - id: 1743
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #13 - id: 1744
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9105.98
+>> Controller #14 - id: 1745
+>>	Controller Stuck: d=0.9939999999999714 step 6626
+>> Get fitness: 4419.275
+>> Controller #15 - id: 1746
+>>	Controller Stuck: d=0.8800000000001091 step 251
+>> Get fitness: 0.0
+>> Controller #16 - id: 1747
+>>	Controller Stuck: d=0.05999999999994543 step 876
+>> Get fitness: 0.0
+>> Controller #17 - id: 1748
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 1749
+>>	Controller Stuck: d=0.007099999999994111 step 876
+>> Get fitness: 87.7588
+>> Controller #19 - id: 1750
+>>	Controller Stuck: d=0.009999999999990905 step 3251
+>> Get fitness: 26.8217
+>> Controller #20 - id: 1751
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #21 - id: 1752
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #22 - id: 1753
+>>	Controller Stuck: d=0.7799999999999727 step 376
+>> Get fitness: 0.0
+>> Controller #23 - id: 1754
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9461.24
+>> Controller #24 - id: 1755
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #25 - id: 1756
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #26 - id: 1757
+>>	Controller Stuck: d=0.10000000000013642 step 1001
+>> Get fitness: 0.0
+>> Controller #27 - id: 1758
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 0.0
+>> Controller #28 - id: 1759
+>>	Controller Stuck: d=0.0 step 626
+>> Get fitness: 0.0
+>> Controller #29 - id: 1760
+>>	Controller Stuck: d=0.009999999999990905 step 376
+>> Get fitness: 0.0
+>> Controller #30 - id: 1761
+>>	Controller Stuck: d=0.11000000000012733 step 1376
+>> Get fitness: 0.0
+>> Controller #31 - id: 1762
+>>	Controller Stuck: d=0.6000000000001364 step 501
+>> Get fitness: 0.0
+>> Controller #32 - id: 1763
+>>	Controller Stuck: d=0.09000000000014552 step 251
+>> Get fitness: 0.0
+>> Controller #33 - id: 1764
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #34 - id: 1765
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 532.818
+>> Controller #35 - id: 1766
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #36 - id: 1767
+>>	Controller Stuck: d=0.16000000000008185 step 1376
+>> Get fitness: 0.0
+>> Controller #37 - id: 1768
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #38 - id: 1769
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #39 - id: 1770
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #40 - id: 1771
+>>	Controller Stuck: d=0.8299999999999272 step 2126
+>> Get fitness: 1629.35
+>> Controller #41 - id: 1772
+>>	Controller Stuck: d=0.020000000000209184 step 1251
+>> Get fitness: 0.0
+>> Controller #42 - id: 1773
+>>	Controller Stuck: d=0.09999999999990905 step 1001
+>> Get fitness: 0.0
+>> Controller #43 - id: 1774
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9222.4
+>> Controller #44 - id: 1775
+>>	Controller Stuck: d=0.900000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #45 - id: 1776
+>>	Controller Stuck: d=0.01999999999998181 step 376
+>> Get fitness: 0.0
+>> Controller #46 - id: 1777
+>>	Controller Stuck: d=0.012999999999976808 step 1001
+>> Get fitness: 386.887
+>> Controller #47 - id: 1778
+>>	Controller Stuck: d=0.0 step 376
+>> Get fitness: 0.0
+>> Controller #48 - id: 1779
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 5229.27
+>> Controller #49 - id: 1780
+>>	Controller Stuck: d=0.009999999999990905 step 2251
+>> Get fitness: 1634.47
+>> Controller #50 - id: 1781
+>>	Controller Stuck: d=0.5 step 3626
+>> Get fitness: 10.2749
+INFO  connection->neuron id map size == 149
+INFO  neurons->connection id map size == 1905
+INFO  species count: 39
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=1754 score=0.7093799205218565 size=136
+INFO  Generation 5: end [12:43:36 - 12:52:31] [534570]
+INFO  Generation 6: start
+>> Controller #1 - id: 1754
+Client Connected.
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9461.24
+>> Controller #2 - id: 1744
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9105.98
+>> Controller #3 - id: 1342
+>>	Controller Stuck: d=0.22100000000000364 step 4626
+>> Get fitness: 4411.9169999999995
+>> Controller #4 - id: 1073
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 3239.8900000000003
+>> Controller #5 - id: 1365
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9377.400000000001
+>> Controller #6 - id: 2356
+>>	Controller Stuck: d=0.9900000000000091 step 626
+>> Get fitness: 0.0
+>> Controller #7 - id: 2357
+>>	Controller Stuck: d=0.029999999999972715 step 876
+>> Get fitness: 0.0
+>> Controller #8 - id: 2358
+>>	Controller Stuck: d=0.19000000000005457 step 1376
+>> Get fitness: 0.0
+>> Controller #9 - id: 2359
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9250.29
+>> Controller #10 - id: 2360
+>>	Controller Stuck: d=0.19000000000005457 step 1376
+>> Get fitness: 0.0
+>> Controller #11 - id: 2361
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #12 - id: 2362
+>>	Controller Stuck: d=0.14000000000010004 step 1001
+>> Get fitness: 0.0
+>> Controller #13 - id: 2363
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9181.48
+>> Controller #14 - id: 2364
+>>	Controller Stuck: d=0.4900500000000001 step 376
+>> Get fitness: 10.6879
+>> Controller #15 - id: 2365
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #16 - id: 2366
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #17 - id: 2367
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 2368
+>>	Controller Stuck: d=0.009999999999990905 step 1626
+>> Get fitness: 1346.79
+>> Controller #19 - id: 2369
+>>	Controller Stuck: d=0.049999999999954525 step 876
+>> Get fitness: 0.0
+>> Controller #20 - id: 2370
+>>	Controller Stuck: d=0.15999999999985448 step 1376
+>> Get fitness: 0.0
+>> Controller #21 - id: 2371
+>>	Controller Stuck: d=0.37999999999988177 step 1126
+>> Get fitness: 0.0
+>> Controller #22 - id: 2372
+>>	Controller Stuck: d=0.5199999999999818 step 876
+>> Get fitness: 0.0
+>> Controller #23 - id: 2373
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #24 - id: 2374
+>>	Controller Stuck: d=0.6900000000000546 step 2501
+>> Get fitness: 0.0
+>> Controller #25 - id: 2375
+>>	Controller Stuck: d=0.6599999999998545 step 251
+>> Get fitness: 0.0
+>> Controller #26 - id: 2376
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #27 - id: 2377
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 7697.399300000001
+>> Controller #28 - id: 2378
+>>	Controller Stuck: d=0.2400000000000091 step 1376
+>> Get fitness: 0.0
+>> Controller #29 - id: 2379
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9111.16
+>> Controller #30 - id: 2380
+>>	Controller Stuck: d=0.900000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #31 - id: 2381
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>> Controller #32 - id: 2382
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9535.16
+>> Controller #33 - id: 2383
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #34 - id: 2384
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9303.26
+>> Controller #35 - id: 2385
+>>	Controller Stuck: d=0.09999999999990905 step 1001
+>> Get fitness: 0.0
+>> Controller #36 - id: 2386
+>>	Controller Stuck: d=0.7599999999999909 step 376
+>> Get fitness: 0.0
+>> Controller #37 - id: 2387
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #38 - id: 2388
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>> Controller #39 - id: 2389
+>>	Controller Stuck: d=0.01999999999998181 step 376
+>> Get fitness: 0.0
+>> Controller #40 - id: 2390
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #41 - id: 2391
+>>	Controller Stuck: d=0.5099999999999909 step 626
+>> Get fitness: 0.0
+>> Controller #42 - id: 2392
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #43 - id: 2393
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #44 - id: 2394
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #45 - id: 2395
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #46 - id: 2396
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #47 - id: 2397
+>>	Controller Stuck: d=0.020000000000209184 step 376
+>> Get fitness: 0.0
+>> Controller #48 - id: 2398
+>>	Controller Stuck: d=0.5369999999999209 step 2876
+>> Get fitness: 2603.744
+>> Controller #49 - id: 2399
+>>	Controller Stuck: d=0.12000000000011823 step 1376
+>> Get fitness: 0.0
+>> Controller #50 - id: 2400
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9052.49
+INFO  connection->neuron id map size == 210
+INFO  neurons->connection id map size == 2724
+INFO  species count: 39
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=2382 score=0.7149283946914599 size=160
+INFO  Generation 6: end [12:52:31 - 13:01:29] [537910]
+INFO  Generation 7: start
+>> Controller #1 - id: 1744
+Client Connected.
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9105.98
+>> Controller #2 - id: 2382
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9535.16
+>> Controller #3 - id: 2384
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9303.26
+>> Controller #4 - id: 2359
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9250.29
+>> Controller #5 - id: 2379
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9111.16
+>> Controller #6 - id: 3281
+>>	Controller Stuck: d=0.12000000000011823 step 1001
+>> Get fitness: 0.0
+>> Controller #7 - id: 3282
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #8 - id: 3283
+>>	Controller Stuck: d=0.0 step 1626
+>> Get fitness: 1248.2
+>> Controller #9 - id: 3284
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9268.19
+>> Controller #10 - id: 3285
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9479.67
+>> Controller #11 - id: 3286
+>>	Controller Stuck: d=0.15000000000009095 step 1376
+>> Get fitness: 0.0
+>> Controller #12 - id: 3287
+>>	Controller Stuck: d=0.22000000000002728 step 501
+>> Get fitness: 0.0
+>> Controller #13 - id: 3288
+>>	Controller Stuck: d=0.14999999999986358 step 1001
+>> Get fitness: 0.0
+>> Controller #14 - id: 3289
+>>	Controller Stuck: d=0.009999999999990905 step 376
+>> Get fitness: 0.0
+>> Controller #15 - id: 3290
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #16 - id: 3291
+>>	Controller Stuck: d=0.12999999999988177 step 1001
+>> Get fitness: 0.0
+>> Controller #17 - id: 3292
+>>	Controller Stuck: d=0.59699999999998 step 2876
+>> Get fitness: 2618.245
+>> Controller #18 - id: 3293
+>>	Controller Stuck: d=0.14999999999986358 step 1376
+>> Get fitness: 0.0
+>> Controller #19 - id: 3294
+>>	Controller Stuck: d=0.05999999999994543 step 1001
+>> Get fitness: 0.0
+>> Controller #20 - id: 3295
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #21 - id: 3296
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9058.76
+>> Controller #22 - id: 3297
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 251.144
+>> Controller #23 - id: 3298
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9485.970000000001
+>> Controller #24 - id: 3299
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 6619.463
+>> Controller #25 - id: 3300
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9665.310000000001
+>> Controller #26 - id: 3301
+>>	Controller Stuck: d=0.7999999999999545 step 876
+>> Get fitness: 0.0
+>> Controller #27 - id: 3302
+>>	Controller Stuck: d=0.002999999999985903 step 876
+>> Get fitness: 401.77
+>> Controller #28 - id: 3303
+>>	Controller Stuck: d=0.18000000000006366 step 626
+>> Get fitness: 0.0
+>> Controller #29 - id: 3304
+>>	Controller Stuck: d=0.6300000000001091 step 2126
+>> Get fitness: 1625.93
+>> Controller #30 - id: 3305
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #31 - id: 3306
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #32 - id: 3307
+>>	Controller Stuck: d=0.6189999999999998 step 3626
+>> Get fitness: 113.246
+>> Controller #33 - id: 3308
+>>	Controller Stuck: d=0.049999999999954525 step 1376
+>> Get fitness: 0.0
+>> Controller #34 - id: 3309
+>>	Controller Stuck: d=0.5699999999999363 step 501
+>> Get fitness: 0.0
+>> Controller #35 - id: 3310
+>>	Controller Stuck: d=0.0 step 376
+>> Get fitness: 0.0
+>> Controller #36 - id: 3311
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9381.78
+>> Controller #37 - id: 3312
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 4124.325
+>> Controller #38 - id: 3313
+>>	Controller Stuck: d=0.15000000000009095 step 751
+>> Get fitness: 0.0
+>> Controller #39 - id: 3314
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #40 - id: 3315
+>>	Controller Stuck: d=0.05999999999994543 step 1001
+>> Get fitness: 0.0
+>> Controller #41 - id: 3316
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9075.73
+>> Controller #42 - id: 3317
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 2476.683
+>> Controller #43 - id: 3318
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 397.205
+>> Controller #44 - id: 3319
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #45 - id: 3320
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #46 - id: 3321
+>>	Controller Stuck: d=0.12000000000011823 step 1001
+>> Get fitness: 0.0
+>> Controller #47 - id: 3322
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #48 - id: 3323
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #49 - id: 3324
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #50 - id: 3325
+>>	Controller Stuck: d=0.8300000000001546 step 626
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 295
+INFO  neurons->connection id map size == 3857
+INFO  species count: 42
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=3300 score=0.7246757141786009 size=202
+INFO  Generation 7: end [13:01:29 - 13:10:41] [552371]
+INFO  Generation 8: start
+>> Controller #1 - id: 2384
+Client Connected.
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9303.26
+>> Controller #2 - id: 3300
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9666.648000000001
+>> Controller #3 - id: 3298
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9485.970000000001
+>> Controller #4 - id: 3285
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9479.67
+>> Controller #5 - id: 3311
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9381.78
+>> Controller #6 - id: 4544
+>>	Controller Stuck: d=0.21000000000003638 step 1001
+>> Get fitness: 0.0
+>> Controller #7 - id: 4545
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #8 - id: 4546
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #9 - id: 4547
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #10 - id: 4548
+>>	Controller Stuck: d=0.16000000000008185 step 626
+>> Get fitness: 0.0
+>> Controller #11 - id: 4549
+>>	Controller Stuck: d=0.13000000000010914 step 1001
+>> Get fitness: 0.0
+>> Controller #12 - id: 4550
+>>	Controller Stuck: d=0.17000000000007276 step 376
+>> Get fitness: 0.0
+>> Controller #13 - id: 4551
+>>	Controller Stuck: d=0.33999999999991815 step 876
+>> Get fitness: 0.0
+>> Controller #14 - id: 4552
+>>	Controller Stuck: d=0.07999999999992724 step 1001
+>> Get fitness: 0.0
+>> Controller #15 - id: 4553
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 7459.830000000001
+>> Controller #16 - id: 4554
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>> Controller #17 - id: 4555
+>>	Controller Stuck: d=0.19000000000005457 step 2376
+>> Get fitness: 924.091
+>> Controller #18 - id: 4556
+>>	Controller Stuck: d=0.3100000000001728 step 3001
+>> Get fitness: 0.0
+>> Controller #19 - id: 4557
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #20 - id: 4558
+>>	Controller Stuck: d=0.8410000000000082 step 3001
+>> Get fitness: 2562.846
+>> Controller #21 - id: 4559
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #22 - id: 4560
+>>	Controller Stuck: d=0.002600000000001046 step 501
+>> Get fitness: 28.9399
+>> Controller #23 - id: 4561
+>>	Controller Stuck: d=0.11999999999989086 step 1001
+>> Get fitness: 0.0
+>> Controller #24 - id: 4562
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #25 - id: 4563
+>>	Controller Stuck: d=0.08999999999991815 step 1001
+>> Get fitness: 0.0
+>> Controller #26 - id: 4564
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9612.2249
+>> Controller #27 - id: 4565
+>>	Controller Stuck: d=0.2699999999999818 step 2751
+>> Get fitness: 0.0
+>> Controller #28 - id: 4566
+>>	Controller Stuck: d=0.20000000000004547 step 1376
+>> Get fitness: 0.0
+>> Controller #29 - id: 4567
+>>	Controller Stuck: d=0.40220000000000056 step 376
+>> Get fitness: 14.5512
+>> Controller #30 - id: 4568
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9628.656599999998
+>> Controller #31 - id: 4569
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9717.103
+>> Controller #32 - id: 4570
+>>	Controller Stuck: d=0.1999999999998181 step 1001
+>> Get fitness: 0.0
+>> Controller #33 - id: 4571
+>>	Controller Stuck: d=0.08000000000015461 step 251
+>> Get fitness: 0.0
+>> Controller #34 - id: 4572
+>>	Controller Stuck: d=0.5199999999999818 step 876
+>> Get fitness: 0.0
+>> Controller #35 - id: 4573
+>>	Controller Stuck: d=0.43000000000006366 step 1001
+>> Get fitness: 0.0
+>> Controller #36 - id: 4574
+>>	Controller Stuck: d=0.03999999999996362 step 1001
+>> Get fitness: 0.0
+>> Controller #37 - id: 4575
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #38 - id: 4576
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9350.65
+>> Controller #39 - id: 4577
+>>	Controller Stuck: d=0.6999999999998181 step 626
+>> Get fitness: 0.0
+>> Controller #40 - id: 4578
+>>	Controller Stuck: d=0.21000000000003638 step 751
+>> Get fitness: 0.0
+>> Controller #41 - id: 4579
+>>	Controller Stuck: d=0.3200000000001637 step 1376
+>> Get fitness: 0.0
+>> Controller #42 - id: 4580
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 1202.91
+>> Controller #43 - id: 4581
+>>	Controller Stuck: d=0.06999999999993634 step 2126
+>> Get fitness: 0.0
+>> Controller #44 - id: 4582
+>>	Controller Stuck: d=0.11000000000012733 step 1001
+>> Get fitness: 0.0
+>> Controller #45 - id: 4583
+>>	Controller Stuck: d=0.4800000000000182 step 1001
+>> Get fitness: 0.0
+>> Controller #46 - id: 4584
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #47 - id: 4585
+>>	Controller Stuck: d=0.16000000000008185 step 876
+>> Get fitness: 0.0
+>> Controller #48 - id: 4586
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #49 - id: 4587
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 0.0
+>> Controller #50 - id: 4588
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 393
+INFO  neurons->connection id map size == 4789
+INFO  species count: 43
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=4569 score=0.7285746419734573 size=252
+INFO  Generation 8: end [13:10:41 - 13:19:44] [542545]
+INFO  Generation 9: start
+>> Controller #1 - id: 2384
+Client Connected.
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9303.26
+>> Controller #2 - id: 4569
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9717.103
+>> Controller #3 - id: 4568
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9628.656599999998
+>> Controller #4 - id: 4564
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9612.2249
+>> Controller #5 - id: 3285
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9479.67
+>> Controller #6 - id: 5619
+>>	Controller Stuck: d=0.009999999999990905 step 876
+>> Get fitness: 0.0
+>> Controller #7 - id: 5620
+>>	Controller Stuck: d=0.11999999999989086 step 1001
+>> Get fitness: 0.0
+>> Controller #8 - id: 5621
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #9 - id: 5622
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 8506.66
+>> Controller #10 - id: 5623
+>>	Controller Stuck: d=0.14000000000010004 step 1376
+>> Get fitness: 0.0
+>> Controller #11 - id: 5624
+>>	Controller Stuck: d=0.2999999999999545 step 376
+>> Get fitness: 0.0
+>> Controller #12 - id: 5625
+>>	Controller Stuck: d=0.7400000000000091 step 2126
+>> Get fitness: 6.78802
+>> Controller #13 - id: 5626
+>>	Controller Stuck: d=0.8300000000001546 step 251
+>> Get fitness: 0.0
+>> Controller #14 - id: 5627
+>>	Controller Stuck: d=0.7768000000000015 step 501
+>> Get fitness: 40.0733
+>> Controller #15 - id: 5628
+>>	Controller Stuck: d=0.07999999999992724 step 1001
+>> Get fitness: 0.0
+>> Controller #16 - id: 5629
+>>	Controller Stuck: d=0.03999999999996362 step 1001
+>> Get fitness: 0.0
+>> Controller #17 - id: 5630
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #18 - id: 5631
+>>	Controller Stuck: d=0.30999999999994543 step 626
+>> Get fitness: 0.0
+>> Controller #19 - id: 5632
+>>	Controller Stuck: d=0.6400000000001 step 2251
+>> Get fitness: 0.0
+>> Controller #20 - id: 5633
+>>	Controller Stuck: d=0.16999999999984539 step 1001
+>> Get fitness: 0.0
+>> Controller #21 - id: 5634
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 8206.383
+>> Controller #22 - id: 5635
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #23 - id: 5636
+>>	Controller Stuck: d=0.2899999999999636 step 1001
+>> Get fitness: 0.0
+>> Controller #24 - id: 5637
+>>	Controller Stuck: d=0.15000000000009095 step 376
+>> Get fitness: 0.0
+>> Controller #25 - id: 5638
+>>	Controller Stuck: d=0.8560999999999979 step 1001
+>> Get fitness: 80.1884
+>> Controller #26 - id: 5639
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #27 - id: 5640
+>>	Controller Stuck: d=0.11999999999989086 step 4501
+>> Get fitness: 1380.9827
+>> Controller #28 - id: 5641
+>>	Controller Stuck: d=0.9501999999999953 step 751
+>> Get fitness: 95.3163
+>> Controller #29 - id: 5642
+>>	Controller Stuck: d=0.0049999999999954525 step 4251
+>> Get fitness: 4306.715
+>> Controller #30 - id: 5643
+>>	Controller Stuck: d=0.03999999999996362 step 2376
+>> Get fitness: 0.0
+>> Controller #31 - id: 5644
+>>	Controller Stuck: d=0.20000000000004547 step 1376
+>> Get fitness: 0.0
+>> Controller #32 - id: 5645
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9294.76
+>> Controller #33 - id: 5646
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 3803.0299999999997
+>> Controller #34 - id: 5647
+>>	Controller Stuck: d=0.08800000000000807 step 1501
+>> Get fitness: 104.564
+>> Controller #35 - id: 5648
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9840.187
+>> Controller #36 - id: 5649
+>>	Controller Stuck: d=0.1899999999998272 step 3251
+>> Get fitness: 0.0
+>> Controller #37 - id: 5650
+>>	Controller Stuck: d=0.16000000000008185 step 1001
+>> Get fitness: 0.0
+>> Controller #38 - id: 5651
+>>	Controller Stuck: d=0.002799999999997027 step 2251
+>> Get fitness: 25.4994
+>> Controller #39 - id: 5652
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #40 - id: 5653
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9707.396
+>> Controller #41 - id: 5654
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9471.68
+>> Controller #42 - id: 5655
+>>	Controller Stuck: d=0.0 step 1626
+>> Get fitness: 1391.4
+>> Controller #43 - id: 5656
+>>	Controller Stuck: d=0.41000000000008185 step 2376
+>> Get fitness: 1475.15
+>> Controller #44 - id: 5657
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #45 - id: 5658
+>>	Controller Stuck: d=0.11999999999989086 step 1001
+>> Get fitness: 0.0
+>> Controller #46 - id: 5659
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 9769.614
+>> Controller #47 - id: 5660
+>>	Controller Stuck: d=0.209999999999809 step 1376
+>> Get fitness: 0.0
+>> Controller #48 - id: 5661
+>>	Controller Stuck: d=0.11000000000012733 step 1501
+>> Get fitness: 0.0
+>> Controller #49 - id: 5662
+>>	Controller Stuck: d=0.7899999999999636 step 1751
+>> Get fitness: 0.0
+>> Controller #50 - id: 5663
+>>	Controller Stuck: d=0.0 step 1376
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 511
+INFO  neurons->connection id map size == 6261
+INFO  species count: 47
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=5648 score=0.7377971057959061 size=284
+INFO  Generation 9: end [13:19:44 - 13:28:52] [548334]
+INFO  Generation 10: start
+>> Controller #1 - id: 5648
+Client Connected.
+>>	Controller Stuck: d=0.10300000000000864 step 1126
+>> Get fitness: 453.889
+>> Controller #2 - id: 5659
+>>	Controller Stuck: d=0.12000000000000455 step 2001
+>> Get fitness: 615.25
+>> Controller #3 - id: 5653
+>>	Controller Stuck: d=0.11000000000001364 step 1126
+>> Get fitness: 428.548
+>> Controller #4 - id: 4568
+>>	Controller Stuck: d=0.10099999999999909 step 1001
+>> Get fitness: 465.528
+>> Controller #5 - id: 5654
+>>	Controller Stuck: d=0.007999999999981355 step 1376
+>> Get fitness: 451.676
+>> Controller #6 - id: 7254
+>>	Controller Stuck: d=0.28125 step 501
+>> Get fitness: 9.65248
+>> Controller #7 - id: 7255
+>>	Controller Stuck: d=0.9860000000000042 step 626
+>> Get fitness: 99.527
+>> Controller #8 - id: 7256
+>>	Controller Stuck: d=0.8201999999999998 step 501
+>> Get fitness: 34.0744
+>> Controller #9 - id: 7257
+>>	Controller Stuck: d=0.7627399999999991 step 501
+>> Get fitness: 11.8855
+>> Controller #10 - id: 7258
+>>	Controller Stuck: d=0.75746 step 501
+>> Get fitness: 11.8944
+>> Controller #11 - id: 7259
+>>	Controller Stuck: d=0.06700000000000728 step 1001
+>> Get fitness: 460.38
+>> Controller #12 - id: 7260
+>>	Controller Stuck: d=0.7784100000000009 step 501
+>> Get fitness: 11.9049
+>> Controller #13 - id: 7261
+>>	Controller Stuck: d=0.28451000000000004 step 501
+>> Get fitness: 8.67402
+>> Controller #14 - id: 7262
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #15 - id: 7263
+>>	Controller Stuck: d=0.7751300000000008 step 501
+>> Get fitness: 11.8858
+>> Controller #16 - id: 7264
+>>	Controller Stuck: d=0.03999999999996362 step 376
+>> Get fitness: 0.0
+>> Controller #17 - id: 7265
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 7266
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #19 - id: 7267
+>>	Controller Stuck: d=0.15399999999999636 step 1126
+>> Get fitness: 425.442
+>> Controller #20 - id: 7268
+>>	Controller Stuck: d=0.05999999999994543 step 1751
+>> Get fitness: 136.978
+>> Controller #21 - id: 7269
+>>	Controller Stuck: d=0.06499999999999773 step 1001
+>> Get fitness: 291.123
+>> Controller #22 - id: 7270
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #23 - id: 7271
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #24 - id: 7272
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #25 - id: 7273
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #26 - id: 7274
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #27 - id: 7275
+>>	Controller Stuck: d=0.31492000000000075 step 501
+>> Get fitness: 11.0065
+>> Controller #28 - id: 7276
+>>	Controller Stuck: d=0.06890000000000285 step 501
+>> Get fitness: 23.0343
+>> Controller #29 - id: 7277
+>>	Controller Stuck: d=0.010000000000218279 step 251
+>> Get fitness: 0.0
+>> Controller #30 - id: 7278
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #31 - id: 7279
+>>	Controller Stuck: d=0.03999999999996362 step 376
+>> Get fitness: 0.0
+>> Controller #32 - id: 7280
+>>	Controller Stuck: d=0.14299999999997226 step 1376
+>> Get fitness: 442.487
+>> Controller #33 - id: 7281
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #34 - id: 7282
+>>	Controller Stuck: d=0.7595100000000006 step 501
+>> Get fitness: 11.8846
+>> Controller #35 - id: 7283
+>>	Controller Stuck: d=0.08800000000002228 step 751
+>> Get fitness: 177.222
+>> Controller #36 - id: 7284
+>>	Controller Stuck: d=0.7599499999999999 step 501
+>> Get fitness: 11.8851
+>> Controller #37 - id: 7285
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #38 - id: 7286
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #39 - id: 7287
+>>	Controller Stuck: d=0.4399999999995998 step 251
+>> Get fitness: 0.0
+>> Controller #40 - id: 7288
+>>	Controller Stuck: d=0.9399999999995998 step 251
+>> Get fitness: 0.0
+>> Controller #41 - id: 7289
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #42 - id: 7290
+>>	Controller Stuck: d=0.15000000000009095 step 2626
+>> Get fitness: 459.637
+>> Controller #43 - id: 7291
+>>	Controller Stuck: d=0.3280000000000314 step 1001
+>> Get fitness: 266.504
+>> Controller #44 - id: 7292
+>>	Controller Stuck: d=0.34970000000000034 step 501
+>> Get fitness: 17.076
+>> Controller #45 - id: 7293
+>>	Controller Stuck: d=0.027100000000004343 step 751
+>> Get fitness: 55.6656
+>> Controller #46 - id: 7294
+>>	Controller Stuck: d=0.7747799999999998 step 501
+>> Get fitness: 11.8853
+>> Controller #47 - id: 7295
+>>	Controller Stuck: d=0.0018999999999991246 step 876
+>> Get fitness: 85.1663
+>> Controller #48 - id: 7296
+>>	Controller Stuck: d=0.043000000000006366 step 1251
+>> Get fitness: 530.053
+>> Controller #49 - id: 7297
+>>	Controller Stuck: d=0.06940000000000168 step 501
+>> Get fitness: 52.0754
+>> Controller #50 - id: 7298
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+INFO  connection->neuron id map size == 631
+INFO  neurons->connection id map size == 7558
+INFO  species count: 48
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=5659 score=0.04611231911224413 size=297
+INFO  Generation 10: end [13:28:52 - 13:37:18] [505981]
+INFO  Generation 11: start
+>> Controller #1 - id: 5659
+Client Connected.
+>>	Controller Stuck: d=0.12000000000000455 step 2001
+>> Get fitness: 615.25
+>> Controller #2 - id: 7296
+>>	Controller Stuck: d=0.043000000000006366 step 1251
+>> Get fitness: 530.053
+>> Controller #3 - id: 7259
+>>	Controller Stuck: d=0.06700000000000728 step 1001
+>> Get fitness: 460.38
+>> Controller #4 - id: 7290
+>>	Controller Stuck: d=0.15000000000009095 step 2626
+>> Get fitness: 459.637
+>> Controller #5 - id: 5648
+>>	Controller Stuck: d=0.10300000000000864 step 1126
+>> Get fitness: 453.889
+>> Controller #6 - id: 8716
+>>	Controller Stuck: d=0.7634000000000007 step 501
+>> Get fitness: 11.8856
+>> Controller #7 - id: 8717
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #8 - id: 8718
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #9 - id: 8719
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #10 - id: 8720
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #11 - id: 8721
+>>	Controller Stuck: d=0.2817000000000007 step 501
+>> Get fitness: 17.7969
+>> Controller #12 - id: 8722
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #13 - id: 8723
+>>	Controller Stuck: d=0.14429999999999765 step 501
+>> Get fitness: 22.6888
+>> Controller #14 - id: 8724
+>>	Controller Stuck: d=0.10889999999999844 step 501
+>> Get fitness: 20.2523
+>> Controller #15 - id: 8725
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #16 - id: 8726
+>>	Controller Stuck: d=0.695999999999998 step 626
+>> Get fitness: 151.025
+>> Controller #17 - id: 8727
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 8728
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #19 - id: 8729
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #20 - id: 8730
+>>	Controller Stuck: d=0.01999999999998181 step 376
+>> Get fitness: 0.0
+>> Controller #21 - id: 8731
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #22 - id: 8732
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #23 - id: 8733
+>>	Controller Stuck: d=0.0 step 376
+>> Get fitness: 0.0
+>> Controller #24 - id: 8734
+>>	Controller Stuck: d=0.7710500000000007 step 501
+>> Get fitness: 11.9014
+>> Controller #25 - id: 8735
+>>	Controller Stuck: d=0.038900000000005264 step 876
+>> Get fitness: 77.0562
+>> Controller #26 - id: 8736
+>>	Controller Stuck: d=0.010000000000218279 step 376
+>> Get fitness: 0.0
+>> Controller #27 - id: 8737
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #28 - id: 8738
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #29 - id: 8739
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #30 - id: 8740
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #31 - id: 8741
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #32 - id: 8742
+>>	Controller Stuck: d=0.9631000000000007 step 501
+>> Get fitness: 17.5579
+>> Controller #33 - id: 8743
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #34 - id: 8744
+>>	Controller Stuck: d=0.1309999999999718 step 1126
+>> Get fitness: 423.359
+>> Controller #35 - id: 8745
+>>	Controller Stuck: d=0.43090000000000117 step 501
+>> Get fitness: 55.814
+>> Controller #36 - id: 8746
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #37 - id: 8747
+>>	Controller Stuck: d=0.09000000000003183 step 1626
+>> Get fitness: 489.244
+>> Controller #38 - id: 8748
+>>	Controller Stuck: d=0.561399999999999 step 626
+>> Get fitness: 31.7455
+>> Controller #39 - id: 8749
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #40 - id: 8750
+>>	Controller Stuck: d=0.03999999999996362 step 376
+>> Get fitness: 0.0
+>> Controller #41 - id: 8751
+>>	Controller Stuck: d=0.05959999999999965 step 501
+>> Get fitness: 14.2052
+>> Controller #42 - id: 8752
+>>	Controller Stuck: d=0.03000000000020009 step 376
+>> Get fitness: 0.0
+>> Controller #43 - id: 8753
+>>	Controller Stuck: d=0.28600000000000136 step 2626
+>> Get fitness: 461.713
+>> Controller #44 - id: 8754
+>>	Controller Stuck: d=0.011000000000024102 step 1126
+>> Get fitness: 475.617
+>> Controller #45 - id: 8755
+>>	Controller Stuck: d=0.7595200000000002 step 501
+>> Get fitness: 11.8854
+>> Controller #46 - id: 8756
+>>	Controller Stuck: d=0.17160000000000153 step 501
+>> Get fitness: 25.9719
+>> Controller #47 - id: 8757
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #48 - id: 8758
+>>	Controller Stuck: d=0.08070000000000022 step 751
+>> Get fitness: 37.3966
+>> Controller #49 - id: 8759
+>>	Controller Stuck: d=0.7493299999999987 step 501
+>> Get fitness: 11.8859
+>> Controller #50 - id: 8760
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+INFO  connection->neuron id map size == 783
+INFO  neurons->connection id map size == 9282
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=5659 score=0.04611231911224413 size=297
+INFO  Generation 11: end [13:37:18 - 13:45:44] [505576]
+INFO  Generation 12: start
+>> Controller #1 - id: 5659
+Client Connected.
+>>	Controller Stuck: d=0.12000000000000455 step 2001
+>> Get fitness: 615.25
+>> Controller #2 - id: 8747
+>>	Controller Stuck: d=0.09000000000003183 step 1626
+>> Get fitness: 489.244
+>> Controller #3 - id: 8754
+>>	Controller Stuck: d=0.011000000000024102 step 1126
+>> Get fitness: 475.617
+>> Controller #4 - id: 8753
+>>	Controller Stuck: d=0.28600000000000136 step 2626
+>> Get fitness: 461.713
+>> Controller #5 - id: 7259
+>>	Controller Stuck: d=0.06700000000000728 step 1001
+>> Get fitness: 460.38
+>> Controller #6 - id: 10637
+>>	Controller Stuck: d=0.18099999999998317 step 1126
+>> Get fitness: 469.115
+>> Controller #7 - id: 10638
+>>	Controller Stuck: d=0.5 step 251
+>> Get fitness: 0.0
+>> Controller #8 - id: 10639
+>>	Controller Stuck: d=0.29199999999999804 step 501
+>> Get fitness: 28.2663
+>> Controller #9 - id: 10640
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #10 - id: 10641
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #11 - id: 10642
+>>	Controller Stuck: d=0.009999999999763531 step 376
+>> Get fitness: 0.0
+>> Controller #12 - id: 10643
+>>	Controller Stuck: d=0.03000000000020009 step 376
+>> Get fitness: 0.0
+>> Controller #13 - id: 10644
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #14 - id: 10645
+>>	Controller Stuck: d=0.5199999999999818 step 251
+>> Get fitness: 0.0
+>> Controller #15 - id: 10646
+>>	Controller Stuck: d=0.4499999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #16 - id: 10647
+>>	Controller Stuck: d=0.2709899999999994 step 501
+>> Get fitness: 10.1833
+>> Controller #17 - id: 10648
+>>	Controller Stuck: d=0.0037000000000002586 step 501
+>> Get fitness: 15.0154
+>> Controller #18 - id: 10649
+>>	Controller Stuck: d=0.7634699999999999 step 501
+>> Get fitness: 11.8853
+>> Controller #19 - id: 10650
+>>	Controller Stuck: d=0.7762899999999995 step 501
+>> Get fitness: 11.8914
+>> Controller #20 - id: 10651
+>>	Controller Stuck: d=0.7737199999999991 step 501
+>> Get fitness: 11.885
+>> Controller #21 - id: 10652
+>>	Controller Stuck: d=0.33999999999969077 step 251
+>> Get fitness: 0.0
+>> Controller #22 - id: 10653
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #23 - id: 10654
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #24 - id: 10655
+>>	Controller Stuck: d=0.0029000000000038995 step 876
+>> Get fitness: 68.5689
+>> Controller #25 - id: 10656
+>>	Controller Stuck: d=0.03999999999996362 step 376
+>> Get fitness: 0.0
+>> Controller #26 - id: 10657
+>>	Controller Stuck: d=0.7605599999999999 step 501
+>> Get fitness: 11.8853
+>> Controller #27 - id: 10658
+>>	Controller Stuck: d=0.4899999999997817 step 251
+>> Get fitness: 0.0
+>> Controller #28 - id: 10659
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #29 - id: 10660
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #30 - id: 10661
+>>	Controller Stuck: d=0.7757199999999997 step 501
+>> Get fitness: 11.8846
+>> Controller #31 - id: 10662
+>>	Controller Stuck: d=0.2684999999999995 step 501
+>> Get fitness: 15.0483
+>> Controller #32 - id: 10663
+>>	Controller Stuck: d=0.7760499999999997 step 501
+>> Get fitness: 11.8853
+>> Controller #33 - id: 10664
+>>	Controller Stuck: d=0.1260000000000332 step 1126
+>> Get fitness: 483.598
+>> Controller #34 - id: 10665
+>>	Controller Stuck: d=0.7753800000000002 step 501
+>> Get fitness: 11.8853
+>> Controller #35 - id: 10666
+>>	Controller Stuck: d=0.11469999999999914 step 626
+>> Get fitness: 67.5701
+>> Controller #36 - id: 10667
+>>	Controller Stuck: d=0.03999999999996362 step 376
+>> Get fitness: 0.0
+>> Controller #37 - id: 10668
+>>	Controller Stuck: d=0.03000000000020009 step 251
+>> Get fitness: 0.0
+>> Controller #38 - id: 10669
+>>	Controller Stuck: d=0.4739899999999988 step 501
+>> Get fitness: 9.5268
+>> Controller #39 - id: 10670
+>>	Controller Stuck: d=0.5227699999999995 step 501
+>> Get fitness: 11.0032
+>> Controller #40 - id: 10671
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #41 - id: 10672
+>>	Controller Stuck: d=0.4414700000000007 step 501
+>> Get fitness: 11.1583
+>> Controller #42 - id: 10673
+>>	Controller Stuck: d=0.6535999999999973 step 501
+>> Get fitness: 36.6132
+>> Controller #43 - id: 10674
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #44 - id: 10675
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #45 - id: 10676
+>>	Controller Stuck: d=0.4499999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #46 - id: 10677
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 13.2788
+>> Controller #47 - id: 10678
+>>	Controller Stuck: d=0.17000000000007276 step 1626
+>> Get fitness: 85.4247
+>> Controller #48 - id: 10679
+>>	Controller Stuck: d=0.3118000000000052 step 751
+>> Get fitness: 53.2904
+>> Controller #49 - id: 10680
+>>	Controller Stuck: d=0.06399999999999295 step 2001
+>> Get fitness: 124.383
+>> Controller #50 - id: 10681
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 924
+INFO  neurons->connection id map size == 10880
+INFO  species count: 49
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=5659 score=0.04611231911224413 size=297
+INFO  Generation 12: end [13:45:44 - 13:54:09] [505247]
+INFO  Generation 13: start
+>> Controller #1 - id: 5659
+Client Connected.
+>>	Controller Stuck: d=0.12000000000000455 step 2001
+>> Get fitness: 615.25
+>> Controller #2 - id: 8747
+>>	Controller Stuck: d=0.09000000000003183 step 1626
+>> Get fitness: 489.244
+>> Controller #3 - id: 10664
+>>	Controller Stuck: d=0.1260000000000332 step 1126
+>> Get fitness: 483.598
+>> Controller #4 - id: 8754
+>>	Controller Stuck: d=0.011000000000024102 step 1126
+>> Get fitness: 475.617
+>> Controller #5 - id: 10637
+>>	Controller Stuck: d=0.18099999999998317 step 1126
+>> Get fitness: 469.115
+>> Controller #6 - id: 12421
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #7 - id: 12422
+>>	Controller Stuck: d=0.18590000000000018 step 626
+>> Get fitness: 26.0122
+>> Controller #8 - id: 12423
+>>	Controller Stuck: d=0.21448 step 501
+>> Get fitness: 9.5015
+>> Controller #9 - id: 12424
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #10 - id: 12425
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #11 - id: 12426
+>>	Controller Stuck: d=0.5900000000001455 step 3001
+>> Get fitness: 445.545
+>> Controller #12 - id: 12427
+>>	Controller Stuck: d=0.10150000000000148 step 501
+>> Get fitness: 53.0069
+>> Controller #13 - id: 12428
+>>	Controller Stuck: d=0.08709999999999951 step 501
+>> Get fitness: 17.2542
+>> Controller #14 - id: 12429
+>>	Controller Stuck: d=0.0 step 376
+>> Get fitness: 0.0
+>> Controller #15 - id: 12430
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #16 - id: 12431
+>>	Controller Stuck: d=0.10010000000000119 step 501
+>> Get fitness: 18.0425
+>> Controller #17 - id: 12432
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 12433
+>>	Controller Stuck: d=0.7745700000000006 step 501
+>> Get fitness: 11.8856
+>> Controller #19 - id: 12434
+>>	Controller Stuck: d=0.12769999999999904 step 501
+>> Get fitness: 11.031
+>> Controller #20 - id: 12435
+>>	Controller Stuck: d=0.010000000000218279 step 376
+>> Get fitness: 0.0
+>> Controller #21 - id: 12436
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #22 - id: 12437
+>>	Controller Stuck: d=0.23470000000000013 step 501
+>> Get fitness: 24.9964
+>> Controller #23 - id: 12438
+>>	Controller Stuck: d=0.8112999999999992 step 501
+>> Get fitness: 33.1687
+>> Controller #24 - id: 12439
+>>	Controller Stuck: d=0.14400000000000546 step 1001
+>> Get fitness: 340.129
+>> Controller #25 - id: 12440
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #26 - id: 12441
+>>	Controller Stuck: d=0.6532 step 501
+>> Get fitness: 11.4489
+>> Controller #27 - id: 12442
+>>	Controller Stuck: d=0.021700000000002717 step 501
+>> Get fitness: 21.2007
+>> Controller #28 - id: 12443
+>>	Controller Stuck: d=0.18200000000001637 step 1376
+>> Get fitness: 686.056
+>> Controller #29 - id: 12444
+>>	Controller Stuck: d=0.09030000000000094 step 501
+>> Get fitness: 13.5288
+>> Controller #30 - id: 12445
+>>	Controller Stuck: d=0.29000000000041837 step 501
+>> Get fitness: 0.0
+>> Controller #31 - id: 12446
+>>	Controller Stuck: d=0.11920000000000286 step 501
+>> Get fitness: 24.1558
+>> Controller #32 - id: 12447
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #33 - id: 12448
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #34 - id: 12449
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #35 - id: 12450
+>>	Controller Stuck: d=0.049099999999999255 step 501
+>> Get fitness: 13.5892
+>> Controller #36 - id: 12451
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #37 - id: 12452
+>>	Controller Stuck: d=0.13860000000000028 step 501
+>> Get fitness: 25.0888
+>> Controller #38 - id: 12453
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #39 - id: 12454
+>>	Controller Stuck: d=0.539200000000001 step 626
+>> Get fitness: 59.6968
+>> Controller #40 - id: 12455
+>>	Controller Stuck: d=0.4499999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #41 - id: 12456
+>>	Controller Stuck: d=0.4499999999998181 step 251
+>> Get fitness: 0.0
+>> Controller #42 - id: 12457
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #43 - id: 12458
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #44 - id: 12459
+>>	Controller Stuck: d=0.026999999999986812 step 876
+>> Get fitness: 265.299
+>> Controller #45 - id: 12460
+>>	Controller Stuck: d=0.7594299999999983 step 501
+>> Get fitness: 11.8918
+>> Controller #46 - id: 12461
+>>	Controller Stuck: d=0.31577000000000055 step 501
+>> Get fitness: 10.5458
+>> Controller #47 - id: 12462
+>>	Controller Stuck: d=0.36999999999989086 step 251
+>> Get fitness: 0.0
+>> Controller #48 - id: 12463
+>>	Controller Stuck: d=0.09999999999990905 step 376
+>> Get fitness: 0.0
+>> Controller #49 - id: 12464
+>>	Controller Stuck: d=0.27085000000000115 step 501
+>> Get fitness: 10.2861
+>> Controller #50 - id: 12465
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 1123
+INFO  neurons->connection id map size == 13363
+INFO  species count: 48
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=12443 score=0.05143585513983655 size=514
+INFO  Generation 13: end [13:54:09 - 14:02:34] [505415]
+INFO  Generation 14: start
+>> Controller #1 - id: 12443
+Client Connected.
+>>	Controller Stuck: d=0.18200000000001637 step 1376
+>> Get fitness: 686.056
+>> Controller #2 - id: 8747
+>>	Controller Stuck: d=0.09000000000003183 step 1626
+>> Get fitness: 489.244
+>> Controller #3 - id: 10664
+>>	Controller Stuck: d=0.1260000000000332 step 1126
+>> Get fitness: 483.598
+>> Controller #4 - id: 8754
+>>	Controller Stuck: d=0.011000000000024102 step 1126
+>> Get fitness: 475.617
+>> Controller #5 - id: 10637
+>>	Controller Stuck: d=0.18099999999998317 step 1126
+>> Get fitness: 469.115
+>> Controller #6 - id: 15148
+>>	Controller Stuck: d=0.7815399999999997 step 501
+>> Get fitness: 11.8848
+>> Controller #7 - id: 15149
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #8 - id: 15150
+>>	Controller Stuck: d=0.13230000000000075 step 501
+>> Get fitness: 22.4487
+>> Controller #9 - id: 15151
+>>	Controller Stuck: d=0.45999999999958163 step 251
+>> Get fitness: 0.0
+>> Controller #10 - id: 15152
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #11 - id: 15153
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 458.373
+>> Controller #12 - id: 15154
+>>	Controller Stuck: d=0.18559999999999732 step 751
+>> Get fitness: 37.2339
+>> Controller #13 - id: 15155
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #14 - id: 15156
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #15 - id: 15157
+>>	Controller Stuck: d=0.04899999999997817 step 1001
+>> Get fitness: 469.605
+>> Controller #16 - id: 15158
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #17 - id: 15159
+>>	Controller Stuck: d=0.32999999999992724 step 501
+>> Get fitness: 0.0
+>> Controller #18 - id: 15160
+>>	Controller Stuck: d=0.20799999999997 step 2126
+>> Get fitness: 877.671
+>> Controller #19 - id: 15161
+>>	Controller Stuck: d=0.07799999999997453 step 1251
+>> Get fitness: 544.236
+>> Controller #20 - id: 15162
+>>	Controller Stuck: d=0.20838 step 1376
+>> Get fitness: 34.133
+>> Controller #21 - id: 15163
+>>	Controller Stuck: d=0.35641999999999996 step 501
+>> Get fitness: 11.116
+>> Controller #22 - id: 15164
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #23 - id: 15165
+>>	Controller Stuck: d=0.7677699999999987 step 501
+>> Get fitness: 11.8835
+>> Controller #24 - id: 15166
+>>	Controller Stuck: d=0.47086000000000006 step 501
+>> Get fitness: 11.371
+>> Controller #25 - id: 15167
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #26 - id: 15168
+>>	Controller Stuck: d=0.1499999999996362 step 1876
+>> Get fitness: 52.7458
+>> Controller #27 - id: 15169
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #28 - id: 15170
+>>	Controller Stuck: d=0.02400000000000091 step 1001
+>> Get fitness: 462.301
+>> Controller #29 - id: 15171
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #30 - id: 15172
+>>	Controller Stuck: d=0.17401 step 501
+>> Get fitness: 9.17829
+>> Controller #31 - id: 15173
+>>	Controller Stuck: d=0.7809899999999992 step 501
+>> Get fitness: 11.8853
+>> Controller #32 - id: 15174
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #33 - id: 15175
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #34 - id: 15176
+>>	Controller Stuck: d=0.016999999999995907 step 1126
+>> Get fitness: 462.317
+>> Controller #35 - id: 15177
+>>	Controller Stuck: d=0.7807300000000001 step 501
+>> Get fitness: 11.8849
+>> Controller #36 - id: 15178
+>>	Controller Stuck: d=0.5237400000000001 step 501
+>> Get fitness: 11.0532
+>> Controller #37 - id: 15179
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 420.335
+>> Controller #38 - id: 15180
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #39 - id: 15181
+>>	Controller Stuck: d=0.02400000000000091 step 1251
+>> Get fitness: 473.105
+>> Controller #40 - id: 15182
+>>	Controller Stuck: d=0.05600000000004002 step 1126
+>> Get fitness: 582.169
+>> Controller #41 - id: 15183
+>>	Controller Stuck: d=0.07830000000000048 step 501
+>> Get fitness: 14.9965
+>> Controller #42 - id: 15184
+>>	Controller Stuck: d=0.11999999999999922 step 501
+>> Get fitness: 11.9729
+>> Controller #43 - id: 15185
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #44 - id: 15186
+>>	Controller Stuck: d=0.03999999999996362 step 376
+>> Get fitness: 0.0
+>> Controller #45 - id: 15187
+>>	Controller Stuck: d=0.36629999999999985 step 501
+>> Get fitness: 8.86826
+>> Controller #46 - id: 15188
+>>	Controller Stuck: d=0.016000000000019554 step 876
+>> Get fitness: 339.206
+>> Controller #47 - id: 15189
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 446.715
+>> Controller #48 - id: 15190
+>>	Controller Stuck: d=0.650000000000091 step 251
+>> Get fitness: 0.0
+>> Controller #49 - id: 15191
+>>	Controller Stuck: d=0.1279999999999859 step 1126
+>> Get fitness: 458.978
+>> Controller #50 - id: 15192
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 1418
+INFO  neurons->connection id map size == 17974
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=15160 score=0.06575691684786683 size=673
+INFO  Generation 14: end [14:02:34 - 14:11:10] [515170]
+INFO  Generation 15: start
+>> Controller #1 - id: 15160
+Client Connected.
+>>	Controller Stuck: d=0.20799999999997 step 2126
+>> Get fitness: 877.671
+>> Controller #2 - id: 12443
+>>	Controller Stuck: d=0.18200000000001637 step 1376
+>> Get fitness: 686.056
+>> Controller #3 - id: 15182
+>>	Controller Stuck: d=0.05600000000004002 step 1126
+>> Get fitness: 582.169
+>> Controller #4 - id: 15161
+>>	Controller Stuck: d=0.07799999999997453 step 1251
+>> Get fitness: 544.236
+>> Controller #5 - id: 10664
+>>	Controller Stuck: d=0.1260000000000332 step 1126
+>> Get fitness: 483.598
+>> Controller #6 - id: 20099
+>>	Controller Stuck: d=0.14710000000000178 step 626
+>> Get fitness: 22.5182
+>> Controller #7 - id: 20100
+>>	Controller Stuck: d=0.15000000000009095 step 376
+>> Get fitness: 0.0
+>> Controller #8 - id: 20101
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #9 - id: 20102
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #10 - id: 20103
+>>	Controller Stuck: d=0.44446999999999903 step 501
+>> Get fitness: 11.4042
+>> Controller #11 - id: 20104
+>>	Controller Stuck: d=0.7347999999999999 step 501
+>> Get fitness: 8.08738
+>> Controller #12 - id: 20105
+>>	Controller Stuck: d=0.02999999999974534 step 376
+>> Get fitness: 0.0
+>> Controller #13 - id: 20106
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #14 - id: 20107
+>>	Controller Stuck: d=0.10269999999999868 step 501
+>> Get fitness: 20.2668
+>> Controller #15 - id: 20108
+>>	Controller Stuck: d=0.03999999999996362 step 376
+>> Get fitness: 0.0
+>> Controller #16 - id: 20109
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #17 - id: 20110
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 20111
+>>	Controller Stuck: d=0.4299999999998363 step 251
+>> Get fitness: 0.0
+>> Controller #19 - id: 20112
+>>	Controller Stuck: d=0.25600000000002865 step 1001
+>> Get fitness: 447.669
+>> Controller #20 - id: 20113
+>>	Controller Stuck: d=0.7774400000000004 step 501
+>> Get fitness: 11.8908
+>> Controller #21 - id: 20114
+>>	Controller Stuck: d=0.7811500000000002 step 501
+>> Get fitness: 11.8847
+>> Controller #22 - id: 20115
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #23 - id: 20116
+>>	Controller Stuck: d=0.75671 step 501
+>> Get fitness: 11.8907
+>> Controller #24 - id: 20117
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #25 - id: 20118
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #26 - id: 20119
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #27 - id: 20120
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #28 - id: 20121
+>>	Controller Stuck: d=0.7740599999999986 step 501
+>> Get fitness: 11.8846
+>> Controller #29 - id: 20122
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #30 - id: 20123
+>>	Controller Stuck: d=0.18399999999996908 step 1126
+>> Get fitness: 468.909
+>> Controller #31 - id: 20124
+>>	Controller Stuck: d=0.11299999999999955 step 1126
+>> Get fitness: 454.953
+>> Controller #32 - id: 20125
+>>	Controller Stuck: d=0.18500000000000227 step 1126
+>> Get fitness: 469.02
+>> Controller #33 - id: 20126
+>>	Controller Stuck: d=0.5306099999999994 step 501
+>> Get fitness: 10.3767
+>> Controller #34 - id: 20127
+>>	Controller Stuck: d=0.07230000000000025 step 501
+>> Get fitness: 13.4198
+>> Controller #35 - id: 20128
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #36 - id: 20129
+>>	Controller Stuck: d=0.03000000000020009 step 376
+>> Get fitness: 0.0
+>> Controller #37 - id: 20130
+>>	Controller Stuck: d=0.11800000000000033 step 501
+>> Get fitness: 11.9927
+>> Controller #38 - id: 20131
+>>	Controller Stuck: d=0.7807700000000004 step 501
+>> Get fitness: 11.89
+>> Controller #39 - id: 20132
+>>	Controller Stuck: d=0.5265499999999985 step 501
+>> Get fitness: 10.2805
+>> Controller #40 - id: 20133
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #41 - id: 20134
+>>	Controller Stuck: d=0.013000000000033651 step 1251
+>> Get fitness: 563.23
+>> Controller #42 - id: 20135
+>>	Controller Stuck: d=0.7765699999999995 step 501
+>> Get fitness: 11.8856
+>> Controller #43 - id: 20136
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #44 - id: 20137
+>>	Controller Stuck: d=0.7810700000000015 step 501
+>> Get fitness: 11.8841
+>> Controller #45 - id: 20138
+>>	Controller Stuck: d=0.51145 step 501
+>> Get fitness: 10.5903
+>> Controller #46 - id: 20139
+>>	Controller Stuck: d=0.46240000000000236 step 501
+>> Get fitness: 53.9692
+>> Controller #47 - id: 20140
+>>	Controller Stuck: d=0.8545000000000016 step 501
+>> Get fitness: 50.854
+>> Controller #48 - id: 20141
+>>	Controller Stuck: d=0.0764999999999958 step 1876
+>> Get fitness: 495.847
+>> Controller #49 - id: 20142
+>>	Controller Stuck: d=0.7776600000000009 step 501
+>> Get fitness: 11.8885
+>> Controller #50 - id: 20143
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+INFO  connection->neuron id map size == 1756
+INFO  neurons->connection id map size == 21713
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=15160 score=0.06575691684786683 size=673
+INFO  Generation 15: end [14:11:10 - 14:19:37] [507677]
+INFO  Generation 16: start
+>> Controller #1 - id: 15160
+Client Connected.
+>>	Controller Stuck: d=0.20799999999997 step 2126
+>> Get fitness: 877.671
+>> Controller #2 - id: 12443
+>>	Controller Stuck: d=0.18200000000001637 step 1376
+>> Get fitness: 686.056
+>> Controller #3 - id: 15182
+>>	Controller Stuck: d=0.05600000000004002 step 1126
+>> Get fitness: 582.169
+>> Controller #4 - id: 20134
+>>	Controller Stuck: d=0.013000000000033651 step 1251
+>> Get fitness: 563.23
+>> Controller #5 - id: 15161
+>>	Controller Stuck: d=0.07799999999997453 step 1251
+>> Get fitness: 544.236
+>> Controller #6 - id: 24221
+>>	Controller Stuck: d=0.2383999999999986 step 376
+>> Get fitness: 13.0532
+>> Controller #7 - id: 24222
+>>	Controller Stuck: d=0.77407 step 501
+>> Get fitness: 11.8853
+>> Controller #8 - id: 24223
+>>	Controller Stuck: d=0.7595500000000008 step 501
+>> Get fitness: 11.8917
+>> Controller #9 - id: 24224
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #10 - id: 24225
+>>	Controller Stuck: d=0.77623 step 501
+>> Get fitness: 11.8845
+>> Controller #11 - id: 24226
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #12 - id: 24227
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #13 - id: 24228
+>>	Controller Stuck: d=0.05290000000000106 step 501
+>> Get fitness: 16.4966
+>> Controller #14 - id: 24229
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #15 - id: 24230
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #16 - id: 24231
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #17 - id: 24232
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #18 - id: 24233
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #19 - id: 24234
+>>	Controller Stuck: d=0.2708999999999975 step 876
+>> Get fitness: 33.3586
+>> Controller #20 - id: 24235
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #21 - id: 24236
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #22 - id: 24237
+>>	Controller Stuck: d=0.1238000000000028 step 626
+>> Get fitness: 26.9943
+>> Controller #23 - id: 24238
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #24 - id: 24239
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #25 - id: 24240
+>>	Controller Stuck: d=0.506870000000001 step 501
+>> Get fitness: 10.1585
+>> Controller #26 - id: 24241
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #27 - id: 24242
+>>	Controller Stuck: d=0.2540000000000191 step 1501
+>> Get fitness: 664.543
+>> Controller #28 - id: 24243
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #29 - id: 24244
+>>	Controller Stuck: d=0.31999999999970896 step 1876
+>> Get fitness: 22.3657
+>> Controller #30 - id: 24245
+>>	Controller Stuck: d=0.5038799999999988 step 501
+>> Get fitness: 10.0692
+>> Controller #31 - id: 24246
+>>	Controller Stuck: d=0.025000000000034106 step 1126
+>> Get fitness: 448.369
+>> Controller #32 - id: 24247
+>>	Controller Stuck: d=0.37269999999999825 step 501
+>> Get fitness: 24.3827
+>> Controller #33 - id: 24248
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #34 - id: 24249
+>>	Controller Stuck: d=0.02199999999999136 step 1001
+>> Get fitness: 482.215
+>> Controller #35 - id: 24250
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #36 - id: 24251
+>>	Controller Stuck: d=0.24960000000000093 step 501
+>> Get fitness: 11.5002
+>> Controller #37 - id: 24252
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #38 - id: 24253
+>>	Controller Stuck: d=0.7779299999999996 step 501
+>> Get fitness: 11.8861
+>> Controller #39 - id: 24254
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #40 - id: 24255
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #41 - id: 24256
+>>	Controller Stuck: d=0.7746999999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #42 - id: 24257
+>>	Controller Stuck: d=0.6618099999999991 step 501
+>> Get fitness: 11.8919
+>> Controller #43 - id: 24258
+>>	Controller Stuck: d=0.07000000000016371 step 376
+>> Get fitness: 0.0
+>> Controller #44 - id: 24259
+>>	Controller Stuck: d=0.2199999999997999 step 2126
+>> Get fitness: 20.6536
+>> Controller #45 - id: 24260
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #46 - id: 24261
+>>	Controller Stuck: d=0.5315300000000001 step 501
+>> Get fitness: 11.2192
+>> Controller #47 - id: 24262
+>>	Controller Stuck: d=0.7721300000000006 step 501
+>> Get fitness: 11.8829
+>> Controller #48 - id: 24263
+>>	Controller Stuck: d=0.7715000000000014 step 501
+>> Get fitness: 11.8851
+>> Controller #49 - id: 24264
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #50 - id: 24265
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+INFO  connection->neuron id map size == 2097
+INFO  neurons->connection id map size == 26008
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=15160 score=0.06575691684786683 size=673
+INFO  Generation 16: end [14:19:37 - 14:28:06] [508349]
+INFO  Generation 17: start
+>> Controller #1 - id: 15160
+Client Connected.
+>>	Controller Stuck: d=0.20799999999997 step 2126
+>> Get fitness: 877.671
+>> Controller #2 - id: 12443
+>>	Controller Stuck: d=0.18200000000001637 step 1376
+>> Get fitness: 686.056
+>> Controller #3 - id: 24242
+>>	Controller Stuck: d=0.2540000000000191 step 1501
+>> Get fitness: 664.543
+>> Controller #4 - id: 15182
+>>	Controller Stuck: d=0.05600000000004002 step 1126
+>> Get fitness: 582.169
+>> Controller #5 - id: 20134
+>>	Controller Stuck: d=0.013000000000033651 step 1251
+>> Get fitness: 563.23
+>> Controller #6 - id: 28902
+>>	Controller Stuck: d=0.7639000000000014 step 501
+>> Get fitness: 11.8858
+>> Controller #7 - id: 28903
+>>	Controller Stuck: d=0.7706499999999998 step 501
+>> Get fitness: 11.8851
+>> Controller #8 - id: 28904
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #9 - id: 28905
+>>	Controller Stuck: d=0.0500000000001819 step 376
+>> Get fitness: 0.0
+>> Controller #10 - id: 28906
+>>	Controller Stuck: d=0.2382799999999996 step 501
+>> Get fitness: 10.6482
+>> Controller #11 - id: 28907
+>>	Controller Stuck: d=0.3356999999999992 step 751
+>> Get fitness: 32.1231
+>> Controller #12 - id: 28908
+>>	Controller Stuck: d=0.6359999999999673 step 1126
+>> Get fitness: 437.979
+>> Controller #13 - id: 28909
+>>	Controller Stuck: d=0.7705300000000008 step 501
+>> Get fitness: 11.8853
+>> Controller #14 - id: 28910
+>>	Controller Stuck: d=0.41000000000030923 step 251
+>> Get fitness: 0.0
+>> Controller #15 - id: 28911
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #16 - id: 28912
+>>	Controller Stuck: d=0.76328 step 501
+>> Get fitness: 11.8857
+>> Controller #17 - id: 28913
+>>	Controller Stuck: d=0.1430000000000291 step 1126
+>> Get fitness: 458.585
+>> Controller #18 - id: 28914
+>>	Controller Stuck: d=0.7787400000000009 step 501
+>> Get fitness: 11.885
+>> Controller #19 - id: 28915
+>>	Controller Stuck: d=0.1357999999999997 step 501
+>> Get fitness: 21.998
+>> Controller #20 - id: 28916
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #21 - id: 28917
+>>	Controller Stuck: d=0.7668600000000012 step 501
+>> Get fitness: 11.8639
+>> Controller #22 - id: 28918
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #23 - id: 28919
+>>	Controller Stuck: d=0.08319999999999794 step 1001
+>> Get fitness: 65.2688
+>> Controller #24 - id: 28920
+>>	Controller Stuck: d=0.5229199999999992 step 501
+>> Get fitness: 10.5901
+>> Controller #25 - id: 28921
+>>	Controller Stuck: d=0.21589999999999954 step 501
+>> Get fitness: 13.1892
+>> Controller #26 - id: 28922
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #27 - id: 28923
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #28 - id: 28924
+>>	Controller Stuck: d=0.17300000000000182 step 1126
+>> Get fitness: 452.901
+>> Controller #29 - id: 28925
+>>	Controller Stuck: d=0.07799999999997453 step 1751
+>> Get fitness: 244.559
+>> Controller #30 - id: 28926
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #31 - id: 28927
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #32 - id: 28928
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #33 - id: 28929
+>>	Controller Stuck: d=0.1487999999999996 step 501
+>> Get fitness: 11.6893
+>> Controller #34 - id: 28930
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #35 - id: 28931
+>>	Controller Stuck: d=0.3492999999999995 step 501
+>> Get fitness: 17.9649
+>> Controller #36 - id: 28932
+>>	Controller Stuck: d=0.7767900000000001 step 501
+>> Get fitness: 11.8843
+>> Controller #37 - id: 28933
+>>	Controller Stuck: d=0.6328800000000001 step 501
+>> Get fitness: 11.4849
+>> Controller #38 - id: 28934
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #39 - id: 28935
+>>	Controller Stuck: d=0.08719999999999928 step 1001
+>> Get fitness: 99.4349
+>> Controller #40 - id: 28936
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #41 - id: 28937
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #42 - id: 28938
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #43 - id: 28939
+>>	Controller Stuck: d=0.5679999999999836 step 2626
+>> Get fitness: 952.395
+>> Controller #44 - id: 28940
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #45 - id: 28941
+>>	Controller Stuck: d=0.16140000000000043 step 501
+>> Get fitness: 18.2021
+>> Controller #46 - id: 28942
+>>	Controller Stuck: d=0.6418799999999987 step 501
+>> Get fitness: 11.4966
+>> Controller #47 - id: 28943
+>>	Controller Stuck: d=0.21699999999998454 step 1501
+>> Get fitness: 578.382
+>> Controller #48 - id: 28944
+>>	Controller Stuck: d=0.2800000000002001 step 251
+>> Get fitness: 0.0
+>> Controller #49 - id: 28945
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #50 - id: 28946
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 2439
+INFO  neurons->connection id map size == 29834
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=28939 score=0.0713803703981405 size=885
+INFO  Generation 17: end [14:28:06 - 14:36:35] [509901]
+INFO  Generation 18: start
+>> Controller #1 - id: 28939
+Client Connected.
+>>	Controller Stuck: d=0.5679999999999836 step 2626
+>> Get fitness: 952.395
+>> Controller #2 - id: 15160
+>>	Controller Stuck: d=0.20799999999997 step 2126
+>> Get fitness: 877.671
+>> Controller #3 - id: 12443
+>>	Controller Stuck: d=0.18200000000001637 step 1376
+>> Get fitness: 686.056
+>> Controller #4 - id: 24242
+>>	Controller Stuck: d=0.2540000000000191 step 1501
+>> Get fitness: 664.543
+>> Controller #5 - id: 15182
+>>	Controller Stuck: d=0.05600000000004002 step 1126
+>> Get fitness: 582.169
+>> Controller #6 - id: 33115
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #7 - id: 33116
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #8 - id: 33117
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #9 - id: 33118
+>>	Controller Stuck: d=0.7755100000000006 step 501
+>> Get fitness: 11.8845
+>> Controller #10 - id: 33119
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #11 - id: 33120
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #12 - id: 33121
+>>	Controller Stuck: d=0.5407100000000007 step 501
+>> Get fitness: 10.2708
+>> Controller #13 - id: 33122
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #14 - id: 33123
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #15 - id: 33124
+>>	Controller Stuck: d=0.7772300000000012 step 501
+>> Get fitness: 11.8943
+>> Controller #16 - id: 33125
+>>	Controller Stuck: d=0.049000000000001265 step 501
+>> Get fitness: 15.0631
+>> Controller #17 - id: 33126
+>>	Controller Stuck: d=0.7704299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #18 - id: 33127
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #19 - id: 33128
+>>	Controller Stuck: d=0.14039999999999964 step 501
+>> Get fitness: 21.5823
+>> Controller #20 - id: 33129
+>>	Controller Stuck: d=0.08319999999999972 step 501
+>> Get fitness: 15.3547
+>> Controller #21 - id: 33130
+>>	Controller Stuck: d=0.3149999999999977 step 1001
+>> Get fitness: 476.737
+>> Controller #22 - id: 33131
+>>	Controller Stuck: d=0.09399999999999409 step 1376
+>> Get fitness: 448.782
+>> Controller #23 - id: 33132
+>>	Controller Stuck: d=0.12099999999999511 step 751
+>> Get fitness: 102.645
+>> Controller #24 - id: 33133
+>>	Controller Stuck: d=0.09800000000001319 step 1251
+>> Get fitness: 453.533
+>> Controller #25 - id: 33134
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #26 - id: 33135
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #27 - id: 33136
+>>	Controller Stuck: d=0.7714200000000009 step 501
+>> Get fitness: 11.8841
+>> Controller #28 - id: 33137
+>>	Controller Stuck: d=0.036599999999999966 step 751
+>> Get fitness: 62.7052
+>> Controller #29 - id: 33138
+>>	Controller Stuck: d=0.02400000000000091 step 1126
+>> Get fitness: 310.393
+>> Controller #30 - id: 33139
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #31 - id: 33140
+>>	Controller Stuck: d=0.759500000000001 step 501
+>> Get fitness: 11.8898
+>> Controller #32 - id: 33141
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #33 - id: 33142
+>>	Controller Stuck: d=0.77834 step 501
+>> Get fitness: 11.885
+>> Controller #34 - id: 33143
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #35 - id: 33144
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #36 - id: 33145
+>>	Controller Stuck: d=0.77562 step 501
+>> Get fitness: 11.8859
+>> Controller #37 - id: 33146
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #38 - id: 33147
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #39 - id: 33148
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #40 - id: 33149
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #41 - id: 33150
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #42 - id: 33151
+>>	Controller Stuck: d=0.10800000000000054 step 501
+>> Get fitness: 11.3001
+>> Controller #43 - id: 33152
+>>	Controller Stuck: d=0.3509999999999991 step 1251
+>> Get fitness: 140.593
+>> Controller #44 - id: 33153
+>>	Controller Stuck: d=0.4701599999999999 step 501
+>> Get fitness: 11.0279
+>> Controller #45 - id: 33154
+>>	Controller Stuck: d=0.4250500000000006 step 501
+>> Get fitness: 10.099
+>> Controller #46 - id: 33155
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #47 - id: 33156
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #48 - id: 33157
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #49 - id: 33158
+>>	Controller Stuck: d=0.7672299999999996 step 501
+>> Get fitness: 11.8848
+>> Controller #50 - id: 33159
+>>	Controller Stuck: d=0.1366000000000014 step 501
+>> Get fitness: 42.1573
+INFO  connection->neuron id map size == 2726
+INFO  neurons->connection id map size == 32600
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=28939 score=0.0713803703981405 size=885
+INFO  Generation 18: end [14:36:35 - 14:45:04] [509031]
+INFO  Generation 19: start
+>> Controller #1 - id: 28939
+Client Connected.
+>>	Controller Stuck: d=0.5679999999999836 step 2626
+>> Get fitness: 952.395
+>> Controller #2 - id: 15160
+>>	Controller Stuck: d=0.20799999999997 step 2126
+>> Get fitness: 877.671
+>> Controller #3 - id: 12443
+>>	Controller Stuck: d=0.18200000000001637 step 1376
+>> Get fitness: 686.056
+>> Controller #4 - id: 24242
+>>	Controller Stuck: d=0.2540000000000191 step 1501
+>> Get fitness: 664.543
+>> Controller #5 - id: 15182
+>>	Controller Stuck: d=0.05600000000004002 step 1126
+>> Get fitness: 582.169
+>> Controller #6 - id: 36213
+>>	Controller Stuck: d=0.3979999999999677 step 876
+>> Get fitness: 303.813
+>> Controller #7 - id: 36214
+>>	Controller Stuck: d=0.7807600000000008 step 501
+>> Get fitness: 11.8942
+>> Controller #8 - id: 36215
+>>	Controller Stuck: d=0.03999999999996362 step 3876
+>> Get fitness: 2204.39
+>> Controller #9 - id: 36216
+>>	Controller Stuck: d=0.2300000000000182 step 1876
+>> Get fitness: 0.0
+>> Controller #10 - id: 36217
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #11 - id: 36218
+>>	Controller Stuck: d=0.4399999999995998 step 251
+>> Get fitness: 0.0
+>> Controller #12 - id: 36219
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #13 - id: 36220
+>>	Controller Stuck: d=0.1477000000000004 step 876
+>> Get fitness: 93.3494
+>> Controller #14 - id: 36221
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #15 - id: 36222
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #16 - id: 36223
+>>	Controller Stuck: d=0.2899999999999636 step 376
+>> Get fitness: 0.0
+>> Controller #17 - id: 36224
+>>	Controller Stuck: d=0.3999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #18 - id: 36225
+>>	Controller Stuck: d=0.04309999999999903 step 501
+>> Get fitness: 29.2409
+>> Controller #19 - id: 36226
+>>	Controller Stuck: d=0.7593599999999991 step 501
+>> Get fitness: 11.885
+>> Controller #20 - id: 36227
+>>	Controller Stuck: d=0.06400000000002137 step 1126
+>> Get fitness: 464.391
+>> Controller #21 - id: 36228
+>>	Controller Stuck: d=0.9900000000000091 step 4126
+>> Get fitness: 453.665
+>> Controller #22 - id: 36229
+>>	Controller Stuck: d=0.7728599999999997 step 501
+>> Get fitness: 11.9622
+>> Controller #23 - id: 36230
+>>	Controller Stuck: d=0.08000000000015461 step 2751
+>> Get fitness: 1370.39
+>> Controller #24 - id: 36231
+>>	Controller Stuck: d=0.08810000000000073 step 501
+>> Get fitness: 19.7268
+>> Controller #25 - id: 36232
+>>	Controller Stuck: d=0.3788400000000003 step 501
+>> Get fitness: 8.76822
+>> Controller #26 - id: 36233
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #27 - id: 36234
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #28 - id: 36235
+>>	Controller Stuck: d=0.7750799999999991 step 501
+>> Get fitness: 11.885
+>> Controller #29 - id: 36236
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>> Controller #30 - id: 36237
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #31 - id: 36238
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #32 - id: 36239
+>>	Controller Stuck: d=0.06000000000040018 step 376
+>> Get fitness: 0.0
+>> Controller #33 - id: 36240
+>>	Controller Stuck: d=0.7625699999999984 step 501
+>> Get fitness: 11.8853
+>> Controller #34 - id: 36241
+>>	Controller Stuck: d=0.9732000000000021 step 501
+>> Get fitness: 19.8672
+>> Controller #35 - id: 36242
+>>	Controller Stuck: d=0.7582799999999992 step 501
+>> Get fitness: 11.8848
+>> Controller #36 - id: 36243
+>>	Controller Stuck: d=0.3183000000000007 step 501
+>> Get fitness: 29.5242
+>> Controller #37 - id: 36244
+>>	Controller Stuck: d=0.7583800000000007 step 501
+>> Get fitness: 11.8853
+>> Controller #38 - id: 36245
+>>	Controller Stuck: d=0.06940000000000168 step 501
+>> Get fitness: 53.2087
+>> Controller #39 - id: 36246
+>>	Controller Stuck: d=0.125 step 501
+>> Get fitness: 13.1802
+>> Controller #40 - id: 36247
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #41 - id: 36248
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #42 - id: 36249
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #43 - id: 36250
+>>	Controller Stuck: d=0.7757199999999997 step 501
+>> Get fitness: 11.8847
+>> Controller #44 - id: 36251
+>>	Controller Stuck: d=0.7727299999999993 step 501
+>> Get fitness: 11.8853
+>> Controller #45 - id: 36252
+>>	Controller Stuck: d=0.136099999999999 step 501
+>> Get fitness: 14.4979
+>> Controller #46 - id: 36253
+>>	Controller Stuck: d=0.09399999999999409 step 1501
+>> Get fitness: 459.114
+>> Controller #47 - id: 36254
+>>	Controller Stuck: d=0.1493000000000002 step 501
+>> Get fitness: 20.3057
+>> Controller #48 - id: 36255
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>> Controller #49 - id: 36256
+>>	Controller Stuck: d=0.27999999999974534 step 376
+>> Get fitness: 0.0
+>> Controller #50 - id: 36257
+>>	Controller Stuck: d=0.4499999999998181 step 251
+>> Get fitness: 0.0
+INFO  connection->neuron id map size == 3082
+INFO  neurons->connection id map size == 36227
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=36215 score=0.16525455499737574 size=865
+INFO  Generation 19: end [14:45:04 - 14:53:37] [512775]
+INFO  Generation 20: start
+>> Controller #1 - id: 36215
+Client Connected.
+>>	Controller Stuck: d=0.12738 step 126
+>> Get fitness: 0.12738
+>> Controller #2 - id: 36230
+>>	Controller Stuck: d=0.146698 step 126
+>> Get fitness: 0.146698
+>> Controller #3 - id: 28939
+>>	Controller Stuck: d=0.00540161 step 126
+>> Get fitness: 0.00540161
+>> Controller #4 - id: 15160
+>>	Controller Stuck: d=0.30542 step 126
+>> Get fitness: 0.30542
+>> Controller #5 - id: 12443
+>>	Controller Stuck: d=0.319366 step 126
+>> Get fitness: 0.319366
+>> Controller #6 - id: 40241
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #7 - id: 40242
+>>	Controller Stuck: d=0.32921999999999985 step 376
+>> Get fitness: 3.50351
+>> Controller #8 - id: 40243
+>>	Controller Stuck: d=0.35299999999999443 step 376
+>> Get fitness: 35.2034
+>> Controller #9 - id: 40244
+>>	Controller Stuck: d=0.12999999999919964 step 251
+>> Get fitness: 0.0
+>> Controller #10 - id: 40245
+>>	Controller Stuck: d=0.463989 step 126
+>> Get fitness: 0.463989
+>> Controller #11 - id: 40246
+>>	Controller Stuck: d=0.762756 step 126
+>> Get fitness: 0.762756
+>> Controller #12 - id: 40247
+>>	Controller Stuck: d=0.3099999999994907 step 751
+>> Get fitness: 3.44336
+>> Controller #13 - id: 40248
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #14 - id: 40249
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #15 - id: 40250
+>>	Controller Stuck: d=0.026699999999999946 step 626
+>> Get fitness: 8.63222
+>> Controller #16 - id: 40251
+>>	Controller Stuck: d=0.3899999999994179 step 1251
+>> Get fitness: 3.44336
+>> Controller #17 - id: 40252
+>>	Controller Stuck: d=0.0463867 step 126
+>> Get fitness: 0.0463867
+>> Controller #18 - id: 40253
+>>	Controller Stuck: d=0.3381099999999999 step 376
+>> Get fitness: 3.43561
+>> Controller #19 - id: 40254
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #20 - id: 40255
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #21 - id: 40256
+>>	Controller Stuck: d=0.0544434 step 126
+>> Get fitness: 0.0544434
+>> Controller #22 - id: 40257
+>>	Controller Stuck: d=0.09000000000014552 step 1126
+>> Get fitness: 5.53326
+>> Controller #23 - id: 40258
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #24 - id: 40259
+>>	Controller Stuck: d=0.42000000000007276 step 1251
+>> Get fitness: 3.44336
+>> Controller #25 - id: 40260
+>>	Controller Stuck: d=0.3301099999999999 step 376
+>> Get fitness: 3.50214
+>> Controller #26 - id: 40261
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #27 - id: 40262
+>>	Controller Stuck: d=0.3301099999999999 step 376
+>> Get fitness: 3.50214
+>> Controller #28 - id: 40263
+>>	Controller Stuck: d=0.33794999999999975 step 376
+>> Get fitness: 3.57483
+>> Controller #29 - id: 40264
+>>	Controller Stuck: d=0.0219116 step 126
+>> Get fitness: 0.0219116
+>> Controller #30 - id: 40265
+>>	Controller Stuck: d=0.192078 step 126
+>> Get fitness: 0.192078
+>> Controller #31 - id: 40266
+>>	Controller Stuck: d=0.0223083 step 126
+>> Get fitness: 0.0223083
+>> Controller #32 - id: 40267
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #33 - id: 40268
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #34 - id: 40269
+>>	Controller Stuck: d=0.32189999999999985 step 376
+>> Get fitness: 3.50385
+>> Controller #35 - id: 40270
+>>	Controller Stuck: d=0.14000000000032742 step 2001
+>> Get fitness: 3.44336
+>> Controller #36 - id: 40271
+>>	Controller Stuck: d=0.22999999999956344 step 1376
+>> Get fitness: 3.44339
+>> Controller #37 - id: 40272
+>>	Controller Stuck: d=0.32106999999999974 step 376
+>> Get fitness: 3.48364
+>> Controller #38 - id: 40273
+>>	Controller Stuck: d=0.38000000000010914 step 1251
+>> Get fitness: 3.44336
+>> Controller #39 - id: 40274
+>>	Controller Stuck: d=0.3244699999999998 step 376
+>> Get fitness: 3.62546
+>> Controller #40 - id: 40275
+>>	Controller Stuck: d=0.33115000000000006 step 376
+>> Get fitness: 3.49469
+>> Controller #41 - id: 40276
+>>	Controller Stuck: d=0.4099999999998545 step 1376
+>> Get fitness: 3.44345
+>> Controller #42 - id: 40277
+>>	Controller Stuck: d=0.2600000000002183 step 3376
+>> Get fitness: 3.44366
+>> Controller #43 - id: 40278
+>>	Controller Stuck: d=0.46359999999999957 step 376
+>> Get fitness: 28.2976
+>> Controller #44 - id: 40279
+>>	Controller Stuck: d=0.5599999999994907 step 1126
+>> Get fitness: 3.44351
+>> Controller #45 - id: 40280
+>>	Controller Stuck: d=0.31999999999970896 step 3126
+>> Get fitness: 3.44339
+>> Controller #46 - id: 40281
+>>	Controller Stuck: d=0.32384999999999975 step 376
+>> Get fitness: 3.53943
+>> Controller #47 - id: 40282
+>>	Controller Stuck: d=0.0389099 step 126
+>> Get fitness: 0.0389099
+>> Controller #48 - id: 40283
+>>	Controller Stuck: d=0.3233999999999999 step 376
+>> Get fitness: 3.48935
+>> Controller #49 - id: 40284
+>>	Controller Stuck: d=0.3899999999994179 step 1626
+>> Get fitness: 3.50497
+>> Controller #50 - id: 40285
+>>	Controller Stuck: d=0.9979999999999905 step 1751
+>> Get fitness: 68.0448
+INFO  connection->neuron id map size == 3903
+INFO  neurons->connection id map size == 49709
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=40285 score=0.005098597885581465 size=1141
+INFO  Generation 20: end [14:53:37 - 15:02:24] [526672]
+INFO  Generation 21: start
+>> Controller #1 - id: 40285
+Client Connected.
+>>	Controller Stuck: d=0.930800000000005 step 1876
+>> Get fitness: 69.3747
+>> Controller #2 - id: 40243
+>>	Controller Stuck: d=0.27770000000000294 step 376
+>> Get fitness: 69.3883
+>> Controller #3 - id: 40278
+>>	Controller Stuck: d=0.46359999999999957 step 376
+>> Get fitness: 28.2976
+>> Controller #4 - id: 40250
+>>	Controller Stuck: d=0.026699999999999946 step 626
+>> Get fitness: 8.63222
+>> Controller #5 - id: 40257
+>>	Controller Stuck: d=0.09000000000014552 step 1126
+>> Get fitness: 5.53326
+>> Controller #6 - id: 54589
+>>	Controller Stuck: d=0.291016 step 126
+>> Get fitness: 0.291016
+>> Controller #7 - id: 54590
+>>	Controller Stuck: d=0.22000000000000242 step 376
+>> Get fitness: 29.6939
+>> Controller #8 - id: 54591
+>>	Controller Stuck: d=0.32982999999999985 step 376
+>> Get fitness: 29.3424
+>> Controller #9 - id: 54592
+>>	Controller Stuck: d=0.2627999999999986 step 501
+>> Get fitness: 59.6929
+>> Controller #10 - id: 54593
+>>	Controller Stuck: d=0.32982999999999985 step 376
+>> Get fitness: 59.6972
+>> Controller #11 - id: 54594
+>>	Controller Stuck: d=0.09649999999999892 step 501
+>> Get fitness: 57.6039
+>> Controller #12 - id: 54595
+>>	Controller Stuck: d=0.32999999999992724 step 1251
+>> Get fitness: 57.2856
+>> Controller #13 - id: 54596
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #14 - id: 54597
+>>	Controller Stuck: d=0.17000000000007276 step 6251
+>> Get fitness: 1011.96
+>> Controller #15 - id: 54598
+>>	Controller Stuck: d=0.32238999999999995 step 376
+>> Get fitness: 3.48834
+>> Controller #16 - id: 54599
+>>	Controller Stuck: d=0.142822 step 126
+>> Get fitness: 3.49362
+>> Controller #17 - id: 54600
+>>	Controller Stuck: d=0.005700000000004479 step 1626
+>> Get fitness: 62.3561
+>> Controller #18 - id: 54601
+>>	Controller Stuck: d=0.680000000000291 step 2001
+>> Get fitness: 60.099
+>> Controller #19 - id: 54602
+>>	Controller Stuck: d=0.71994 step 126
+>> Get fitness: 0.71994
+>> Controller #20 - id: 54603
+>>	Controller Stuck: d=0.32000000000061846 step 376
+>> Get fitness: 4.02911
+>> Controller #21 - id: 54604
+>>	Controller Stuck: d=0.680000000000291 step 2001
+>> Get fitness: 3.44336
+>> Controller #22 - id: 54605
+>>	Controller Stuck: d=0.32982999999999985 step 376
+>> Get fitness: 3.49936
+>> Controller #23 - id: 54606
+>>	Controller Stuck: d=0.762634 step 126
+>> Get fitness: 0.762634
+>> Controller #24 - id: 54607
+>>	Controller Stuck: d=0.339999999999236 step 1626
+>> Get fitness: 3.44339
+>> Controller #25 - id: 54608
+>>	Controller Stuck: d=0.32982999999999985 step 376
+>> Get fitness: 3.49936
+>> Controller #26 - id: 54609
+>>	Controller Stuck: d=0.151855 step 126
+>> Get fitness: 3.50494
+>> Controller #27 - id: 54610
+>>	Controller Stuck: d=0.010000000000218279 step 251
+>> Get fitness: 0.436432
+>> Controller #28 - id: 54611
+>>	Controller Stuck: d=0.32982999999999985 step 376
+>> Get fitness: 3.49936
+>> Controller #29 - id: 54612
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 3.50494
+>> Controller #30 - id: 54613
+>>	Controller Stuck: d=0.32982999999999985 step 376
+>> Get fitness: 3.49936
+>> Controller #31 - id: 54614
+>>	Controller Stuck: d=0.4815000000000005 step 376
+>> Get fitness: 30.1497
+>> Controller #32 - id: 54615
+>>	Controller Stuck: d=0.056699999999999307 step 626
+>> Get fitness: 51.9472
+>> Controller #33 - id: 54616
+>>	Controller Stuck: d=0.680000000000291 step 2001
+>> Get fitness: 40.3751
+>> Controller #34 - id: 54617
+>>	Controller Stuck: d=0.8499999999994543 step 2001
+>> Get fitness: 3.45053
+>> Controller #35 - id: 54618
+>>	Controller Stuck: d=0.2909200000000003 step 376
+>> Get fitness: 3.33957
+>> Controller #36 - id: 54619
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #37 - id: 54620
+>>	Controller Stuck: d=0.35109999999999886 step 376
+>> Get fitness: 25.5213
+>> Controller #38 - id: 54621
+>>	Controller Stuck: d=0.32962000000000025 step 376
+>> Get fitness: 25.1654
+>> Controller #39 - id: 54622
+>>	Controller Stuck: d=0.3286100000000003 step 376
+>> Get fitness: 3.69525
+>> Controller #40 - id: 54623
+>>	Controller Stuck: d=0.295013 step 126
+>> Get fitness: 3.70065
+>> Controller #41 - id: 54624
+>>	Controller Stuck: d=0.1999999999998181 step 251
+>> Get fitness: 0.589966
+>> Controller #42 - id: 54625
+>>	Controller Stuck: d=0.680000000000291 step 2001
+>> Get fitness: 3.44336
+>> Controller #43 - id: 54626
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #44 - id: 54627
+>>	Controller Stuck: d=0.284399999999998 step 376
+>> Get fitness: 27.2121
+>> Controller #45 - id: 54628
+>>	Controller Stuck: d=0.11829 step 376
+>> Get fitness: 26.8804
+>> Controller #46 - id: 54629
+>>	Controller Stuck: d=0.162506 step 126
+>> Get fitness: 2.81265
+>> Controller #47 - id: 54630
+>>	Controller Stuck: d=0.11690000000000111 step 501
+>> Get fitness: 43.4348
+>> Controller #48 - id: 54631
+>>	Controller Stuck: d=0.31537000000000015 step 376
+>> Get fitness: 42.7027
+>> Controller #49 - id: 54632
+>>	Controller Stuck: d=0.7200000000002547 step 1876
+>> Get fitness: 3.44336
+>> Controller #50 - id: 54633
+>>	Controller Stuck: d=0.32982999999999985 step 376
+>> Get fitness: 3.49936
+INFO  connection->neuron id map size == 5226
+INFO  neurons->connection id map size == 71204
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=54597 score=0.07580415385768914 size=1682
+INFO  Generation 21: end [15:02:24 - 15:11:49] [565019]
+INFO  Generation 22: start
+>> Controller #1 - id: 54597
+Client Connected.
+>>	Controller Stuck: d=0.0929871 step 126
+>> Get fitness: 0.0929871
+>> Controller #2 - id: 40285
+>>	Controller Stuck: d=0.9979999999999905 step 1751
+>> Get fitness: 68.0448
+>> Controller #3 - id: 40243
+>>	Controller Stuck: d=0.35299999999999443 step 376
+>> Get fitness: 35.2034
+>> Controller #4 - id: 54600
+>>	Controller Stuck: d=0.005699999999997374 step 1626
+>> Get fitness: 62.3561
+>> Controller #5 - id: 54601
+>>	Controller Stuck: d=0.680000000000291 step 2001
+>> Get fitness: 60.099
+>> Controller #6 - id: 77452
+>>	Controller Stuck: d=0.27999999999974534 step 2001
+>> Get fitness: 3.44336
+>> Controller #7 - id: 77453
+>>	Controller Stuck: d=0.32360999999999995 step 376
+>> Get fitness: 3.48941
+>> Controller #8 - id: 77454
+>>	Controller Stuck: d=0.26119999999999877 step 501
+>> Get fitness: 29.2551
+>> Controller #9 - id: 77455
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 929.027
+>> Controller #10 - id: 77456
+>>	Controller Stuck: d=0.7180000000000177 step 1001
+>> Get fitness: 167.449
+>> Controller #11 - id: 77457
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>> Controller #12 - id: 77458
+>>	Controller Stuck: d=0.3296199999999998 step 376
+>> Get fitness: 3.49661
+>> Controller #13 - id: 77459
+>>	Controller Stuck: d=0.24570000000000025 step 376
+>> Get fitness: 7.08821
+>> Controller #14 - id: 77460
+>>	Controller Stuck: d=0.3400000000001455 step 1251
+>> Get fitness: 7.09407
+>> Controller #15 - id: 77461
+>>	Controller Stuck: d=0.020000000000436557 step 251
+>> Get fitness: 0.0
+>> Controller #16 - id: 77462
+>>	Controller Stuck: d=0.03999999999996362 step 501
+>> Get fitness: 4.43393
+>> Controller #17 - id: 77463
+>>	Controller Stuck: d=0.3294100000000002 step 376
+>> Get fitness: 3.4939
+>> Controller #18 - id: 77464
+>>	Controller Stuck: d=0.27999999999974534 step 2001
+>> Get fitness: 3.50494
+>> Controller #19 - id: 77465
+>>	Controller Stuck: d=0.005799999999997141 step 626
+>> Get fitness: 35.5224
+>> Controller #20 - id: 77466
+>>	Controller Stuck: d=0.3000000000001819 step 2876
+>> Get fitness: 31.7699
+>> Controller #21 - id: 77467
+>>	Controller Stuck: d=0.27999999999974534 step 2001
+>> Get fitness: 3.44336
+>> Controller #22 - id: 77468
+>>	Controller Stuck: d=0.16000000000076398 step 1501
+>> Get fitness: 3.44336
+>> Controller #23 - id: 77469
+>>	Controller Stuck: d=0.3294100000000002 step 376
+>> Get fitness: 3.4939
+>> Controller #24 - id: 77470
+>>	Controller Stuck: d=0.242126 step 126
+>> Get fitness: 3.50494
+>> Controller #25 - id: 77471
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 138.699
+>> Controller #26 - id: 77472
+>>	Controller Stuck: d=0.32491999999999965 step 376
+>> Get fitness: 3.49191
+>> Controller #27 - id: 77473
+>>	Controller Stuck: d=0.3294100000000002 step 376
+>> Get fitness: 3.50272
+>> Controller #28 - id: 77474
+>>	Controller Stuck: d=0.27999999999974534 step 2001
+>> Get fitness: 3.50494
+>> Controller #29 - id: 77475
+>>	Controller Stuck: d=0.3500000000003638 step 876
+>> Get fitness: 3.44336
+>> Controller #30 - id: 77476
+>>	Controller Stuck: d=0.6500000000005457 step 626
+>> Get fitness: 3.48053
+>> Controller #31 - id: 77477
+>>	Controller Stuck: d=0.4600000000000364 step 1251
+>> Get fitness: 3.444
+>> Controller #32 - id: 77478
+>>	Controller Stuck: d=0.27999999999974534 step 2001
+>> Get fitness: 3.44336
+>> Controller #33 - id: 77479
+>>	Controller Stuck: d=0.08000000000004093 step 1501
+>> Get fitness: 1020.9
+>> Controller #34 - id: 77480
+>>	Controller Stuck: d=0.23560000000000159 step 501
+>> Get fitness: 31.4005
+>> Controller #35 - id: 77481
+>>	Controller Stuck: d=0.3305000000000007 step 376
+>> Get fitness: 37.8818
+>> Controller #36 - id: 77482
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 36.5909
+>> Controller #37 - id: 77483
+>>	Controller Stuck: d=0.27999999999974534 step 2001
+>> Get fitness: 3.44336
+>> Controller #38 - id: 77484
+>>	Controller Stuck: d=0.27999999999974534 step 2001
+>> Get fitness: 3.44336
+>> Controller #39 - id: 77485
+>>	Controller Stuck: d=0.31708000000000025 step 376
+>> Get fitness: 3.47922
+>> Controller #40 - id: 77486
+>>	Controller Stuck: d=0.2999999999999545 step 2751
+>> Get fitness: 1386.09
+>> Controller #41 - id: 77487
+>>	Controller Stuck: d=0.7600000000002183 step 2001
+>> Get fitness: 3.44336
+>> Controller #42 - id: 77488
+>>	Controller Stuck: d=0.27999999999974534 step 2001
+>> Get fitness: 3.44336
+>> Controller #43 - id: 77489
+>>	Controller Stuck: d=0.32809 step 376
+>> Get fitness: 3.48596
+>> Controller #44 - id: 77490
+>>	Controller Stuck: d=0.32216999999999985 step 376
+>> Get fitness: 3.4939
+>> Controller #45 - id: 77491
+>>	Controller Stuck: d=0.4399999999999409 step 1876
+>> Get fitness: 1000.9
+>> Controller #46 - id: 77492
+>>	Controller Stuck: d=0.27999999999974534 step 2001
+>> Get fitness: 3.44336
+>> Controller #47 - id: 77493
+>>	Controller Stuck: d=0.38000000000010914 step 1626
+>> Get fitness: 3.44342
+>> Controller #48 - id: 77494
+>>	Controller Stuck: d=0.4600000000000364 step 2376
+>> Get fitness: 3.44385
+>> Controller #49 - id: 77495
+>>	Controller Stuck: d=0.402000000000001 step 376
+>> Get fitness: 33.6762
+>> Controller #50 - id: 77496
+>>	Controller Stuck: d=0.2981799999999999 step 376
+>> Get fitness: 32.791
+INFO  connection->neuron id map size == 7486
+INFO  neurons->connection id map size == 117833
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=77486 score=0.10392142160905751 size=2407
+INFO  Generation 22: end [15:11:49 - 15:23:47] [718545]
+INFO  Generation 23: start
+>> Controller #1 - id: 77486
+Client Connected.
+>>	Controller Stuck: d=0.148102 step 126
+>> Get fitness: 0.148102
+>> Controller #2 - id: 77479
+>>	Controller Stuck: d=0.0332947 step 126
+>> Get fitness: 0.571411
+>> Controller #3 - id: 77491
+>>	Controller Stuck: d=0.4499999999999318 step 1876
+>> Get fitness: 1000.91
+>> Controller #4 - id: 77455
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 929.027
+>> Controller #5 - id: 77456
+>>	Controller Stuck: d=0.7229999999999848 step 1001
+>> Get fitness: 167.463
+>> Controller #6 - id: 126386
+>>	Controller Stuck: d=0.7229999999999563 step 2001
+>> Get fitness: 822.899
+>> Controller #7 - id: 126387
+>>	Controller Stuck: d=0.6999999999998181 step 4376
+>> Get fitness: 3.44336
+>> Controller #8 - id: 126388
+>>	Controller Stuck: d=0.569999999999709 step 3626
+>> Get fitness: 3.44336
+>> Controller #9 - id: 126389
+>>	Controller Stuck: d=0.0 step 376
+>> Get fitness: 3.52081
+>> Controller #10 - id: 126390
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 6971.88
+>> Controller #11 - id: 126391
+>>	Controller Stuck: d=0.3286199999999999 step 376
+>> Get fitness: 3.48569
+>> Controller #12 - id: 126392
+>>	Controller Stuck: d=0.32837000000000005 step 376
+>> Get fitness: 3.50769
+>> Controller #13 - id: 126393
+>>	Controller Stuck: d=0.339999999999236 step 1376
+>> Get fitness: 3.49936
+>> Controller #14 - id: 126394
+>>	Controller Stuck: d=0.05139000000000005 step 376
+>> Get fitness: 4.43555
+>> Controller #15 - id: 126395
+>>	Controller Stuck: d=0.24799999999999045 step 1126
+>> Get fitness: 501.481
+>> Controller #16 - id: 126396
+>>	Controller Stuck: d=0.36999999999989086 step 751
+>> Get fitness: 3.44418
+>> Controller #17 - id: 126397
+>>	Controller Stuck: d=0.16399999999998727 step 876
+>> Get fitness: 251.688
+>> Controller #18 - id: 126398
+>>	Controller Stuck: d=0.11999999999989086 step 501
+>> Get fitness: 3.44336
+>> Controller #19 - id: 126399
+>>	Controller Stuck: d=0.02999999999974534 step 5501
+>> Get fitness: 3088.89
+>> Controller #20 - id: 126400
+>>	Controller Stuck: d=0.3300200000000002 step 376
+>> Get fitness: 3.52042
+>> Controller #21 - id: 126401
+>>	Controller Stuck: d=0.75 step 751
+>> Get fitness: 3.54544
+>> Controller #22 - id: 126402
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 7418.77
+>> Controller #23 - id: 126403
+>>	Controller Stuck: d=0.3990000000000009 step 2001
+>> Get fitness: 911.827
+>> Controller #24 - id: 126404
+>>	Controller Stuck: d=0.5500000000001819 step 6126
+>> Get fitness: 626.9703000000001
+>> Controller #25 - id: 126405
+>>	Controller Stuck: d=0.4700000000000273 step 3126
+>> Get fitness: 1895.9
+>> Controller #26 - id: 126406
+>>	Controller Stuck: d=0.33698000000000006 step 376
+>> Get fitness: 3.48993
+>> Controller #27 - id: 126407
+>>	Controller Stuck: d=0.019999999999527063 step 376
+>> Get fitness: 3.51224
+>> Controller #28 - id: 126408
+>>	Controller Stuck: d=0.3307199999999999 step 376
+>> Get fitness: 3.48276
+>> Controller #29 - id: 126409
+>>	Controller Stuck: d=0.0999999999994543 step 3626
+>> Get fitness: 3.50748
+>> Controller #30 - id: 126410
+>>	Controller Stuck: d=0.2485000000000035 step 501
+>> Get fitness: 30.4901
+>> Controller #31 - id: 126411
+>>	Controller Stuck: d=0.3317800000000002 step 376
+>> Get fitness: 30.5095
+>> Controller #32 - id: 126412
+>>	Controller Stuck: d=0.14399999999999125 step 1126
+>> Get fitness: 104.943
+>> Controller #33 - id: 126413
+>>	Controller Stuck: d=0.45279000000000025 step 376
+>> Get fitness: 4.7533
+>> Controller #34 - id: 126414
+>>	Controller Stuck: d=0.4399999999995998 step 1251
+>> Get fitness: 4.78165
+>> Controller #35 - id: 126415
+>>	Controller Stuck: d=0.9400000000005093 step 3626
+>> Get fitness: 3.44336
+>> Controller #36 - id: 126416
+>>	Controller Stuck: d=0.4099999999998545 step 1251
+>> Get fitness: 3.44336
+>> Controller #37 - id: 126417
+>>	Controller Stuck: d=0.569999999999709 step 3626
+>> Get fitness: 3.44336
+>> Controller #38 - id: 126418
+>>	Controller Stuck: d=0.5500000000001819 step 2001
+>> Get fitness: 3.44409
+>> Controller #39 - id: 126419
+>>	Controller Stuck: d=0.3099999999994907 step 1626
+>> Get fitness: 3.44336
+>> Controller #40 - id: 126420
+>>	Controller Stuck: d=0.419999999999618 step 4876
+>> Get fitness: 3352.74
+>> Controller #41 - id: 126421
+>>	Controller Stuck: d=0.9400000000005093 step 3626
+>> Get fitness: 3.44336
+>> Controller #42 - id: 126422
+>>	Controller Stuck: d=0.32891000000000004 step 376
+>> Get fitness: 3.48846
+>> Controller #43 - id: 126423
+>>	Controller Stuck: d=0.6999999999998181 step 4376
+>> Get fitness: 3.51315
+>> Controller #44 - id: 126424
+>>	Controller Stuck: d=0.9400000000005093 step 3626
+>> Get fitness: 3.44336
+>> Controller #45 - id: 126425
+>>	Controller Stuck: d=0.04000000000007731 step 1626
+>> Get fitness: 1005.0
+>> Controller #46 - id: 126426
+>>	Controller Stuck: d=0.01999999999998181 step 1751
+>> Get fitness: 1008.38
+>> Controller #47 - id: 126427
+>>	Controller Stuck: d=0.6999999999998181 step 4376
+>> Get fitness: 3.44336
+>> Controller #48 - id: 126428
+>>	Controller Stuck: d=0.37400000000002365 step 3001
+>> Get fitness: 552.932
+>> Controller #49 - id: 126429
+>>	Controller Stuck: d=0.33248999999999995 step 376
+>> Get fitness: 3.48862
+>> Controller #50 - id: 126430
+>>	Controller Stuck: d=0.15999999999985448 step 2876
+>> Get fitness: 3.50507
+INFO  connection->neuron id map size == 11836
+INFO  neurons->connection id map size == 212892
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=126402 score=0.5561970458124016 size=3703
+INFO  Generation 23: end [15:23:47 - 15:47:02] [1394144]
+INFO  Generation 24: start
+>> Controller #1 - id: 126402
+Client Connected.
+>>	Controller Stuck: d=0.967621 step 126
+>> Get fitness: 0.967621
+>> Controller #2 - id: 126390
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 6965.648
+>> Controller #3 - id: 126420
+>>	Controller Stuck: d=0.34999999999990905 step 4876
+>> Get fitness: 3352.74
+>> Controller #4 - id: 126399
+>>	Controller Stuck: d=0.02999999999974534 step 5501
+>> Get fitness: 3088.89
+>> Controller #5 - id: 126405
+>>	Controller Stuck: d=0.4700000000000273 step 3126
+>> Get fitness: 1895.91
+>> Controller #6 - id: 225840
+>>	Controller Stuck: d=0.9829999999999472 step 2501
+>> Get fitness: 329.406
+>> Controller #7 - id: 225841
+>>	Controller Stuck: d=0.32635999999999976 step 376
+>> Get fitness: 3.46094
+>> Controller #8 - id: 225842
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.50214
+>> Controller #9 - id: 225843
+>>	Controller Stuck: d=0.47375999999999996 step 376
+>> Get fitness: 3.66553
+>> Controller #10 - id: 225844
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.72281
+>> Controller #11 - id: 225845
+>>	Controller Stuck: d=0.13769999999999527 step 626
+>> Get fitness: 78.1114
+>> Controller #12 - id: 225846
+>>	Controller Stuck: d=0.16300000000001091 step 1251
+>> Get fitness: 442.651
+>> Controller #13 - id: 225847
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.44336
+>> Controller #14 - id: 225848
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 247.103
+>> Controller #15 - id: 225849
+>>	Controller Stuck: d=0.17599999999993088 step 1876
+>> Get fitness: 990.241
+>> Controller #16 - id: 225850
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.44336
+>> Controller #17 - id: 225851
+>>	Controller Stuck: d=0.14000000000032742 step 376
+>> Get fitness: 3.44336
+>> Controller #18 - id: 225852
+>>	Controller Stuck: d=0.2899999999999636 step 626
+>> Get fitness: 3.44336
+>> Controller #19 - id: 225853
+>>	Controller Stuck: d=0.0500000000001819 step 376
+>> Get fitness: 3.44357
+>> Controller #20 - id: 225854
+>>	Controller Stuck: d=0.2899999999999636 step 626
+>> Get fitness: 3.44336
+>> Controller #21 - id: 225855
+>>	Controller Stuck: d=0.32635999999999976 step 376
+>> Get fitness: 3.46094
+>> Controller #22 - id: 225856
+>>	Controller Stuck: d=0.8599999999996726 step 376
+>> Get fitness: 5.18161
+>> Controller #23 - id: 225857
+>>	Controller Stuck: d=0.36999999999989086 step 1626
+>> Get fitness: 3.44336
+>> Controller #24 - id: 225858
+>>	Controller Stuck: d=0.8300000000001546 step 2126
+>> Get fitness: 1098.32
+>> Controller #25 - id: 225859
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.46365
+>> Controller #26 - id: 225860
+>>	Controller Stuck: d=0.31984999999999975 step 376
+>> Get fitness: 3.50494
+>> Controller #27 - id: 225861
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.49231
+>> Controller #28 - id: 225862
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.50494
+>> Controller #29 - id: 225863
+>>	Controller Stuck: d=0.2190000000000083 step 876
+>> Get fitness: 112.273
+>> Controller #30 - id: 225864
+>>	Controller Stuck: d=0.2899999999999636 step 626
+>> Get fitness: 3.45706
+>> Controller #31 - id: 225865
+>>	Controller Stuck: d=0.3400000000001455 step 1251
+>> Get fitness: 3.44336
+>> Controller #32 - id: 225866
+>>	Controller Stuck: d=0.6680000000000064 step 2251
+>> Get fitness: 930.72
+>> Controller #33 - id: 225867
+>>	Controller Stuck: d=0.6551000000000009 step 501
+>> Get fitness: 27.7345
+>> Controller #34 - id: 225868
+>>	Controller Stuck: d=0.36999999999989086 step 876
+>> Get fitness: 32.1897
+>> Controller #35 - id: 225869
+>>	Controller Stuck: d=0.5009999999999764 step 1126
+>> Get fitness: 451.09
+>> Controller #36 - id: 225870
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #37 - id: 225871
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.46365
+>> Controller #38 - id: 225872
+>>	Controller Stuck: d=0.26999999999952706 step 1126
+>> Get fitness: 3.51511
+>> Controller #39 - id: 225873
+>>	Controller Stuck: d=0.35999999999999943 step 376
+>> Get fitness: 20.1833
+>> Controller #40 - id: 225874
+>>	Controller Stuck: d=0.75 step 626
+>> Get fitness: 19.5604
+>> Controller #41 - id: 225875
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.46365
+>> Controller #42 - id: 225876
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.50494
+>> Controller #43 - id: 225877
+>>	Controller Stuck: d=0.75 step 626
+>> Get fitness: 3.44336
+>> Controller #44 - id: 225878
+>>	Controller Stuck: d=0.0500000000001819 step 376
+>> Get fitness: 3.44336
+>> Controller #45 - id: 225879
+>>	Controller Stuck: d=0.1519999999999868 step 1251
+>> Get fitness: 445.464
+>> Controller #46 - id: 225880
+>>	Controller Stuck: d=0.0 step 3251
+>> Get fitness: 4.88773
+>> Controller #47 - id: 225881
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>> Controller #48 - id: 225882
+>>	Controller Stuck: d=0.32635999999999976 step 376
+>> Get fitness: 3.46094
+>> Controller #49 - id: 225883
+>>	Controller Stuck: d=0.007179999999999964 step 376
+>> Get fitness: 3.50214
+>> Controller #50 - id: 225884
+>>	Controller Stuck: d=0.18799999999998818 step 2126
+>> Get fitness: 771.404
+INFO  connection->neuron id map size == 15670
+INFO  neurons->connection id map size == 291167
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=126390 score=0.5222313863687486 size=3619
+INFO  Generation 24: end [15:47:02 - 16:15:21] [1699626]
+INFO  Generation 25: start
+>> Controller #1 - id: 126390
+Client Connected.
+>>	Controller Stuck: d=0.518127 step 126
+>> Get fitness: 0.518127
+>> Controller #2 - id: 126420
+>>	Controller Stuck: d=0.34999999999990905 step 4876
+>> Get fitness: 3352.74
+>> Controller #3 - id: 126399
+>>	Controller Stuck: d=0.02999999999974534 step 5501
+>> Get fitness: 3088.89
+>> Controller #4 - id: 126405
+>>	Controller Stuck: d=0.4700000000000273 step 3126
+>> Get fitness: 1895.91
+>> Controller #5 - id: 225858
+>>	Controller Stuck: d=0.8300000000001546 step 2126
+>> Get fitness: 1098.32
+>> Controller #6 - id: 307994
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.46365
+>> Controller #7 - id: 307995
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 3.50494
+>> Controller #8 - id: 307996
+>>	Controller Stuck: d=0.4899999999997817 step 2376
+>> Get fitness: 3.57584
+>> Controller #9 - id: 307997
+>>	Controller Stuck: d=4.5999999999990493E-4 step 376
+>> Get fitness: 2.04962
+>> Controller #10 - id: 307998
+>>	Controller Stuck: d=0.020000000000436557 step 251
+>> Get fitness: 2.04861
+>> Controller #11 - id: 307999
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.46365
+>> Controller #12 - id: 308000
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 3.50494
+>> Controller #13 - id: 308001
+>>	Controller Stuck: d=0.22400000000004638 step 1501
+>> Get fitness: 759.316
+>> Controller #14 - id: 308002
+>>	Controller Stuck: d=0.0945999999999998 step 1751
+>> Get fitness: 38.3077
+>> Controller #15 - id: 308003
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 23.9287
+>> Controller #16 - id: 308004
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 7122.798
+>> Controller #17 - id: 308005
+>>	Controller Stuck: d=0.3268099999999996 step 376
+>> Get fitness: 3.82562
+>> Controller #18 - id: 308006
+>>	Controller Stuck: d=0.8099999999994907 step 626
+>> Get fitness: 3.88467
+>> Controller #19 - id: 308007
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.44336
+>> Controller #20 - id: 308008
+>>	Controller Stuck: d=0.3212799999999998 step 376
+>> Get fitness: 3.45605
+>> Controller #21 - id: 308009
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.49612
+>> Controller #22 - id: 308010
+>>	Controller Stuck: d=0.4499999999998181 step 501
+>> Get fitness: 3.52429
+>> Controller #23 - id: 308011
+>>	Controller Stuck: d=0.17000000000007276 step 2001
+>> Get fitness: 3.44418
+>> Controller #24 - id: 308012
+>>	Controller Stuck: d=0.008459999999999912 step 376
+>> Get fitness: 3.58984
+>> Controller #25 - id: 308013
+>>	Controller Stuck: d=4.900000000001015E-4 step 376
+>> Get fitness: 2.80981
+>> Controller #26 - id: 308014
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.44336
+>> Controller #27 - id: 308015
+>>	Controller Stuck: d=0.030000000000654836 step 251
+>> Get fitness: 0.0
+>> Controller #28 - id: 308016
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.46365
+>> Controller #29 - id: 308017
+>>	Controller Stuck: d=0.930000000000291 step 1751
+>> Get fitness: 3.50494
+>> Controller #30 - id: 308018
+>>	Controller Stuck: d=0.38000000000010914 step 4376
+>> Get fitness: 3.44336
+>> Controller #31 - id: 308019
+>>	Controller Stuck: d=0.3261099999999999 step 376
+>> Get fitness: 3.45822
+>> Controller #32 - id: 308020
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.49936
+>> Controller #33 - id: 308021
+>>	Controller Stuck: d=0.32635999999999976 step 376
+>> Get fitness: 3.52704
+>> Controller #34 - id: 308022
+>>	Controller Stuck: d=0.3600000000005821 step 1376
+>> Get fitness: 3.50214
+>> Controller #35 - id: 308023
+>>	Controller Stuck: d=0.9800000000004729 step 1251
+>> Get fitness: 3.44336
+>> Controller #36 - id: 308024
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.44336
+>> Controller #37 - id: 308025
+>>	Controller Stuck: d=0.12259999999999849 step 501
+>> Get fitness: 40.4517
+>> Controller #38 - id: 308026
+>>	Controller Stuck: d=0.3900000000003274 step 1376
+>> Get fitness: 40.2458
+>> Controller #39 - id: 308027
+>>	Controller Stuck: d=0.0811099999999998 step 376
+>> Get fitness: 7.51158
+>> Controller #40 - id: 308028
+>>	Controller Stuck: d=0.5100000000002183 step 251
+>> Get fitness: 7.25944
+>> Controller #41 - id: 308029
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.44336
+>> Controller #42 - id: 308030
+>>	Controller Stuck: d=0.3261099999999999 step 376
+>> Get fitness: 3.45822
+>> Controller #43 - id: 308031
+>>	Controller Stuck: d=0.5100000000002183 step 1001
+>> Get fitness: 3.49936
+>> Controller #44 - id: 308032
+>>	Controller Stuck: d=0.38000000000010914 step 1376
+>> Get fitness: 3.44336
+>> Controller #45 - id: 308033
+>>	Controller Stuck: d=0.32628999999999975 step 376
+>> Get fitness: 3.45959
+>> Controller #46 - id: 308034
+>>	Controller Stuck: d=0.09000000000014552 step 3751
+>> Get fitness: 2442.62
+>> Controller #47 - id: 308035
+>>	Controller Stuck: d=0.2600000000002183 step 1376
+>> Get fitness: 3.44406
+>> Controller #48 - id: 308036
+>>	Controller Stuck: d=0.3261099999999999 step 376
+>> Get fitness: 3.45822
+>> Controller #49 - id: 308037
+>>	Controller Stuck: d=0.2740199999999997 step 376
+>> Get fitness: 3.49936
+>> Controller #50 - id: 308038
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.44336
+INFO  connection->neuron id map size == 21394
+INFO  neurons->connection id map size == 422394
+INFO  species count: 50
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=308004 score=0.5340031491339882 size=5890
+INFO  Generation 25: end [16:15:21 - 17:13:09] [3467529]
+INFO  Generation 26: start
+>> Controller #1 - id: 308004
+Client Connected.
+>>	Controller Stuck: d=0.147034 step 126
+>> Get fitness: 0.147034
+>> Controller #2 - id: 126420
+>>	Controller Stuck: d=0.2600000000002183 step 4751
+>> Get fitness: 3162.83
+>> Controller #3 - id: 126399
+>>	Controller Stuck: d=0.5699999999999363 step 4001
+>> Get fitness: 1900.82
+>> Controller #4 - id: 308034
+>>	Controller Stuck: d=0.27800000000002 step 751
+>> Get fitness: 265.447
+>> Controller #5 - id: 126405
+>>	Controller Stuck: d=0.32920000000000016 step 4251
+>> Get fitness: 1542.6926999999998
+>> Controller #6 - id: 444990
+>>	Controller Stuck: d=0.01999999999998181 step 4751
+>> Get fitness: 1916.98
+>> Controller #7 - id: 444991
+>>	Controller Stuck: d=0.32635999999999976 step 376
+>> Get fitness: 3.46094
+>> Controller #8 - id: 444992
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 3.50214
+>> Controller #9 - id: 444993
+>>	Controller Stuck: d=0.7899999999999636 step 1126
+>> Get fitness: 5.11945
+>> Controller #10 - id: 444994
+>>	Controller Stuck: d=0.2899999999999636 step 626
+>> Get fitness: 3.44336
+>> Controller #11 - id: 444995
+>>	Controller Stuck: d=0.0500000000001819 step 376
+>> Get fitness: 3.4451
+>> Controller #12 - id: 444996
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.44336
+>> Controller #13 - id: 444997
+>>	Controller Stuck: d=0.2899999999999636 step 626
+>> Get fitness: 3.44336
+>> Controller #14 - id: 444998
+>>	Controller Stuck: d=0.5 step 7126
+>> Get fitness: 3039.26
+>> Controller #15 - id: 444999
+>>	Controller Stuck: d=0.32999 step 376
+>> Get fitness: 3.57834
+>> Controller #16 - id: 445000
+>>	Controller Stuck: d=0.1596000000000002 step 376
+>> Get fitness: 3.61978
+>> Controller #17 - id: 445001
+>>	Controller Stuck: d=0.40901999999999994 step 376
+>> Get fitness: 4.1434
+>> Controller #18 - id: 445002
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 4.19315
+>> Controller #19 - id: 445003
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.50494
+>> Controller #20 - id: 445004
+>>	Controller Stuck: d=0.75 step 626
+>> Get fitness: 3.44336
+>> Controller #21 - id: 445005
+>>	Controller Stuck: d=0.3500000000003638 step 1501
+>> Get fitness: 3.44656
+>> Controller #22 - id: 445006
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 6364.0791500000005
+>> Controller #23 - id: 445007
+>>	Controller Stuck: d=0.06591000000000058 step 751
+>> Get fitness: 21.8784
+>> Controller #24 - id: 445008
+>>	Controller Stuck: d=0.7860000000000014 step 1751
+>> Get fitness: 487.937
+>> Controller #25 - id: 445009
+>>	Controller Stuck: d=0.4414999999999978 step 501
+>> Get fitness: 37.3017
+>> Controller #26 - id: 445010
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 37.3523
+>> Controller #27 - id: 445011
+>>	Controller Stuck: d=0.3261099999999999 step 376
+>> Get fitness: 3.45822
+>> Controller #28 - id: 445012
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 3.49936
+>> Controller #29 - id: 445013
+>>	Controller Stuck: d=0.27999999999974534 step 376
+>> Get fitness: 3.58939
+>> Controller #30 - id: 445014
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.46365
+>> Controller #31 - id: 445015
+>>	Controller Stuck: d=0.8400000000001455 step 3251
+>> Get fitness: 3.50494
+>> Controller #32 - id: 445016
+>>	Controller Stuck: d=0.5221600000000004 step 376
+>> Get fitness: 6.61357
+>> Controller #33 - id: 445017
+>>	Controller Stuck: d=0.48000000000047294 step 626
+>> Get fitness: 6.70317
+>> Controller #34 - id: 445018
+>>	Controller Stuck: d=0.3265699999999998 step 376
+>> Get fitness: 3.46365
+>> Controller #35 - id: 445019
+>>	Controller Stuck: d=0.459999999999809 step 3501
+>> Get fitness: 1904.29
+>> Controller #36 - id: 445020
+>>	Controller Stuck: d=0.3278500000000002 step 376
+>> Get fitness: 3.51901
+>> Controller #37 - id: 445021
+>>	Controller Stuck: d=0.4350000000000023 step 1251
+>> Get fitness: 522.711
+>> Controller #38 - id: 445022
+>>	Controller Stuck: d=0.42099999999999227 step 1001
+>> Get fitness: 156.538
+>> Controller #39 - id: 445023
+>>	Controller Stuck: d=0.9399999999995998 step 3001
+>> Get fitness: 3.44339
+>> Controller #40 - id: 445024
+>>	Controller Stuck: d=0.75 step 626
+>> Get fitness: 3.44336
+>> Controller #41 - id: 445025
+>>	Controller Stuck: d=0.31518999999999986 step 376
+>> Get fitness: 3.44629
+>> Controller #42 - id: 445026
+>>	Controller Stuck: d=0.37999999999919964 step 1251
+>> Get fitness: 3.48434
+>> Controller #43 - id: 445027
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 3.94559
+>> Controller #44 - id: 445028
+>>	Controller Stuck: d=0.8299999999999272 step 4376
+>> Get fitness: 3429.84
+>> Controller #45 - id: 445029
+>>	Controller Stuck: d=0.06080000000000041 step 1501
+>> Get fitness: 14.5341
+>> Controller #46 - id: 445030
+>>	Controller Stuck: d=0.75 step 626
+>> Get fitness: 12.9453
+>> Controller #47 - id: 445031
+>>	Controller Stuck: d=0.3199399999999999 step 376
+>> Get fitness: 3.48065
+>> Controller #48 - id: 445032
+>>	Controller Stuck: d=0.32999999999992724 step 1376
+>> Get fitness: 3.51978
+>> Controller #49 - id: 445033
+>>	Controller Stuck: d=0.007000000000005002 step 1751
+>> Get fitness: 172.833
+>> Controller #50 - id: 445034
+>>	Controller Stuck: d=0.13266 step 501
+>> Get fitness: 3.44336
+Terminate batch job (Y/N)? 

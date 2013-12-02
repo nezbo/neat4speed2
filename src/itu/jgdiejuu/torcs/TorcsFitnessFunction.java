@@ -39,6 +39,11 @@ public class TorcsFitnessFunction implements BulkFitnessFunction, Configurable {
 			}
 		}*/
 		
+		// print average
+		int sum = 0;
+		for(int f : fitnesses) sum += f;
+		System.out.println(">> Average Fitness: "+(sum/(fitnesses.size()*1.0)));
+		
 		// save fitnesses
 		for(int i = 0; i < genotypes.size(); i++){
 			genotypes.get(i).setFitnessValue(fitnesses.get(i));
