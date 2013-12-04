@@ -91,8 +91,8 @@ public class NEATController extends Controller{
 		// not used distRaced
 		// not used focus
 		// not used fuel
-		
 		//not used lastLapTime
+		
 		double[] opp = normalizeOpponents(sensors.getOpponentSensors());
 		result[2] = opp[0];
 		result[3] = opp[1];
