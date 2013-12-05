@@ -249,4 +249,13 @@ public class NEATController extends Controller{
 		// TODO Auto-generated method stub
 		
 	}
+	
+	@Override
+	public String toString(){
+		return "Dist: "+this.getMaxDistance()
+				+" Laps: "+this.getLaps()
+				+" Taken: "+this.getNumberOvertaken()
+				+" Overtakes: "+this.getNumberOvertakes()
+				+" Pos: "+this.getCurrentPosition();
+	}
 }

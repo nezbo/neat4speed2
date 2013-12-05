@@ -47,6 +47,7 @@ public class BulkNEATController extends Controller {
 			}else{
 				System.out.println(">>\tController Out of Time: "+curStep+" = "+MAX_STEPS);
 			}
+			System.out.println(">>\t"+controller.toString());
 			
 			// save fitness
 			fitnesses.add(controller.getMaxDistance());
