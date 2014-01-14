@@ -87,7 +87,10 @@ public class BulkNEATController extends Controller {
 		long id = genotypes.get(curGene).getId();
 		ArrayList<Integer> arr = chromoFitnesses.get(id);
 		
-		if(arr == null) arr = new ArrayList<Integer>(HIST_SIZE);
+		if(arr == null){
+			arr = new ArrayList<Integer>(HIST_SIZE);
+			chromoFitnesses.put(id, arr);
+		}
 		if(arr.size() == HIST_SIZE){ 
 			// remove oldest
 			arr.remove(0);
