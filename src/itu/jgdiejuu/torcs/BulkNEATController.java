@@ -31,7 +31,7 @@ public class BulkNEATController extends Controller {
 		this.genotypes = genotypes;
 		this.factory = activatorFactory;
 		
-		chromoFitnesses = new HashMap<Long,ArrayList<Integer>>();
+		if(chromoFitnesses == null) chromoFitnesses = new HashMap<Long,ArrayList<Integer>>();
 		
 		if(!fitnessHistory) HIST_SIZE = 1;
 		

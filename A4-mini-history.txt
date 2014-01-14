@@ -75,19 +75,3 @@ Client Connected.
 >>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
 >> Get fitness: 0 (avg: 0 of 1)
 >> Controller #5 - id: 23
->>	Controller Stuck: d=0.2799999999999727 step 1001
->>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
->> Get fitness: 0 (avg: 0 of 1)
->> Controller #6 - id: 24
->>	Controller Stuck: d=0.01999999999998181 step 251
->>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
->> Get fitness: 0 (avg: 0 of 1)
->> Controller #7 - id: 25
->>	Controller Stuck: d=0.7799999999999727 step 251
->>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
->> Get fitness: 0 (avg: 0 of 1)
->> Controller #8 - id: 26
->>	Controller Stuck: d=0.2899999999999636 step 1001
->>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
->> Get fitness: 0 (avg: 0 of 1)
->> Controller #9 - id: 27
