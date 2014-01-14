@@ -7,6 +7,7 @@ public class NEATController extends Controller{
 	
 	private static final int MAX_JUMP = 100;
 	private static final int TICKS_PER_SAVE = 125; // Approx. 5 seconds.
+	private static final boolean MINIMAL = true; // minimum inputs
 	
 	// distance
 	private Activator activator;
@@ -80,11 +81,25 @@ public class NEATController extends Controller{
     }
 
 	private double[] covertInput(SensorModel sensors) {
-		double[] result = new double[manualGear ? 26 : 24];
+		double[] result = new double[manualGear ? (MINIMAL ? 6 : 26) : (MINIMAL ? 4 : 24)];
 		//bias
 		result[0] = 1.0;
 		
 		result[1] = normalizeAngle(sensors.getAngleToTrackAxis());
+		
+		if(MINIMAL && !manualGear){ // both auto and manual
+			result[2] = normalizeSpeed(sensors.getSpeed());
+			result[3] = normalizeTrackPos(sensors.getTrackPosition());
+			return result;
+		}
+		if(MINIMAL && manualGear){
+			result[2] = normalizeSpeed(sensors.getSpeed());
+			result[3] = normalizeTrackPos(sensors.getTrackPosition());
+			result[4] = normalizedGear(sensors.getGear());
+			result[5] = normalizeRPM(sensors.getRPM());
+			return result;
+		}
+		
 		// not used curLapTime
 		// not used damage
 		// not used distFromStart
@@ -235,7 +250,6 @@ public class NEATController extends Controller{
 
 	// The farthest the controller has been from the start line + laps
 	public int getMaxDistance() {
-		System.out.println(">> Get fitness: "+(dist+lastLaps));
 		return (int)(dist + lastLaps);
 	}
 	

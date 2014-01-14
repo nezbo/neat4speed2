@@ -1,0 +1,31 @@
+<chromosome id="5826" primary-parent-id="4810"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="4" src-id="0" dest-id="3" weight="0.020168055939539298"/>
+<neuron id="164" type="hid" activation="sigmoid"/>
+<connection id="165" src-id="0" dest-id="164" weight="0.27055714847182644"/>
+<connection id="166" src-id="164" dest-id="3" weight="4.0799519905476895"/>
+<neuron id="415" type="hid" activation="sigmoid"/>
+<connection id="416" src-id="2" dest-id="415" weight="-5.335491690579011"/>
+<connection id="417" src-id="415" dest-id="3" weight="1.6217292380325317"/>
+<neuron id="418" type="hid" activation="sigmoid"/>
+<connection id="419" src-id="0" dest-id="418" weight="0.4869367026025504"/>
+<neuron id="545" type="hid" activation="sigmoid"/>
+<connection id="1062" src-id="164" dest-id="415" weight="6.4960159644985085"/>
+<neuron id="1068" type="hid" activation="sigmoid"/>
+<connection id="1069" src-id="1" dest-id="1068" weight="-0.8362268913074554"/>
+<connection id="1070" src-id="1068" dest-id="3" weight="-13.118918131680756"/>
+<connection id="1320" src-id="0" dest-id="545" weight="-8.477105391326655"/>
+<connection id="1448" src-id="0" dest-id="415" weight="-9.207653593753806"/>
+<connection id="1449" src-id="545" dest-id="1068" weight="-0.5614510377560682"/>
+<neuron id="1458" type="hid" activation="sigmoid"/>
+<connection id="1459" src-id="545" dest-id="1458" weight="-7.5658959924402565"/>
+<connection id="1460" src-id="1458" dest-id="164" weight="-9.910951743242727"/>
+<neuron id="1461" type="hid" activation="sigmoid"/>
+<connection id="1462" src-id="418" dest-id="1461" weight="1.3586458646273467"/>
+<connection id="1463" src-id="1461" dest-id="545" weight="6.186945765890769"/>
+<neuron id="2262" type="hid" activation="sigmoid"/>
+<connection id="2263" src-id="545" dest-id="2262" weight="-2.273657055143619"/>
+<connection id="2264" src-id="2262" dest-id="1068" weight="-11.683541338551672"/>
+</chromosome>

@@ -1,0 +1,33 @@
+<chromosome id="5827" primary-parent-id="5728"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<neuron id="164" type="hid" activation="sigmoid"/>
+<connection id="166" src-id="164" dest-id="3" weight="4.491989732957615"/>
+<connection id="413" src-id="1" dest-id="164" weight="-0.07988795398761828"/>
+<neuron id="415" type="hid" activation="sigmoid"/>
+<connection id="417" src-id="415" dest-id="3" weight="12.519123966379116"/>
+<neuron id="418" type="hid" activation="sigmoid"/>
+<connection id="419" src-id="0" dest-id="418" weight="2.6925737676931782"/>
+<connection id="542" src-id="2" dest-id="164" weight="0.9058271977768931"/>
+<connection id="544" src-id="418" dest-id="3" weight="0.23482035965343245"/>
+<neuron id="545" type="hid" activation="sigmoid"/>
+<connection id="546" src-id="418" dest-id="545" weight="-4.348717842329027"/>
+<connection id="547" src-id="545" dest-id="164" weight="-9.575381668650314"/>
+<connection id="1062" src-id="164" dest-id="415" weight="2.843276775171398"/>
+<neuron id="1068" type="hid" activation="sigmoid"/>
+<connection id="1069" src-id="1" dest-id="1068" weight="-4.8090436026974945"/>
+<connection id="1196" src-id="1" dest-id="545" weight="-4.7819231980839065"/>
+<connection id="1320" src-id="0" dest-id="545" weight="0.8557630815102691"/>
+<neuron id="1452" type="hid" activation="sigmoid"/>
+<connection id="1453" src-id="1068" dest-id="1452" weight="4.095341078857068"/>
+<connection id="1454" src-id="1452" dest-id="3" weight="-2.1649326417934796"/>
+<connection id="1721" src-id="1068" dest-id="164" weight="3.0360060022779076"/>
+<connection id="1855" src-id="2" dest-id="1068" weight="2.310406821937486"/>
+<connection id="1996" src-id="1452" dest-id="415" weight="3.6196328552676933"/>
+<neuron id="2123" type="hid" activation="sigmoid"/>
+<connection id="2124" src-id="2" dest-id="2123" weight="1.157612150575384"/>
+<connection id="2125" src-id="2123" dest-id="415" weight="-7.623106494066396"/>
+<connection id="2385" src-id="1452" dest-id="418" weight="-2.993777578294703"/>
+<connection id="2920" src-id="2" dest-id="1452" weight="1.643742969587361"/>
+</chromosome>

@@ -1,0 +1,31 @@
+<chromosome id="5863" primary-parent-id="5342"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="4" src-id="0" dest-id="3" weight="-2.567133665951718"/>
+<connection id="5" src-id="1" dest-id="3" weight="-1.0264494384397536"/>
+<connection id="6" src-id="2" dest-id="3" weight="-5.290280994463536"/>
+<neuron id="164" type="hid" activation="sigmoid"/>
+<neuron id="418" type="hid" activation="sigmoid"/>
+<neuron id="545" type="hid" activation="sigmoid"/>
+<connection id="546" src-id="418" dest-id="545" weight="2.128251610792728"/>
+<connection id="547" src-id="545" dest-id="164" weight="1.8270258859802677"/>
+<neuron id="674" type="hid" activation="sigmoid"/>
+<connection id="676" src-id="674" dest-id="418" weight="-3.591978363183736"/>
+<neuron id="804" type="hid" activation="sigmoid"/>
+<connection id="805" src-id="164" dest-id="804" weight="-7.348646306148219"/>
+<neuron id="933" type="hid" activation="sigmoid"/>
+<connection id="934" src-id="674" dest-id="933" weight="6.016717597414295"/>
+<connection id="935" src-id="933" dest-id="418" weight="-6.500054544591706"/>
+<connection id="1196" src-id="1" dest-id="545" weight="0.3177081165613407"/>
+<neuron id="1455" type="hid" activation="sigmoid"/>
+<connection id="1456" src-id="804" dest-id="1455" weight="-1.2463455582780474"/>
+<connection id="1457" src-id="1455" dest-id="3" weight="7.636422905224108"/>
+<connection id="2253" src-id="545" dest-id="804" weight="-0.782800369417529"/>
+<connection id="2254" src-id="1" dest-id="1455" weight="7.686606766046578"/>
+<connection id="2255" src-id="674" dest-id="1455" weight="-2.625819683250983"/>
+<connection id="2256" src-id="0" dest-id="1455" weight="3.379773058674618"/>
+<neuron id="2783" type="hid" activation="sigmoid"/>
+<connection id="2784" src-id="0" dest-id="2783" weight="6.3331700196978105"/>
+<connection id="2785" src-id="2783" dest-id="674" weight="-1.8196944058645643"/>
+</chromosome>

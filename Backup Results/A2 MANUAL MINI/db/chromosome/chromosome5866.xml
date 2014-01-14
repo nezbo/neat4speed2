@@ -1,0 +1,18 @@
+<chromosome id="5866" primary-parent-id="5588"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-3.9610350325232764"/>
+<connection id="6" src-id="2" dest-id="3" weight="0.22429995822123439"/>
+<neuron id="164" type="hid" activation="sigmoid"/>
+<connection id="166" src-id="164" dest-id="3" weight="11.545678980108613"/>
+<neuron id="418" type="hid" activation="sigmoid"/>
+<connection id="419" src-id="0" dest-id="418" weight="-2.9992493233380637"/>
+<connection id="420" src-id="418" dest-id="164" weight="-0.1954269416931621"/>
+<connection id="542" src-id="2" dest-id="164" weight="-2.08652611048889"/>
+<connection id="544" src-id="418" dest-id="3" weight="-1.7988090873215294"/>
+<neuron id="545" type="hid" activation="sigmoid"/>
+<connection id="546" src-id="418" dest-id="545" weight="8.65666108040451"/>
+<connection id="547" src-id="545" dest-id="164" weight="1.078875985688668"/>
+<connection id="1320" src-id="0" dest-id="545" weight="1.1838538986680156"/>
+</chromosome>

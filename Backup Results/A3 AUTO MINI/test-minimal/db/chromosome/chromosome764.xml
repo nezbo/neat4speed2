@@ -1,0 +1,33 @@
+<chromosome id="764" primary-parent-id="710"><neuron id="0" type="in" activation="sigmoid"/>
+<neuron id="1" type="in" activation="sigmoid"/>
+<neuron id="2" type="in" activation="sigmoid"/>
+<neuron id="3" type="in" activation="sigmoid"/>
+<neuron id="4" type="out" activation="sigmoid"/>
+<connection id="5" src-id="0" dest-id="4" weight="1.7375346547192607"/>
+<connection id="6" src-id="1" dest-id="4" weight="3.5634296824563805"/>
+<connection id="7" src-id="2" dest-id="4" weight="2.7882787490621403"/>
+<neuron id="9" type="out" activation="sigmoid"/>
+<connection id="12" src-id="2" dest-id="9" weight="-2.0363238063119145"/>
+<connection id="13" src-id="3" dest-id="9" weight="1.6918627350359359"/>
+<neuron id="14" type="out" activation="sigmoid"/>
+<connection id="15" src-id="0" dest-id="14" weight="1.3110903986901286"/>
+<connection id="16" src-id="1" dest-id="14" weight="4.736766468182276"/>
+<connection id="17" src-id="2" dest-id="14" weight="-4.391730851780062"/>
+<neuron id="99" type="hid" activation="sigmoid"/>
+<connection id="100" src-id="0" dest-id="99" weight="-0.0940540963081764"/>
+<connection id="101" src-id="99" dest-id="9" weight="-0.7791055575208616"/>
+<neuron id="117" type="hid" activation="sigmoid"/>
+<connection id="118" src-id="1" dest-id="117" weight="-0.0527226486549488"/>
+<connection id="119" src-id="117" dest-id="9" weight="-7.073504872776292"/>
+<neuron id="120" type="hid" activation="sigmoid"/>
+<connection id="121" src-id="2" dest-id="120" weight="-0.6748565925588259"/>
+<connection id="122" src-id="120" dest-id="14" weight="1.8155633457867595"/>
+<connection id="177" src-id="1" dest-id="120" weight="0.02078577570185086"/>
+<neuron id="184" type="hid" activation="sigmoid"/>
+<connection id="185" src-id="3" dest-id="184" weight="-0.8247972371520464"/>
+<connection id="186" src-id="184" dest-id="4" weight="-2.150075522591112"/>
+<neuron id="187" type="hid" activation="sigmoid"/>
+<connection id="188" src-id="3" dest-id="187" weight="1.0"/>
+<connection id="189" src-id="187" dest-id="14" weight="-2.7012058790534708"/>
+<connection id="241" src-id="0" dest-id="120" weight="0.798270583152771"/>
+</chromosome>

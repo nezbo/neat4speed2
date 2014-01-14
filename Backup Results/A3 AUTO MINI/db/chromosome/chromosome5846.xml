@@ -1,0 +1,12 @@
+<chromosome id="5846" primary-parent-id="4569"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-1.3886551288014224"/>
+<neuron id="164" type="hid" activation="sigmoid"/>
+<connection id="165" src-id="0" dest-id="164" weight="-6.645434455684796"/>
+<connection id="166" src-id="164" dest-id="3" weight="1.4787111873513152"/>
+<neuron id="415" type="hid" activation="sigmoid"/>
+<connection id="416" src-id="2" dest-id="415" weight="2.5452377053972075"/>
+<connection id="417" src-id="415" dest-id="3" weight="0.43729824427117703"/>
+</chromosome>

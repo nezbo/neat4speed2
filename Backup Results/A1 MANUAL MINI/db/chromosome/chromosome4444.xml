@@ -1,0 +1,12 @@
+<chromosome id="4444" primary-parent-id="4344"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="4" src-id="0" dest-id="3" weight="0.67897531982852"/>
+<neuron id="415" type="hid" activation="sigmoid"/>
+<connection id="416" src-id="2" dest-id="415" weight="2.7353898897125433"/>
+<connection id="417" src-id="415" dest-id="3" weight="0.34185666704890405"/>
+<neuron id="1068" type="hid" activation="sigmoid"/>
+<connection id="1069" src-id="1" dest-id="1068" weight="3.5282972870604534"/>
+<connection id="1070" src-id="1068" dest-id="3" weight="-1.3802596898024602"/>
+</chromosome>

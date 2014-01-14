@@ -17,7 +17,7 @@ public class TorcsFitnessFunction implements BulkFitnessFunction, Configurable {
 	
 	private static final int MAX_FITNESS = 13337;
 	private ActivatorTranscriber activatorFactory;
-	private boolean manualGear;
+	private boolean manualGear,fitnessHistory;
 	
 	public int getMaxFitnessValue() {
 		return MAX_FITNESS;
@@ -26,7 +26,7 @@ public class TorcsFitnessFunction implements BulkFitnessFunction, Configurable {
 	@Override
 	final public void evaluate( List<Chromosome> genotypes ) {
 		
-		BulkNEATController controller = new BulkNEATController(genotypes, activatorFactory, manualGear);
+		BulkNEATController controller = new BulkNEATController(genotypes, activatorFactory, manualGear,fitnessHistory);
 		ClientProgram.main(new String[]{"-","maxEpisodes:1337"}, controller);
 		List<Integer> fitnesses = controller.getFitnesses();
 		
@@ -52,6 +52,7 @@ public class TorcsFitnessFunction implements BulkFitnessFunction, Configurable {
 
 	public void init( Properties props ){
 		manualGear = props.getBooleanProperty("itu.manual");
+		fitnessHistory = props.getBooleanProperty("itu.fitnessHistory");
 		activatorFactory = (ActivatorTranscriber) props
 				.singletonObjectProperty( ActivatorTranscriber.class );
 	}

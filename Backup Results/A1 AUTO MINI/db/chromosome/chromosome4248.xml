@@ -1,0 +1,30 @@
+<chromosome id="4248" primary-parent-id="3817"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<neuron id="164" type="hid" activation="sigmoid"/>
+<connection id="166" src-id="164" dest-id="3" weight="2.1124366139798623"/>
+<neuron id="415" type="hid" activation="sigmoid"/>
+<connection id="417" src-id="415" dest-id="3" weight="5.998042331596951"/>
+<neuron id="418" type="hid" activation="sigmoid"/>
+<connection id="419" src-id="0" dest-id="418" weight="4.522723334090806"/>
+<connection id="542" src-id="2" dest-id="164" weight="-1.1672682171307278"/>
+<neuron id="545" type="hid" activation="sigmoid"/>
+<connection id="546" src-id="418" dest-id="545" weight="-2.723871991992629"/>
+<connection id="547" src-id="545" dest-id="164" weight="-9.705261447096703"/>
+<connection id="1062" src-id="164" dest-id="415" weight="4.657817108326902"/>
+<neuron id="1068" type="hid" activation="sigmoid"/>
+<connection id="1069" src-id="1" dest-id="1068" weight="-3.432820998696478"/>
+<connection id="1320" src-id="0" dest-id="545" weight="0.8226619515660836"/>
+<neuron id="1452" type="hid" activation="sigmoid"/>
+<connection id="1453" src-id="1068" dest-id="1452" weight="2.333538673161683"/>
+<connection id="1454" src-id="1452" dest-id="3" weight="-1.0249368333032018"/>
+<connection id="1721" src-id="1068" dest-id="164" weight="2.5218875519527186"/>
+<connection id="1855" src-id="2" dest-id="1068" weight="3.3145422711490498"/>
+<connection id="1996" src-id="1452" dest-id="415" weight="3.0756827360671117"/>
+<neuron id="2123" type="hid" activation="sigmoid"/>
+<connection id="2124" src-id="2" dest-id="2123" weight="2.1424227365924153"/>
+<connection id="2125" src-id="2123" dest-id="415" weight="-5.562593352918613"/>
+<connection id="2385" src-id="1452" dest-id="418" weight="-3.9679751671385985"/>
+<connection id="2920" src-id="2" dest-id="1452" weight="1.1174736050697227"/>
+</chromosome>

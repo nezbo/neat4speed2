@@ -1,0 +1,34 @@
+<chromosome id="814" primary-parent-id="754"><neuron id="0" type="in" activation="sigmoid"/>
+<neuron id="1" type="in" activation="sigmoid"/>
+<neuron id="2" type="in" activation="sigmoid"/>
+<neuron id="3" type="in" activation="sigmoid"/>
+<neuron id="4" type="out" activation="sigmoid"/>
+<connection id="5" src-id="0" dest-id="4" weight="1.178972913085225"/>
+<connection id="6" src-id="1" dest-id="4" weight="0.35104895187769936"/>
+<connection id="7" src-id="2" dest-id="4" weight="-1.6108184092157152"/>
+<neuron id="9" type="out" activation="sigmoid"/>
+<connection id="10" src-id="0" dest-id="9" weight="-1.0075206153794611"/>
+<connection id="11" src-id="1" dest-id="9" weight="-3.329392314148374"/>
+<connection id="12" src-id="2" dest-id="9" weight="2.8512256016018354"/>
+<neuron id="14" type="out" activation="sigmoid"/>
+<connection id="16" src-id="1" dest-id="14" weight="5.7230850859709275"/>
+<connection id="17" src-id="2" dest-id="14" weight="4.234726351009021"/>
+<connection id="18" src-id="3" dest-id="14" weight="-0.1791575913799155"/>
+<neuron id="102" type="hid" activation="sigmoid"/>
+<connection id="103" src-id="0" dest-id="102" weight="0.8683910168691428"/>
+<connection id="104" src-id="102" dest-id="14" weight="-9.456490059833847"/>
+<neuron id="114" type="hid" activation="sigmoid"/>
+<connection id="115" src-id="3" dest-id="114" weight="3.121373910743505"/>
+<connection id="116" src-id="114" dest-id="9" weight="-4.690347825379411"/>
+<neuron id="179" type="hid" activation="sigmoid"/>
+<connection id="180" src-id="3" dest-id="179" weight="3.225359912550237"/>
+<connection id="181" src-id="179" dest-id="4" weight="4.494146038665556"/>
+<connection id="421" src-id="114" dest-id="179" weight="-2.2652120360098045"/>
+<connection id="422" src-id="179" dest-id="9" weight="2.639274300168972"/>
+<connection id="425" src-id="3" dest-id="102" weight="-0.05680954456329346"/>
+<neuron id="540" type="hid" activation="sigmoid"/>
+<connection id="541" src-id="3" dest-id="540" weight="-2.258479156688404"/>
+<connection id="542" src-id="540" dest-id="179" weight="0.4994444414588913"/>
+<connection id="595" src-id="540" dest-id="4" weight="0.8397766202709867"/>
+<connection id="767" src-id="540" dest-id="114" weight="-0.4234657287597656"/>
+</chromosome>

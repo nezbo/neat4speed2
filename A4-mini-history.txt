@@ -1,0 +1,165 @@
+
+D:\Dropbox\workspace-laptop\ANJI>evolve.bat torcs-minimal.properties 
+ANJI v2.0, Copyright (C) 2004 Derek James and Philip Tucker
+ANJI comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under the conditions of the GNU General Public License.
+INFO  loaded properties from torcs-minimal.properties
+INFO  Properties: run.reset == false
+INFO  Properties: random.seed == 0
+INFO  Properties: id.file == ./test/db/id.xml
+INFO  Properties: survival.rate == 0.1
+INFO  Properties: selector.roulette == false
+INFO  Properties: selector.elitism == true
+INFO  Properties: selector.elitism.min.specie.size == 6
+INFO  Properties: remove.connection.mutation.rate == null [0.01]
+INFO  Properties: remove.connection.max.weight == null [0.1]
+INFO  Properties: remove.connection.strategy == null [skewed]
+INFO  Properties: topology.mutation.classic == null [false]
+INFO  Properties: add.connection.mutation.rate == 0.03
+INFO  Properties: recurrent == disallowed
+INFO  Properties: add.neuron.mutation.rate == 0.03
+INFO  Properties: weight.mutation.rate == 0.75
+INFO  Properties: weight.mutation.std.dev == 1.5
+INFO  Properties: prune.mutation.rate == null [1.0]
+INFO  Properties: popul.size == 50
+INFO  Properties: initial.topology.activation == sigmoid
+INFO  Properties: initial.topology.activation.input == null [null]
+INFO  Properties: initial.topology.activation.output == null [null]
+INFO  Properties: neat.id.file == ./test/db/neatid.xml
+INFO  couldn't load NEAT ids from file, starting with new mapping
+INFO  Properties: stimulus.size == 4
+INFO  Properties: initial.topology.num.hidden.neurons == 0
+INFO  Properties: response.size == 3
+INFO  Properties: initial.topology.fully.connected == true
+INFO  Properties: weight.min == -500.0
+INFO  Properties: weight.max == 500.0
+INFO  Properties: chrom.compat.excess.coeff == 1.0
+INFO  Properties: chrom.compat.disjoint.coeff == 1.0
+INFO  Properties: chrom.compat.common.coeff == 0.04
+INFO  Properties: speciation.threshold == 0.2
+INFO  Properties: persistence.class == com.anji.persistence.FilePersistence
+INFO  Properties: base.dir == ./test-minimal/db
+INFO  Properties: num.generations == 60
+INFO  Properties: fitness.target == 0.999
+INFO  Properties: fitness.threshold == null [0.999]
+INFO  Properties: run.name == testrun
+INFO  Properties: persist.all == false
+INFO  Properties: persist.champions == true
+INFO  Properties: persist.last == false
+INFO  Properties: presentation.dir == ./nevt/test-minimal
+INFO  Properties: fitness_function.class == itu.jgdiejuu.torcs.TorcsFitnessFunction
+INFO  Properties: itu.manual == false
+INFO  Properties: itu.fitnessHistory == true
+INFO  Properties: ann.type == anji
+INFO  Properties: recurrent.cycles == 1
+INFO  Properties: recurrent == disallowed
+INFO  random genotype
+INFO  Run: start
+INFO  Generation 0: start
+>> Controller #1 - id: 19
+Client Connected.
+>>	Controller Stuck: d=0.040000000000190994 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #2 - id: 20
+>>	Controller Stuck: d=0.0 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #3 - id: 21
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #4 - id: 22
+>>	Controller Stuck: d=0.040000000000190994 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #5 - id: 23
+>>	Controller Stuck: d=0.2799999999999727 step 1001
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #6 - id: 24
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #7 - id: 25
+>>	Controller Stuck: d=0.7799999999999727 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #8 - id: 26
+>>	Controller Stuck: d=0.2899999999999636 step 1001
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #9 - id: 27
+>>	Controller Stuck: d=0.0 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #10 - id: 28
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #11 - id: 29
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #12 - id: 30
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #13 - id: 31
+>>	Controller Stuck: d=0.0 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #14 - id: 32
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #15 - id: 33
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #16 - id: 34
+>>	Controller Stuck: d=0.4700000000000273 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #17 - id: 35
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #18 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #19 - id: 37
+>>	Controller Stuck: d=0.900000000000091 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #20 - id: 38
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #21 - id: 39
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #22 - id: 40
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #23 - id: 41
+>>	Controller Stuck: d=0.0 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #24 - id: 42
+>>	Controller Stuck: d=0.4700000000000273 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #25 - id: 43
+>>	Controller Stuck: d=0.13000000000010914 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #26 - id: 44
+>>	Controller Stuck: d=0.5699999999999363 step 251
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0 (avg: 0 of 1)
+>> Controller #27 - id: 45

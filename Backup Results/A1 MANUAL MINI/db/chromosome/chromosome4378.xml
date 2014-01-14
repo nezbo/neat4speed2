@@ -1,0 +1,18 @@
+<chromosome id="4378" primary-parent-id="3913"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-1.1745879203159209"/>
+<connection id="6" src-id="2" dest-id="3" weight="0.5258344462823952"/>
+<neuron id="164" type="hid" activation="sigmoid"/>
+<connection id="166" src-id="164" dest-id="3" weight="8.85638916164475"/>
+<neuron id="418" type="hid" activation="sigmoid"/>
+<connection id="419" src-id="0" dest-id="418" weight="-4.749271037416013"/>
+<connection id="544" src-id="418" dest-id="3" weight="-1.950059718781989"/>
+<neuron id="545" type="hid" activation="sigmoid"/>
+<connection id="546" src-id="418" dest-id="545" weight="6.429242530497591"/>
+<connection id="1320" src-id="0" dest-id="545" weight="-2.0075077357625934"/>
+<neuron id="1458" type="hid" activation="sigmoid"/>
+<connection id="1459" src-id="545" dest-id="1458" weight="2.2924305053815623"/>
+<connection id="1460" src-id="1458" dest-id="164" weight="-2.653021391251504"/>
+</chromosome>

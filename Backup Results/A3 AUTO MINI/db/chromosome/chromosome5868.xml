@@ -1,0 +1,14 @@
+<chromosome id="5868" primary-parent-id="5639"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="4" src-id="0" dest-id="3" weight="2.154544884803057"/>
+<neuron id="415" type="hid" activation="sigmoid"/>
+<connection id="416" src-id="2" dest-id="415" weight="3.609133549845911"/>
+<neuron id="1068" type="hid" activation="sigmoid"/>
+<connection id="1069" src-id="1" dest-id="1068" weight="4.27264191312119"/>
+<connection id="1070" src-id="1068" dest-id="3" weight="-0.7391099469619844"/>
+<neuron id="1324" type="hid" activation="sigmoid"/>
+<connection id="1325" src-id="415" dest-id="1324" weight="1.7332332377252502"/>
+<connection id="1326" src-id="1324" dest-id="3" weight="3.2042351859484164"/>
+</chromosome>

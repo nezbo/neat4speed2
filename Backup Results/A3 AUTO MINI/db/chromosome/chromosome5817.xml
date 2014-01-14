@@ -1,0 +1,12 @@
+<chromosome id="5817" primary-parent-id="5269"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="6" src-id="2" dest-id="3" weight="1.3045667587289913"/>
+<neuron id="164" type="hid" activation="sigmoid"/>
+<connection id="165" src-id="0" dest-id="164" weight="-10.05633767905971"/>
+<connection id="166" src-id="164" dest-id="3" weight="2.2107419366361034"/>
+<neuron id="1068" type="hid" activation="sigmoid"/>
+<connection id="1069" src-id="1" dest-id="1068" weight="8.335152214904593"/>
+<connection id="1070" src-id="1068" dest-id="3" weight="-4.04012734307986"/>
+</chromosome>

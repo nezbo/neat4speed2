@@ -1,0 +1,10 @@
+<chromosome id="5902" primary-parent-id="5751"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="4" src-id="0" dest-id="3" weight="0.9351071389095829"/>
+<connection id="5" src-id="1" dest-id="3" weight="1.3597286299240385"/>
+<neuron id="415" type="hid" activation="sigmoid"/>
+<connection id="416" src-id="2" dest-id="415" weight="2.9601037938066814"/>
+<connection id="417" src-id="415" dest-id="3" weight="-2.9787422354081103"/>
+</chromosome>

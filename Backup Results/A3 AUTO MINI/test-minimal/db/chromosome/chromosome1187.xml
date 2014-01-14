@@ -1,0 +1,60 @@
+<chromosome id="1187" primary-parent-id="1067"><neuron id="0" type="in" activation="sigmoid"/>
+<neuron id="1" type="in" activation="sigmoid"/>
+<neuron id="2" type="in" activation="sigmoid"/>
+<neuron id="3" type="in" activation="sigmoid"/>
+<neuron id="4" type="out" activation="sigmoid"/>
+<connection id="7" src-id="2" dest-id="4" weight="4.758560409705126"/>
+<connection id="8" src-id="3" dest-id="4" weight="-3.1715711061769634"/>
+<neuron id="9" type="out" activation="sigmoid"/>
+<connection id="10" src-id="0" dest-id="9" weight="3.700273093909468"/>
+<connection id="12" src-id="2" dest-id="9" weight="-6.484063302892768"/>
+<connection id="13" src-id="3" dest-id="9" weight="3.8137150477831843"/>
+<neuron id="14" type="out" activation="sigmoid"/>
+<connection id="15" src-id="0" dest-id="14" weight="1.1612168292202445"/>
+<connection id="16" src-id="1" dest-id="14" weight="2.5797572621952845"/>
+<connection id="17" src-id="2" dest-id="14" weight="-0.06404270077698859"/>
+<neuron id="99" type="hid" activation="sigmoid"/>
+<connection id="100" src-id="0" dest-id="99" weight="0.1015119475574438"/>
+<connection id="101" src-id="99" dest-id="9" weight="-1.337762448454283"/>
+<neuron id="105" type="hid" activation="sigmoid"/>
+<connection id="106" src-id="0" dest-id="105" weight="0.4233529337956621"/>
+<connection id="107" src-id="105" dest-id="4" weight="4.392930352555965"/>
+<neuron id="108" type="hid" activation="sigmoid"/>
+<connection id="110" src-id="108" dest-id="4" weight="5.588003795034913"/>
+<neuron id="117" type="hid" activation="sigmoid"/>
+<connection id="119" src-id="117" dest-id="9" weight="-5.616111885137974"/>
+<neuron id="120" type="hid" activation="sigmoid"/>
+<connection id="121" src-id="2" dest-id="120" weight="-5.184349683657252"/>
+<connection id="122" src-id="120" dest-id="14" weight="0.17077525235828528"/>
+<connection id="177" src-id="1" dest-id="120" weight="-5.026533250447358"/>
+<neuron id="184" type="hid" activation="sigmoid"/>
+<connection id="186" src-id="184" dest-id="4" weight="-2.511831128993239"/>
+<neuron id="187" type="hid" activation="sigmoid"/>
+<connection id="188" src-id="3" dest-id="187" weight="3.2626067043812785"/>
+<connection id="189" src-id="187" dest-id="14" weight="-3.470543313022029"/>
+<connection id="241" src-id="0" dest-id="120" weight="-3.488466147636324"/>
+<connection id="622" src-id="184" dest-id="120" weight="-1.0266393534644565"/>
+<connection id="798" src-id="2" dest-id="99" weight="5.634375899830807"/>
+<connection id="804" src-id="3" dest-id="117" weight="-2.1509539315485027"/>
+<neuron id="822" type="hid" activation="sigmoid"/>
+<connection id="824" src-id="822" dest-id="184" weight="-0.21322159029965204"/>
+<neuron id="825" type="hid" activation="sigmoid"/>
+<connection id="826" src-id="1" dest-id="825" weight="0.20842052921429877"/>
+<connection id="827" src-id="825" dest-id="117" weight="7.507156455763359"/>
+<connection id="896" src-id="187" dest-id="9" weight="-1.10228501267088"/>
+<connection id="915" src-id="825" dest-id="184" weight="-1.6633714238130883"/>
+<connection id="916" src-id="99" dest-id="120" weight="-0.9578253030776978"/>
+<neuron id="917" type="hid" activation="sigmoid"/>
+<connection id="918" src-id="3" dest-id="917" weight="1.2738345535984625"/>
+<connection id="919" src-id="917" dest-id="822" weight="0.24914188558929828"/>
+<connection id="969" src-id="117" dest-id="822" weight="1.120613723311847"/>
+<connection id="984" src-id="117" dest-id="120" weight="-3.854042541402529"/>
+<connection id="989" src-id="187" dest-id="99" weight="0.5644272535826951"/>
+<neuron id="1040" type="hid" activation="sigmoid"/>
+<connection id="1041" src-id="1" dest-id="1040" weight="1.9364102646590502"/>
+<connection id="1042" src-id="1040" dest-id="108" weight="-2.780822458341537"/>
+<connection id="1118" src-id="825" dest-id="120" weight="0.5997030710264135"/>
+<neuron id="1140" type="hid" activation="sigmoid"/>
+<connection id="1141" src-id="99" dest-id="1140" weight="1.7154720216633503"/>
+<connection id="1142" src-id="1140" dest-id="917" weight="1.8337028298535052"/>
+</chromosome>

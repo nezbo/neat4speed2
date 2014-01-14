@@ -1,0 +1,777 @@
+<chromosome id="63155" primary-parent-id="36065"><neuron id="0" type="in" activation="sigmoid"/>
+<neuron id="1" type="in" activation="sigmoid"/>
+<neuron id="2" type="in" activation="sigmoid"/>
+<neuron id="3" type="in" activation="sigmoid"/>
+<neuron id="4" type="in" activation="sigmoid"/>
+<neuron id="5" type="in" activation="sigmoid"/>
+<neuron id="6" type="in" activation="sigmoid"/>
+<neuron id="7" type="in" activation="sigmoid"/>
+<neuron id="8" type="in" activation="sigmoid"/>
+<neuron id="9" type="in" activation="sigmoid"/>
+<neuron id="10" type="in" activation="sigmoid"/>
+<neuron id="11" type="in" activation="sigmoid"/>
+<neuron id="12" type="in" activation="sigmoid"/>
+<neuron id="13" type="in" activation="sigmoid"/>
+<neuron id="14" type="in" activation="sigmoid"/>
+<neuron id="15" type="in" activation="sigmoid"/>
+<neuron id="16" type="in" activation="sigmoid"/>
+<neuron id="17" type="in" activation="sigmoid"/>
+<neuron id="18" type="in" activation="sigmoid"/>
+<neuron id="19" type="in" activation="sigmoid"/>
+<neuron id="20" type="in" activation="sigmoid"/>
+<neuron id="21" type="in" activation="sigmoid"/>
+<neuron id="22" type="in" activation="sigmoid"/>
+<neuron id="23" type="in" activation="sigmoid"/>
+<neuron id="24" type="out" activation="sigmoid"/>
+<connection id="25" src-id="0" dest-id="24" weight="4.699124548310935"/>
+<connection id="26" src-id="1" dest-id="24" weight="2.562259092899134"/>
+<connection id="27" src-id="2" dest-id="24" weight="4.001325061963118"/>
+<connection id="28" src-id="3" dest-id="24" weight="-0.610602321120937"/>
+<connection id="29" src-id="4" dest-id="24" weight="3.9742889395350685"/>
+<connection id="30" src-id="5" dest-id="24" weight="10.354454072120813"/>
+<connection id="31" src-id="6" dest-id="24" weight="-3.5870684921147618"/>
+<connection id="34" src-id="9" dest-id="24" weight="2.367556945928008"/>
+<connection id="38" src-id="13" dest-id="24" weight="-0.2812670724241002"/>
+<connection id="39" src-id="14" dest-id="24" weight="2.1162530852648844"/>
+<connection id="41" src-id="16" dest-id="24" weight="0.29522062841855257"/>
+<connection id="43" src-id="18" dest-id="24" weight="2.8697192090174313"/>
+<connection id="44" src-id="19" dest-id="24" weight="3.7996745876916367"/>
+<connection id="46" src-id="21" dest-id="24" weight="-3.9518252578143573"/>
+<connection id="47" src-id="22" dest-id="24" weight="-2.36320957570312"/>
+<connection id="48" src-id="23" dest-id="24" weight="3.2674854317345936"/>
+<neuron id="49" type="out" activation="sigmoid"/>
+<connection id="51" src-id="1" dest-id="49" weight="-3.0177041983914648"/>
+<connection id="52" src-id="2" dest-id="49" weight="4.072052563751964"/>
+<connection id="55" src-id="5" dest-id="49" weight="0.3061526497494036"/>
+<connection id="58" src-id="8" dest-id="49" weight="0.40512279207313007"/>
+<connection id="59" src-id="9" dest-id="49" weight="-2.623159428205831"/>
+<connection id="60" src-id="10" dest-id="49" weight="0.7378309250509516"/>
+<connection id="64" src-id="14" dest-id="49" weight="-8.40380158686429"/>
+<connection id="65" src-id="15" dest-id="49" weight="-0.9421719678843519"/>
+<connection id="66" src-id="16" dest-id="49" weight="-1.360029084557337"/>
+<connection id="67" src-id="17" dest-id="49" weight="1.864276659663132"/>
+<connection id="68" src-id="18" dest-id="49" weight="-7.652284538732216"/>
+<connection id="71" src-id="21" dest-id="49" weight="-0.41795036541604946"/>
+<connection id="72" src-id="22" dest-id="49" weight="-6.120785232397752"/>
+<connection id="73" src-id="23" dest-id="49" weight="10.129481919005988"/>
+<neuron id="74" type="out" activation="sigmoid"/>
+<connection id="77" src-id="2" dest-id="74" weight="1.4130373897913888"/>
+<connection id="78" src-id="3" dest-id="74" weight="-3.909818380035983"/>
+<connection id="80" src-id="5" dest-id="74" weight="-0.6394329780620881"/>
+<connection id="81" src-id="6" dest-id="74" weight="-4.102961249874598"/>
+<connection id="82" src-id="7" dest-id="74" weight="2.5135331740814992"/>
+<connection id="85" src-id="10" dest-id="74" weight="-1.1269183783809638"/>
+<connection id="88" src-id="13" dest-id="74" weight="5.089025775516072"/>
+<connection id="89" src-id="14" dest-id="74" weight="5.329739357409696"/>
+<connection id="91" src-id="16" dest-id="74" weight="3.1326155552750485"/>
+<connection id="92" src-id="17" dest-id="74" weight="1.669837522379992"/>
+<connection id="93" src-id="18" dest-id="74" weight="1.193383801338039"/>
+<connection id="95" src-id="20" dest-id="74" weight="-8.74660244833969"/>
+<connection id="96" src-id="21" dest-id="74" weight="-1.9456698905391208"/>
+<connection id="97" src-id="22" dest-id="74" weight="-6.851147739373968"/>
+<connection id="98" src-id="23" dest-id="74" weight="3.700089018306952"/>
+<neuron id="657" type="hid" activation="sigmoid"/>
+<connection id="658" src-id="12" dest-id="657" weight="-0.5394152484259154"/>
+<connection id="659" src-id="657" dest-id="74" weight="-1.833697169554096"/>
+<neuron id="672" type="hid" activation="sigmoid"/>
+<connection id="673" src-id="11" dest-id="672" weight="5.456264591874014"/>
+<connection id="674" src-id="672" dest-id="24" weight="0.6394656697325893"/>
+<neuron id="684" type="hid" activation="sigmoid"/>
+<connection id="685" src-id="10" dest-id="684" weight="2.946647320781561"/>
+<connection id="686" src-id="684" dest-id="49" weight="-0.9261183174270997"/>
+<neuron id="696" type="hid" activation="sigmoid"/>
+<connection id="697" src-id="9" dest-id="696" weight="-9.41436871045217"/>
+<connection id="698" src-id="696" dest-id="49" weight="-3.2404433129752506"/>
+<neuron id="702" type="hid" activation="sigmoid"/>
+<connection id="703" src-id="4" dest-id="702" weight="2.592363137686166"/>
+<connection id="704" src-id="702" dest-id="49" weight="-0.9498525332495826"/>
+<neuron id="711" type="hid" activation="sigmoid"/>
+<connection id="713" src-id="711" dest-id="49" weight="7.1772100573026805"/>
+<neuron id="714" type="hid" activation="sigmoid"/>
+<connection id="715" src-id="19" dest-id="714" weight="0.985201883214859"/>
+<connection id="716" src-id="714" dest-id="74" weight="-2.5659959382309734"/>
+<neuron id="723" type="hid" activation="sigmoid"/>
+<connection id="724" src-id="7" dest-id="723" weight="2.7573528735051305"/>
+<connection id="725" src-id="723" dest-id="49" weight="-1.4607869855765379"/>
+<neuron id="729" type="hid" activation="sigmoid"/>
+<connection id="730" src-id="11" dest-id="729" weight="1.3361607492394119"/>
+<neuron id="732" type="hid" activation="sigmoid"/>
+<connection id="733" src-id="20" dest-id="732" weight="3.8571110699820235"/>
+<connection id="734" src-id="732" dest-id="24" weight="7.298613935518144"/>
+<neuron id="744" type="hid" activation="sigmoid"/>
+<connection id="745" src-id="7" dest-id="744" weight="0.3628321093003285"/>
+<connection id="746" src-id="744" dest-id="24" weight="1.1171016401033498"/>
+<neuron id="747" type="hid" activation="sigmoid"/>
+<connection id="748" src-id="15" dest-id="747" weight="-2.909933289324346"/>
+<connection id="749" src-id="747" dest-id="24" weight="-0.9607877656571987"/>
+<neuron id="750" type="hid" activation="sigmoid"/>
+<connection id="751" src-id="1" dest-id="750" weight="-4.764942789250071"/>
+<neuron id="759" type="hid" activation="sigmoid"/>
+<connection id="761" src-id="759" dest-id="49" weight="1.1526636892130475"/>
+<neuron id="762" type="hid" activation="sigmoid"/>
+<connection id="763" src-id="20" dest-id="762" weight="1.0"/>
+<connection id="764" src-id="762" dest-id="49" weight="-6.224924267039279"/>
+<neuron id="765" type="hid" activation="sigmoid"/>
+<connection id="766" src-id="4" dest-id="765" weight="2.372002883371993"/>
+<connection id="767" src-id="765" dest-id="74" weight="-1.070191113226792"/>
+<neuron id="774" type="hid" activation="sigmoid"/>
+<connection id="775" src-id="17" dest-id="774" weight="1.839467330059387"/>
+<connection id="776" src-id="774" dest-id="24" weight="3.845925675961941"/>
+<neuron id="777" type="hid" activation="sigmoid"/>
+<connection id="778" src-id="3" dest-id="777" weight="0.9969459977194051"/>
+<connection id="779" src-id="777" dest-id="49" weight="-2.7649310667779377"/>
+<neuron id="780" type="hid" activation="sigmoid"/>
+<connection id="781" src-id="11" dest-id="780" weight="-5.111116202380284"/>
+<connection id="782" src-id="780" dest-id="49" weight="-4.573173870082856"/>
+<neuron id="783" type="hid" activation="sigmoid"/>
+<connection id="785" src-id="783" dest-id="49" weight="0.9673299974002427"/>
+<neuron id="786" type="hid" activation="sigmoid"/>
+<connection id="787" src-id="12" dest-id="786" weight="-0.9641997813183835"/>
+<connection id="788" src-id="786" dest-id="24" weight="-7.369223762535443"/>
+<neuron id="792" type="hid" activation="sigmoid"/>
+<connection id="794" src-id="792" dest-id="24" weight="-1.6664201879459215"/>
+<neuron id="798" type="hid" activation="sigmoid"/>
+<connection id="799" src-id="0" dest-id="798" weight="3.1372640892490766"/>
+<connection id="800" src-id="798" dest-id="74" weight="-0.4793205770110962"/>
+<connection id="915" src-id="16" dest-id="696" weight="-0.9968869479630225"/>
+<connection id="916" src-id="8" dest-id="696" weight="3.1472582568034726"/>
+<connection id="957" src-id="792" dest-id="74" weight="-3.9140956922277734"/>
+<connection id="996" src-id="19" dest-id="792" weight="3.3134160852629977"/>
+<connection id="1003" src-id="14" dest-id="786" weight="0.2773442625653614"/>
+<connection id="1006" src-id="22" dest-id="783" weight="-3.2191947648994512"/>
+<connection id="1013" src-id="22" dest-id="786" weight="0.23040494897674307"/>
+<connection id="1043" src-id="9" dest-id="786" weight="-0.6721712442457717"/>
+<connection id="1098" src-id="22" dest-id="792" weight="-5.392783239260792"/>
+<connection id="1114" src-id="15" dest-id="792" weight="-0.4371957111145282"/>
+<neuron id="1152" type="hid" activation="sigmoid"/>
+<connection id="1154" src-id="1152" dest-id="24" weight="-0.7911646858930927"/>
+<neuron id="1161" type="hid" activation="sigmoid"/>
+<connection id="1163" src-id="1161" dest-id="49" weight="-0.16576366343819982"/>
+<neuron id="1167" type="hid" activation="sigmoid"/>
+<connection id="1168" src-id="15" dest-id="1167" weight="3.77294082265023"/>
+<connection id="1169" src-id="1167" dest-id="74" weight="2.328089271419691"/>
+<neuron id="1176" type="hid" activation="sigmoid"/>
+<connection id="1177" src-id="9" dest-id="1176" weight="-0.40912726635864627"/>
+<connection id="1178" src-id="1176" dest-id="74" weight="-0.09913552401725134"/>
+<neuron id="1191" type="hid" activation="sigmoid"/>
+<connection id="1192" src-id="19" dest-id="1191" weight="2.3598134786379212"/>
+<connection id="1193" src-id="1191" dest-id="783" weight="0.5691075052940078"/>
+<neuron id="1194" type="hid" activation="sigmoid"/>
+<connection id="1195" src-id="12" dest-id="1194" weight="1.3402730233816498"/>
+<connection id="1196" src-id="1194" dest-id="49" weight="-9.71239687794121"/>
+<neuron id="1206" type="hid" activation="sigmoid"/>
+<connection id="1207" src-id="10" dest-id="1206" weight="1.0"/>
+<connection id="1208" src-id="1206" dest-id="24" weight="3.067331435385834"/>
+<neuron id="1212" type="hid" activation="sigmoid"/>
+<connection id="1213" src-id="8" dest-id="1212" weight="0.04880504659440987"/>
+<connection id="1214" src-id="1212" dest-id="74" weight="8.240195086314474"/>
+<neuron id="1215" type="hid" activation="sigmoid"/>
+<connection id="1216" src-id="8" dest-id="1215" weight="1.0"/>
+<connection id="1217" src-id="1215" dest-id="792" weight="-5.38478881448241"/>
+<neuron id="1233" type="hid" activation="sigmoid"/>
+<connection id="1234" src-id="0" dest-id="1233" weight="-2.396900482371608"/>
+<connection id="1312" src-id="0" dest-id="786" weight="-1.259253337288131"/>
+<connection id="1335" src-id="5" dest-id="783" weight="-7.030625723868985"/>
+<connection id="1339" src-id="2" dest-id="786" weight="-2.70294746577635"/>
+<connection id="1354" src-id="1" dest-id="783" weight="-2.1111035084348266"/>
+<connection id="1357" src-id="20" dest-id="783" weight="-0.18298199350693323"/>
+<connection id="1458" src-id="2" dest-id="696" weight="3.078790845618354"/>
+<connection id="1476" src-id="15" dest-id="786" weight="-1.6513949607310268"/>
+<connection id="1478" src-id="12" dest-id="783" weight="0.7439231153324073"/>
+<connection id="1483" src-id="2" dest-id="783" weight="-0.04185222020653573"/>
+<connection id="1488" src-id="13" dest-id="783" weight="4.125203199308535"/>
+<connection id="1569" src-id="20" dest-id="696" weight="2.7313317334005633"/>
+<connection id="1576" src-id="783" dest-id="786" weight="-3.2030104160751005"/>
+<connection id="1579" src-id="12" dest-id="792" weight="4.682312873133141"/>
+<connection id="1643" src-id="6" dest-id="696" weight="0.7008453874149828"/>
+<connection id="1707" src-id="21" dest-id="696" weight="2.7253997862640347"/>
+<connection id="1766" src-id="5" dest-id="696" weight="-6.974617864638388"/>
+<connection id="1820" src-id="14" dest-id="696" weight="-1.651788840929311"/>
+<connection id="1964" src-id="5" dest-id="714" weight="0.5137999057769775"/>
+<connection id="2031" src-id="4" dest-id="1152" weight="-3.055508945750626"/>
+<connection id="2036" src-id="12" dest-id="744" weight="5.046465058061344"/>
+<connection id="2038" src-id="4" dest-id="744" weight="-0.45162020394666347"/>
+<connection id="2051" src-id="12" dest-id="1152" weight="2.134331968590941"/>
+<neuron id="2098" type="hid" activation="sigmoid"/>
+<connection id="2099" src-id="1233" dest-id="2098" weight="-1.9864820761477693"/>
+<connection id="2100" src-id="2098" dest-id="49" weight="-2.347660817074498"/>
+<connection id="2152" src-id="2" dest-id="744" weight="-7.779636437573218"/>
+<connection id="2153" src-id="9" dest-id="711" weight="-1.0795353121902345"/>
+<connection id="2160" src-id="5" dest-id="1152" weight="0.6840689182281494"/>
+<connection id="2167" src-id="744" dest-id="74" weight="-1.3420912650483212"/>
+<connection id="2175" src-id="16" dest-id="750" weight="3.9729608221029062"/>
+<connection id="2182" src-id="5" dest-id="750" weight="-3.2277270543425094"/>
+<connection id="2218" src-id="696" dest-id="711" weight="-4.426363759748186"/>
+<connection id="2219" src-id="15" dest-id="1152" weight="4.551065892507545"/>
+<connection id="2243" src-id="13" dest-id="1152" weight="-2.1520244018851353"/>
+<connection id="2244" src-id="18" dest-id="711" weight="-0.0802468211960864"/>
+<connection id="2248" src-id="21" dest-id="711" weight="2.6992269520820815"/>
+<connection id="2278" src-id="11" dest-id="744" weight="1.173423227064005"/>
+<connection id="2279" src-id="10" dest-id="744" weight="-2.505611647870228"/>
+<connection id="2303" src-id="8" dest-id="744" weight="2.4609179999537463"/>
+<connection id="2311" src-id="4" dest-id="711" weight="0.2834097704224886"/>
+<connection id="2315" src-id="23" dest-id="744" weight="2.642322320308022"/>
+<connection id="2320" src-id="6" dest-id="744" weight="-6.613573881764884"/>
+<connection id="2322" src-id="783" dest-id="1152" weight="-12.215423309921455"/>
+<neuron id="2350" type="hid" activation="sigmoid"/>
+<connection id="2351" src-id="1" dest-id="2350" weight="6.226313162980345"/>
+<connection id="2352" src-id="2350" dest-id="711" weight="3.777808005083775"/>
+<neuron id="2365" type="hid" activation="sigmoid"/>
+<connection id="2366" src-id="20" dest-id="2365" weight="-0.7183907803908217"/>
+<connection id="2367" src-id="2365" dest-id="1152" weight="0.14300863200417285"/>
+<neuron id="2368" type="hid" activation="sigmoid"/>
+<connection id="2370" src-id="2368" dest-id="696" weight="-7.814251574419576"/>
+<connection id="2432" src-id="0" dest-id="711" weight="-0.10386867298318359"/>
+<connection id="2435" src-id="14" dest-id="1233" weight="-4.568829937596748"/>
+<connection id="2440" src-id="780" dest-id="2368" weight="-0.2595258121752859"/>
+<connection id="2446" src-id="23" dest-id="1233" weight="0.6529945367932708"/>
+<connection id="2450" src-id="1152" dest-id="711" weight="1.7062997817916765"/>
+<connection id="2456" src-id="23" dest-id="1152" weight="-7.122269370695993"/>
+<connection id="2494" src-id="1233" dest-id="24" weight="0.3532537407432421"/>
+<connection id="2525" src-id="2365" dest-id="780" weight="-7.851631266181808"/>
+<connection id="2539" src-id="20" dest-id="2368" weight="-0.09299379892950754"/>
+<connection id="2551" src-id="11" dest-id="2365" weight="1.0255926811065548"/>
+<connection id="2572" src-id="2365" dest-id="747" weight="3.8080104549637284"/>
+<connection id="2575" src-id="15" dest-id="2365" weight="-5.288468061404678"/>
+<connection id="2602" src-id="2368" dest-id="1233" weight="-1.4319262962936015"/>
+<connection id="2604" src-id="7" dest-id="750" weight="-0.736980135841548"/>
+<connection id="2607" src-id="8" dest-id="711" weight="0.7600560188293457"/>
+<connection id="2632" src-id="747" dest-id="783" weight="0.9402187532558904"/>
+<connection id="2651" src-id="0" dest-id="750" weight="0.18341643156417176"/>
+<connection id="2672" src-id="1" dest-id="1152" weight="-1.8428839881202623"/>
+<neuron id="2689" type="hid" activation="sigmoid"/>
+<connection id="2690" src-id="7" dest-id="2689" weight="-0.4212537157287164"/>
+<connection id="2691" src-id="2689" dest-id="2368" weight="-1.7496193420380535"/>
+<neuron id="2701" type="hid" activation="sigmoid"/>
+<connection id="2702" src-id="19" dest-id="2701" weight="9.245300545364689"/>
+<connection id="2703" src-id="2701" dest-id="1233" weight="-8.580052444294912"/>
+<neuron id="2704" type="hid" activation="sigmoid"/>
+<connection id="2705" src-id="3" dest-id="2704" weight="-2.1580655699019675"/>
+<connection id="2706" src-id="2704" dest-id="1152" weight="6.491329574940313"/>
+<neuron id="2755" type="hid" activation="sigmoid"/>
+<connection id="2756" src-id="750" dest-id="2755" weight="0.11119435883565132"/>
+<connection id="2757" src-id="2755" dest-id="74" weight="-1.3770006395023073"/>
+<connection id="2818" src-id="2365" dest-id="1233" weight="1.3600097898484962"/>
+<connection id="2839" src-id="16" dest-id="780" weight="0.7057530145424625"/>
+<connection id="2842" src-id="777" dest-id="2368" weight="-4.860104627064652"/>
+<connection id="2848" src-id="16" dest-id="1152" weight="-6.676670133902663"/>
+<connection id="2887" src-id="9" dest-id="2368" weight="-3.913662116289757"/>
+<connection id="2905" src-id="0" dest-id="747" weight="-4.390426676498665"/>
+<connection id="2921" src-id="0" dest-id="780" weight="-0.03298821693609755"/>
+<connection id="2933" src-id="14" dest-id="2365" weight="-3.5283193031627036"/>
+<connection id="2946" src-id="711" dest-id="74" weight="-1.264285749608971"/>
+<connection id="2955" src-id="744" dest-id="747" weight="-2.1779587076261526"/>
+<connection id="2959" src-id="750" dest-id="711" weight="0.7256528365467281"/>
+<connection id="3019" src-id="2704" dest-id="711" weight="1.0947661059489493"/>
+<connection id="3034" src-id="777" dest-id="750" weight="0.6593275098359227"/>
+<connection id="3038" src-id="6" dest-id="2368" weight="0.7270709168020236"/>
+<connection id="3042" src-id="2704" dest-id="74" weight="0.20198273658752441"/>
+<connection id="3123" src-id="12" dest-id="2368" weight="-0.9550244633646892"/>
+<neuron id="3189" type="hid" activation="sigmoid"/>
+<connection id="3190" src-id="744" dest-id="3189" weight="-0.7085500583739534"/>
+<connection id="3337" src-id="3" dest-id="711" weight="-2.070985334347368"/>
+<connection id="3338" src-id="19" dest-id="750" weight="0.47549802997198354"/>
+<connection id="3371" src-id="20" dest-id="2098" weight="-0.28950562063741536"/>
+<connection id="3430" src-id="4" dest-id="2098" weight="0.5431747436523438"/>
+<connection id="3442" src-id="4" dest-id="729" weight="0.21245036508221035"/>
+<neuron id="3485" type="hid" activation="sigmoid"/>
+<connection id="3486" src-id="2368" dest-id="3485" weight="1.7752085806266384"/>
+<connection id="3487" src-id="3485" dest-id="711" weight="0.7849199647162941"/>
+<connection id="3580" src-id="1152" dest-id="2098" weight="1.8880605957891587"/>
+<connection id="3600" src-id="4" dest-id="747" weight="-1.7939124236030053"/>
+<connection id="3648" src-id="2365" dest-id="786" weight="-3.2323441721528305"/>
+<connection id="3803" src-id="747" dest-id="2098" weight="1.3280807702456017"/>
+<connection id="3813" src-id="8" dest-id="2098" weight="1.3253587030270535"/>
+<neuron id="3880" type="hid" activation="sigmoid"/>
+<connection id="3881" src-id="1233" dest-id="3880" weight="-5.205504384349114"/>
+<connection id="3882" src-id="3880" dest-id="783" weight="-1.3020294164318997"/>
+<connection id="4052" src-id="750" dest-id="1233" weight="-1.4232280484717175"/>
+<connection id="4054" src-id="13" dest-id="2365" weight="-2.3407360418590732"/>
+<connection id="4057" src-id="18" dest-id="780" weight="-1.9075267887424854"/>
+<connection id="4070" src-id="18" dest-id="2098" weight="3.967758364929609"/>
+<connection id="4077" src-id="783" dest-id="2098" weight="1.8557527731857415"/>
+<connection id="4079" src-id="744" dest-id="2098" weight="-3.7405628888921862"/>
+<neuron id="4307" type="hid" activation="sigmoid"/>
+<connection id="4308" src-id="16" dest-id="4307" weight="4.084216119202272"/>
+<connection id="4309" src-id="4307" dest-id="711" weight="1.8862427541883804"/>
+<connection id="4468" src-id="3" dest-id="2098" weight="1.281563725546959"/>
+<connection id="4480" src-id="7" dest-id="780" weight="2.0972275711662105"/>
+<connection id="4481" src-id="2365" dest-id="74" weight="-1.7112403967299779"/>
+<connection id="4612" src-id="19" dest-id="2098" weight="0.7015202460202966"/>
+<connection id="4703" src-id="759" dest-id="774" weight="-0.49788567586386384"/>
+<connection id="4710" src-id="759" dest-id="1233" weight="2.588088168176128E-4"/>
+<neuron id="4928" type="hid" activation="sigmoid"/>
+<connection id="4929" src-id="6" dest-id="4928" weight="0.8984517635476327"/>
+<connection id="4930" src-id="4928" dest-id="759" weight="1.573799011911245"/>
+<connection id="5161" src-id="1" dest-id="774" weight="-2.204397302438275"/>
+<neuron id="5625" type="hid" activation="sigmoid"/>
+<connection id="5626" src-id="18" dest-id="5625" weight="0.2912606800838038"/>
+<connection id="5627" src-id="5625" dest-id="1233" weight="2.23919017607782"/>
+<connection id="6818" src-id="3" dest-id="780" weight="1.8046174950875329"/>
+<neuron id="7391" type="hid" activation="sigmoid"/>
+<connection id="7393" src-id="7391" dest-id="750" weight="-2.35195877234115"/>
+<connection id="8337" src-id="7" dest-id="684" weight="-5.326882528991305"/>
+<neuron id="8502" type="hid" activation="sigmoid"/>
+<connection id="8503" src-id="1233" dest-id="8502" weight="-1.7212188970693587"/>
+<connection id="8504" src-id="8502" dest-id="74" weight="2.056005325310385"/>
+<connection id="8761" src-id="798" dest-id="696" weight="4.292160715305693"/>
+<connection id="10314" src-id="3" dest-id="684" weight="1.4889136175482007"/>
+<connection id="10367" src-id="684" dest-id="711" weight="-2.7630053752641297"/>
+<connection id="10813" src-id="17" dest-id="1161" weight="6.142283900122594"/>
+<connection id="10818" src-id="21" dest-id="2701" weight="0.6454991334550677"/>
+<connection id="11072" src-id="23" dest-id="1161" weight="4.464318002110564"/>
+<connection id="11087" src-id="786" dest-id="1161" weight="0.7953493600837663"/>
+<connection id="11093" src-id="2365" dest-id="792" weight="-0.05244717393692866"/>
+<connection id="11107" src-id="1161" dest-id="711" weight="0.02520353798595254"/>
+<connection id="11115" src-id="4" dest-id="2701" weight="-0.22459179993409606"/>
+<connection id="11117" src-id="19" dest-id="1161" weight="-3.5520551329110654"/>
+<connection id="11130" src-id="2365" dest-id="2098" weight="-4.598243813968249"/>
+<connection id="11166" src-id="2350" dest-id="780" weight="-3.459016786822313"/>
+<neuron id="11322" type="hid" activation="sigmoid"/>
+<connection id="11323" src-id="14" dest-id="11322" weight="-0.5227856965553854"/>
+<connection id="11324" src-id="11322" dest-id="711" weight="0.11769733581215935"/>
+<neuron id="11325" type="hid" activation="sigmoid"/>
+<connection id="11326" src-id="13" dest-id="11325" weight="2.143731913459148"/>
+<connection id="11327" src-id="11325" dest-id="1161" weight="7.583415599326623"/>
+<connection id="11467" src-id="792" dest-id="1233" weight="-1.835683968840876"/>
+<connection id="11576" src-id="16" dest-id="1212" weight="-0.3469000550817325"/>
+<connection id="11682" src-id="780" dest-id="792" weight="-1.2206960463490124"/>
+<connection id="11686" src-id="17" dest-id="2701" weight="0.7593685973750036"/>
+<connection id="11692" src-id="792" dest-id="2701" weight="-5.544644055750664"/>
+<connection id="11701" src-id="16" dest-id="1161" weight="1.7474368804111384"/>
+<connection id="11703" src-id="8" dest-id="1161" weight="0.6347188396327044"/>
+<connection id="11734" src-id="2350" dest-id="1233" weight="-2.204040256653015"/>
+<connection id="11770" src-id="10" dest-id="2701" weight="2.9083167846167255"/>
+<neuron id="11905" type="hid" activation="sigmoid"/>
+<neuron id="11935" type="hid" activation="sigmoid"/>
+<connection id="12129" src-id="18" dest-id="2701" weight="1.6840923410555146"/>
+<connection id="12170" src-id="732" dest-id="786" weight="3.4242338979668503"/>
+<connection id="12188" src-id="744" dest-id="732" weight="-1.448744641995357"/>
+<connection id="12216" src-id="11" dest-id="1161" weight="-1.1047240355697627"/>
+<connection id="12264" src-id="4" dest-id="732" weight="0.7794418226903246"/>
+<neuron id="13034" type="hid" activation="sigmoid"/>
+<connection id="13035" src-id="19" dest-id="13034" weight="0.1558468238187367"/>
+<connection id="13036" src-id="13034" dest-id="786" weight="3.2161848047058634"/>
+<neuron id="13058" type="hid" activation="sigmoid"/>
+<connection id="13059" src-id="17" dest-id="13058" weight="3.359941366143792"/>
+<connection id="13060" src-id="13058" dest-id="1152" weight="-5.61956574901488"/>
+<connection id="13304" src-id="2701" dest-id="1161" weight="0.1213567679225121"/>
+<connection id="14166" src-id="732" dest-id="49" weight="-1.014277576581211"/>
+<connection id="14179" src-id="3" dest-id="732" weight="0.30891621920886314"/>
+<neuron id="14520" type="hid" activation="sigmoid"/>
+<connection id="14522" src-id="14520" dest-id="1161" weight="-1.4247848330113557"/>
+<connection id="14713" src-id="7391" dest-id="11935" weight="-0.7955447468832517"/>
+<connection id="14725" src-id="732" dest-id="1152" weight="2.4673280123257317"/>
+<connection id="15009" src-id="11" dest-id="11905" weight="-2.491856201443704"/>
+<connection id="15010" src-id="7391" dest-id="49" weight="-2.0295076223870168"/>
+<connection id="15012" src-id="11905" dest-id="1161" weight="0.9497513316032093"/>
+<connection id="15013" src-id="7391" dest-id="1233" weight="0.22307815432946887"/>
+<connection id="15015" src-id="11905" dest-id="2704" weight="3.06705418719647"/>
+<connection id="15017" src-id="2701" dest-id="7391" weight="5.567092494169595"/>
+<connection id="15018" src-id="11905" dest-id="786" weight="-1.266395595981877"/>
+<connection id="15019" src-id="777" dest-id="11905" weight="2.3966114139349273"/>
+<connection id="15036" src-id="10" dest-id="11905" weight="-4.106373660181612"/>
+<connection id="15056" src-id="1161" dest-id="2704" weight="-0.7692958774502522"/>
+<connection id="15058" src-id="777" dest-id="7391" weight="-1.4020332003158198"/>
+<connection id="15060" src-id="8" dest-id="7391" weight="-0.8007489527090293"/>
+<neuron id="15063" type="hid" activation="sigmoid"/>
+<connection id="15064" src-id="9" dest-id="15063" weight="-3.1761231140103545"/>
+<connection id="15065" src-id="15063" dest-id="792" weight="-1.4364636820176973"/>
+<neuron id="15135" type="hid" activation="sigmoid"/>
+<connection id="15137" src-id="15135" dest-id="732" weight="-1.2739308578491597"/>
+<neuron id="15138" type="hid" activation="sigmoid"/>
+<connection id="15139" src-id="1233" dest-id="15138" weight="7.393718539032195"/>
+<connection id="15140" src-id="15138" dest-id="11935" weight="-3.6602868049719612"/>
+<connection id="15208" src-id="1" dest-id="714" weight="-2.068846954471658"/>
+<connection id="15226" src-id="1152" dest-id="11935" weight="1.7964156046650706"/>
+<connection id="15232" src-id="16" dest-id="11905" weight="4.997157047054381"/>
+<connection id="15236" src-id="729" dest-id="15138" weight="-4.421946739848136"/>
+<connection id="15238" src-id="747" dest-id="1167" weight="-1.591640953789927"/>
+<connection id="15250" src-id="12" dest-id="684" weight="-1.3671523756268438"/>
+<connection id="15404" src-id="3189" dest-id="74" weight="1.1261995227342616"/>
+<connection id="15466" src-id="1152" dest-id="15138" weight="-0.9424729347229004"/>
+<connection id="15507" src-id="9" dest-id="11935" weight="3.688216776458066"/>
+<connection id="15514" src-id="15135" dest-id="696" weight="0.7375558751659543"/>
+<connection id="15522" src-id="21" dest-id="14520" weight="-0.2545220905595167"/>
+<connection id="15536" src-id="1152" dest-id="1167" weight="1.594405220525815"/>
+<connection id="15540" src-id="20" dest-id="1167" weight="4.664819422116207"/>
+<connection id="15541" src-id="1167" dest-id="24" weight="0.42449371244914413"/>
+<connection id="15542" src-id="20" dest-id="15138" weight="-0.06930167653999422"/>
+<connection id="15543" src-id="11905" dest-id="1233" weight="-0.6181094381562076"/>
+<connection id="15544" src-id="9" dest-id="15138" weight="-2.0210928652646114"/>
+<connection id="15545" src-id="15135" dest-id="2368" weight="3.223796120638103"/>
+<connection id="15546" src-id="10" dest-id="729" weight="2.2384573927063043"/>
+<connection id="15547" src-id="14520" dest-id="2098" weight="2.3628299704282965"/>
+<connection id="15548" src-id="2" dest-id="777" weight="-1.584605969258952"/>
+<connection id="15559" src-id="777" dest-id="15135" weight="-1.4962698354003754"/>
+<connection id="15560" src-id="1" dest-id="1167" weight="0.13598346834473318"/>
+<connection id="15561" src-id="3189" dest-id="2704" weight="-0.09723160420257138"/>
+<connection id="15562" src-id="12" dest-id="14520" weight="3.280198077467696"/>
+<connection id="15564" src-id="7391" dest-id="684" weight="4.634786651343981"/>
+<connection id="15565" src-id="729" dest-id="1233" weight="-2.144061521999251"/>
+<connection id="15566" src-id="684" dest-id="747" weight="1.7356520667399205"/>
+<connection id="15628" src-id="13" dest-id="777" weight="1.1204092813047684"/>
+<connection id="15629" src-id="777" dest-id="2701" weight="3.3055229976793417"/>
+<connection id="15637" src-id="4" dest-id="11905" weight="-5.83854582932482"/>
+<connection id="15669" src-id="7391" dest-id="1152" weight="1.0730890526719774"/>
+<connection id="15672" src-id="3189" dest-id="11935" weight="-1.6135177174716329"/>
+<connection id="15700" src-id="3189" dest-id="729" weight="0.9734925031661987"/>
+<connection id="15720" src-id="23" dest-id="11905" weight="-3.3742717925409806"/>
+<connection id="15734" src-id="777" dest-id="1167" weight="-0.8898521011052472"/>
+<connection id="15739" src-id="21" dest-id="11935" weight="0.24517483405542695"/>
+<connection id="15743" src-id="2704" dest-id="15138" weight="-0.591606616973877"/>
+<connection id="15752" src-id="0" dest-id="11905" weight="5.610420168717303"/>
+<connection id="15753" src-id="9" dest-id="7391" weight="-4.003453943561201"/>
+<connection id="15788" src-id="2" dest-id="1167" weight="-1.9841703234912746"/>
+<connection id="15803" src-id="13" dest-id="15135" weight="-1.3524683045007544"/>
+<connection id="15820" src-id="12" dest-id="3189" weight="3.0817046507033234"/>
+<neuron id="15964" type="hid" activation="sigmoid"/>
+<connection id="15965" src-id="729" dest-id="15964" weight="1.0795040830765588"/>
+<connection id="15966" src-id="15964" dest-id="74" weight="1.512067257730752"/>
+<neuron id="15970" type="hid" activation="sigmoid"/>
+<connection id="15971" src-id="11905" dest-id="15970" weight="-2.6638811141929555"/>
+<neuron id="16045" type="hid" activation="sigmoid"/>
+<connection id="16046" src-id="684" dest-id="16045" weight="4.59525154453452"/>
+<connection id="16047" src-id="16045" dest-id="1152" weight="-4.556892541994158"/>
+<neuron id="16054" type="hid" activation="sigmoid"/>
+<connection id="16055" src-id="786" dest-id="16054" weight="0.2934309626380238"/>
+<connection id="16056" src-id="16054" dest-id="14520" weight="0.4929941617589905"/>
+<neuron id="16063" type="hid" activation="sigmoid"/>
+<connection id="16064" src-id="732" dest-id="16063" weight="3.1128803581031597"/>
+<neuron id="16066" type="hid" activation="sigmoid"/>
+<connection id="16067" src-id="11935" dest-id="16066" weight="0.7823118173814569"/>
+<connection id="16068" src-id="16066" dest-id="696" weight="-0.28009757357063614"/>
+<neuron id="16069" type="hid" activation="sigmoid"/>
+<connection id="16071" src-id="16069" dest-id="1161" weight="-0.7933075040766207"/>
+<neuron id="16072" type="hid" activation="sigmoid"/>
+<connection id="16073" src-id="21" dest-id="16072" weight="-0.6296183362058372"/>
+<connection id="16074" src-id="16072" dest-id="2704" weight="1.271063632923993"/>
+<neuron id="16075" type="hid" activation="sigmoid"/>
+<connection id="16076" src-id="3189" dest-id="16075" weight="2.679757016808253"/>
+<connection id="16077" src-id="16075" dest-id="1233" weight="-6.878728398260018"/>
+<connection id="16227" src-id="10" dest-id="1167" weight="-1.8618265840334705"/>
+<connection id="16249" src-id="11905" dest-id="15135" weight="0.06737938380201469"/>
+<connection id="16250" src-id="8" dest-id="729" weight="-2.8317412654887537"/>
+<connection id="16272" src-id="732" dest-id="2098" weight="-1.2503180149151298"/>
+<connection id="16298" src-id="16045" dest-id="14520" weight="-0.30925615373448934"/>
+<connection id="16322" src-id="750" dest-id="1167" weight="2.346647886591544"/>
+<connection id="16346" src-id="6" dest-id="1167" weight="-0.30227870320558714"/>
+<connection id="16380" src-id="11905" dest-id="2098" weight="-0.6948952171992449"/>
+<connection id="16391" src-id="14520" dest-id="11935" weight="1.9485231534097984"/>
+<connection id="16413" src-id="12" dest-id="7391" weight="0.3222442865371704"/>
+<connection id="16416" src-id="3189" dest-id="696" weight="-2.1090515071957947"/>
+<connection id="16424" src-id="8" dest-id="684" weight="-1.481198815194237"/>
+<connection id="16442" src-id="16" dest-id="15138" weight="-2.070040394384179"/>
+<connection id="16465" src-id="7" dest-id="14520" weight="-3.7191992116197445"/>
+<connection id="16468" src-id="15138" dest-id="49" weight="2.6802854265539837"/>
+<connection id="16482" src-id="16" dest-id="2704" weight="-2.165249494275931"/>
+<connection id="16486" src-id="23" dest-id="7391" weight="-3.5301855547578644"/>
+<connection id="16504" src-id="6" dest-id="3189" weight="-0.6771765819818156"/>
+<connection id="16506" src-id="0" dest-id="7391" weight="-1.339270623966843"/>
+<connection id="16522" src-id="792" dest-id="11935" weight="-0.7087165150345576"/>
+<connection id="16584" src-id="15063" dest-id="2368" weight="-0.04661083990995962"/>
+<connection id="16627" src-id="21" dest-id="7391" weight="1.8502159124258886"/>
+<connection id="16631" src-id="11905" dest-id="2368" weight="-1.3172616848071486"/>
+<connection id="16655" src-id="15135" dest-id="11935" weight="0.23607134819030762"/>
+<connection id="16758" src-id="786" dest-id="16072" weight="-2.0519107459611785"/>
+<connection id="16773" src-id="1233" dest-id="16072" weight="-1.31126809789505"/>
+<connection id="16797" src-id="729" dest-id="2704" weight="-2.007413716317044"/>
+<connection id="16801" src-id="1176" dest-id="750" weight="2.5139470078424075"/>
+<connection id="16803" src-id="744" dest-id="16075" weight="-0.43299329757224747"/>
+<connection id="16804" src-id="750" dest-id="16066" weight="-0.92868167008095"/>
+<connection id="16808" src-id="2365" dest-id="16045" weight="0.11740650985802947"/>
+<connection id="16813" src-id="774" dest-id="16045" weight="-0.6900145476221483"/>
+<connection id="16814" src-id="16" dest-id="16072" weight="-0.6926351757259576"/>
+<connection id="16818" src-id="16069" dest-id="13034" weight="-2.216862270566333"/>
+<connection id="16820" src-id="16072" dest-id="11935" weight="-2.7477152985402915"/>
+<connection id="16823" src-id="2098" dest-id="16066" weight="-0.41192575672984844"/>
+<connection id="16829" src-id="11905" dest-id="16069" weight="2.594000634496643"/>
+<connection id="16830" src-id="774" dest-id="684" weight="0.2782394758327451"/>
+<connection id="16831" src-id="17" dest-id="1176" weight="-0.692256491040508"/>
+<connection id="16834" src-id="14" dest-id="15970" weight="-1.8884148306690873"/>
+<connection id="16835" src-id="696" dest-id="16063" weight="1.9344365448191372"/>
+<connection id="16836" src-id="1176" dest-id="15135" weight="-3.678123059195997"/>
+<connection id="16837" src-id="15135" dest-id="684" weight="-4.0619836610425795"/>
+<connection id="16839" src-id="16075" dest-id="16072" weight="-6.391144526912415"/>
+<connection id="16840" src-id="774" dest-id="15138" weight="-1.3682511212250916"/>
+<connection id="16843" src-id="2368" dest-id="16045" weight="-1.0939563333090792"/>
+<connection id="16844" src-id="783" dest-id="13034" weight="0.08915127833373626"/>
+<connection id="16846" src-id="792" dest-id="774" weight="1.3965138766638416"/>
+<connection id="16847" src-id="17" dest-id="13034" weight="1.9622576654555193"/>
+<connection id="16848" src-id="786" dest-id="16045" weight="1.995250263329896"/>
+<connection id="16849" src-id="16069" dest-id="1167" weight="5.315245822368044"/>
+<connection id="16885" src-id="3189" dest-id="7391" weight="2.4498122840074132"/>
+<connection id="16894" src-id="15970" dest-id="14520" weight="3.2068164778083483"/>
+<connection id="16899" src-id="1176" dest-id="1233" weight="-0.8708090636410841"/>
+<connection id="16923" src-id="18" dest-id="16069" weight="-0.5298299284209875"/>
+<connection id="16927" src-id="1176" dest-id="15138" weight="1.7312374388587917"/>
+<neuron id="16958" type="hid" activation="sigmoid"/>
+<connection id="16959" src-id="744" dest-id="16958" weight="1.3556512357947161"/>
+<connection id="16960" src-id="16958" dest-id="11905" weight="4.896100946758906"/>
+<neuron id="17048" type="hid" activation="sigmoid"/>
+<connection id="17049" src-id="1167" dest-id="17048" weight="-2.2979316196339434"/>
+<connection id="17050" src-id="17048" dest-id="15138" weight="5.710380038390278"/>
+<neuron id="17051" type="hid" activation="sigmoid"/>
+<connection id="17052" src-id="12" dest-id="17051" weight="1.6515335945930718"/>
+<connection id="17053" src-id="17051" dest-id="16069" weight="3.4334026178358177"/>
+<neuron id="17054" type="hid" activation="sigmoid"/>
+<connection id="17056" src-id="17054" dest-id="684" weight="3.1073341974947346"/>
+<neuron id="17057" type="hid" activation="sigmoid"/>
+<connection id="17058" src-id="16063" dest-id="17057" weight="1.0721791137073642"/>
+<connection id="17059" src-id="17057" dest-id="711" weight="-3.147230205231798"/>
+<connection id="17195" src-id="11905" dest-id="2350" weight="0.15978585422523195"/>
+<connection id="17198" src-id="780" dest-id="7391" weight="0.9941957755607587"/>
+<connection id="17220" src-id="750" dest-id="16069" weight="-1.3538527300323877"/>
+<connection id="17223" src-id="2350" dest-id="13034" weight="0.9495553970336914"/>
+<connection id="17225" src-id="21" dest-id="714" weight="-0.8781575392564803"/>
+<connection id="17283" src-id="792" dest-id="684" weight="2.4081097098871638"/>
+<connection id="17369" src-id="780" dest-id="15138" weight="0.6441694498062134"/>
+<connection id="17392" src-id="744" dest-id="15063" weight="-0.9164992570877075"/>
+<connection id="17575" src-id="723" dest-id="7391" weight="-1.5897879899764624"/>
+<connection id="17591" src-id="19" dest-id="777" weight="0.5250720376334006"/>
+<connection id="17723" src-id="20" dest-id="684" weight="0.23255174200615047"/>
+<connection id="17887" src-id="3880" dest-id="15138" weight="0.7571899827837507"/>
+<connection id="17910" src-id="5625" dest-id="2365" weight="3.685963674030872"/>
+<connection id="17917" src-id="16063" dest-id="49" weight="-0.879162496601668"/>
+<neuron id="18101" type="hid" activation="sigmoid"/>
+<connection id="18102" src-id="3" dest-id="18101" weight="1.4317013676636567"/>
+<connection id="18103" src-id="18101" dest-id="7391" weight="5.779095095333171"/>
+<connection id="18328" src-id="714" dest-id="1161" weight="-1.6637009373365395"/>
+<connection id="18334" src-id="9" dest-id="15970" weight="-2.4789618048906314"/>
+<connection id="18365" src-id="1161" dest-id="17057" weight="-3.7653429061210275"/>
+<connection id="18533" src-id="16045" dest-id="16072" weight="1.669654940651987"/>
+<connection id="18534" src-id="17054" dest-id="1161" weight="0.5077625513076782"/>
+<connection id="18536" src-id="16072" dest-id="49" weight="0.3264309499386979"/>
+<connection id="18571" src-id="20" dest-id="759" weight="0.6730622694392077"/>
+<connection id="18642" src-id="2350" dest-id="3189" weight="-0.5815796624812681"/>
+<connection id="18657" src-id="2368" dest-id="16075" weight="1.5283472490648253"/>
+<connection id="18678" src-id="15135" dest-id="16072" weight="-0.42914206153972234"/>
+<connection id="18714" src-id="0" dest-id="3880" weight="2.3023351873743687"/>
+<connection id="18720" src-id="7" dest-id="11905" weight="-0.9327930865580846"/>
+<connection id="18722" src-id="17054" dest-id="49" weight="4.3150088452061395"/>
+<connection id="18773" src-id="21" dest-id="17057" weight="-2.983116999584098"/>
+<connection id="18836" src-id="17054" dest-id="1152" weight="0.11128985417247561"/>
+<connection id="19088" src-id="729" dest-id="783" weight="-3.0309206805865205"/>
+<neuron id="19500" type="hid" activation="sigmoid"/>
+<connection id="19501" src-id="2701" dest-id="19500" weight="-1.6385593967369516"/>
+<connection id="19502" src-id="19500" dest-id="729" weight="-0.6451213443152584"/>
+<neuron id="19581" type="hid" activation="sigmoid"/>
+<connection id="19582" src-id="11" dest-id="19581" weight="1.0"/>
+<connection id="19583" src-id="19581" dest-id="16069" weight="0.5345237689902851"/>
+<neuron id="19587" type="hid" activation="sigmoid"/>
+<connection id="19588" src-id="13" dest-id="19587" weight="1.0"/>
+<connection id="19589" src-id="19587" dest-id="747" weight="0.2167306599488082"/>
+<neuron id="19608" type="hid" activation="sigmoid"/>
+<connection id="19609" src-id="21" dest-id="19608" weight="0.5352511520759631"/>
+<connection id="19610" src-id="19608" dest-id="750" weight="-3.227351158068645"/>
+<neuron id="19644" type="hid" activation="sigmoid"/>
+<connection id="19645" src-id="16075" dest-id="19644" weight="1.0772510397737103"/>
+<connection id="19646" src-id="19644" dest-id="747" weight="1.1000326015172912"/>
+<neuron id="19656" type="hid" activation="sigmoid"/>
+<connection id="19657" src-id="13034" dest-id="19656" weight="1.0"/>
+<connection id="19658" src-id="19656" dest-id="2098" weight="-0.3083698619622033"/>
+<connection id="19890" src-id="750" dest-id="17057" weight="-1.176283304253841"/>
+<connection id="20115" src-id="4" dest-id="16072" weight="-2.022632434491301"/>
+<connection id="20123" src-id="759" dest-id="5625" weight="-0.2674120094633254"/>
+<connection id="20128" src-id="8" dest-id="759" weight="0.8640253455946724"/>
+<connection id="20131" src-id="2368" dest-id="16069" weight="0.2524565284307778"/>
+<connection id="20132" src-id="759" dest-id="15135" weight="0.6403196972582689"/>
+<connection id="20134" src-id="13034" dest-id="732" weight="-0.1712446671081327"/>
+<connection id="20135" src-id="759" dest-id="684" weight="-1.6758541503670275"/>
+<connection id="20136" src-id="20" dest-id="13034" weight="-0.06692302870315947"/>
+<connection id="20137" src-id="15138" dest-id="17057" weight="1.5760870729263727"/>
+<connection id="20139" src-id="780" dest-id="16072" weight="2.2783691544164837"/>
+<connection id="20142" src-id="16069" dest-id="16072" weight="-3.320723346059677"/>
+<connection id="20143" src-id="714" dest-id="14520" weight="-0.1236292514244709"/>
+<connection id="20145" src-id="15970" dest-id="729" weight="-0.24495395277385712"/>
+<connection id="20147" src-id="2350" dest-id="17054" weight="-0.21225176479099972"/>
+<connection id="20149" src-id="15970" dest-id="3880" weight="-5.711280896752674"/>
+<connection id="20150" src-id="684" dest-id="16075" weight="2.1061719173994504"/>
+<connection id="20151" src-id="11905" dest-id="16045" weight="-1.372887077012325"/>
+<connection id="20153" src-id="10" dest-id="16075" weight="0.6350493317794729"/>
+<connection id="20154" src-id="759" dest-id="16072" weight="3.8053965072053555"/>
+<connection id="20181" src-id="759" dest-id="750" weight="1.67639573307896"/>
+<connection id="20231" src-id="15" dest-id="16045" weight="1.345764682791623"/>
+<connection id="20319" src-id="723" dest-id="765" weight="0.25681215685152026"/>
+<connection id="20447" src-id="1" dest-id="15063" weight="0.7832081317901611"/>
+<connection id="20557" src-id="14520" dest-id="24" weight="0.9522314014784252"/>
+<connection id="20844" src-id="12" dest-id="13034" weight="-3.762546017285064"/>
+<connection id="21024" src-id="13034" dest-id="15138" weight="0.6244058116468505"/>
+<connection id="21114" src-id="723" dest-id="792" weight="0.4061018228530884"/>
+<connection id="21203" src-id="13058" dest-id="711" weight="0.9414332158696206"/>
+<neuron id="21403" type="hid" activation="sigmoid"/>
+<connection id="21404" src-id="3" dest-id="21403" weight="0.49209073171749496"/>
+<connection id="21405" src-id="21403" dest-id="696" weight="0.9934854016566651"/>
+<neuron id="21406" type="hid" activation="sigmoid"/>
+<connection id="21407" src-id="744" dest-id="21406" weight="1.6483501338058668"/>
+<neuron id="21658" type="hid" activation="sigmoid"/>
+<connection id="21659" src-id="750" dest-id="21658" weight="0.3863081111162856"/>
+<connection id="21660" src-id="21658" dest-id="15135" weight="4.952390646808011"/>
+<connection id="21870" src-id="14" dest-id="1176" weight="-0.39056289196014404"/>
+<connection id="21920" src-id="0" dest-id="16072" weight="0.7938915491104126"/>
+<connection id="21948" src-id="798" dest-id="5625" weight="-0.36566089965230286"/>
+<connection id="22152" src-id="1176" dest-id="7391" weight="1.8055293596945599"/>
+<connection id="22191" src-id="16075" dest-id="729" weight="0.6440354585647583"/>
+<connection id="22243" src-id="15970" dest-id="17054" weight="-1.1321841697185941"/>
+<connection id="22333" src-id="21" dest-id="3880" weight="-0.6029715509632978"/>
+<connection id="22369" src-id="732" dest-id="16072" weight="-0.3700758218765259"/>
+<connection id="22528" src-id="22" dest-id="1212" weight="0.9806798434394868"/>
+<connection id="22591" src-id="16075" dest-id="21403" weight="1.3617145167827616"/>
+<connection id="22619" src-id="798" dest-id="2704" weight="-0.2906912667778311"/>
+<connection id="22654" src-id="19644" dest-id="714" weight="-0.502153080772431"/>
+<connection id="22678" src-id="750" dest-id="21406" weight="1.6119659484203241"/>
+<connection id="22723" src-id="5625" dest-id="3880" weight="2.245758555705165"/>
+<connection id="22802" src-id="672" dest-id="15970" weight="-0.6023431146675945"/>
+<connection id="22821" src-id="11" dest-id="1191" weight="-1.7867356219967567"/>
+<connection id="22858" src-id="2368" dest-id="21406" weight="-0.6107715199054486"/>
+<connection id="22896" src-id="22" dest-id="21403" weight="-0.2637571569274302"/>
+<connection id="22906" src-id="20" dest-id="21406" weight="0.8388644456863403"/>
+<connection id="22957" src-id="18" dest-id="714" weight="-0.6772365570068359"/>
+<connection id="23011" src-id="15" dest-id="1191" weight="-1.4467674333798937"/>
+<connection id="23092" src-id="13" dest-id="21406" weight="-1.079769179715968"/>
+<connection id="23099" src-id="21403" dest-id="1233" weight="3.6201847519162973"/>
+<connection id="23437" src-id="3" dest-id="16072" weight="-0.13659400239257558"/>
+<neuron id="23949" type="hid" activation="sigmoid"/>
+<connection id="23950" src-id="20" dest-id="23949" weight="-0.8790406525638206"/>
+<connection id="23951" src-id="23949" dest-id="16075" weight="0.9304792530805539"/>
+<neuron id="24012" type="hid" activation="sigmoid"/>
+<connection id="24013" src-id="2" dest-id="24012" weight="1.4469036418461712"/>
+<connection id="24014" src-id="24012" dest-id="7391" weight="2.973711643939049"/>
+<neuron id="24045" type="hid" activation="sigmoid"/>
+<connection id="24046" src-id="5" dest-id="24045" weight="1.4246577206725726"/>
+<connection id="24047" src-id="24045" dest-id="2701" weight="-1.2458876091799462"/>
+<neuron id="24051" type="hid" activation="sigmoid"/>
+<connection id="24052" src-id="21406" dest-id="24051" weight="-0.5687699093031623"/>
+<connection id="24053" src-id="24051" dest-id="1161" weight="-4.967765019501763"/>
+<connection id="24294" src-id="759" dest-id="2350" weight="-2.324315547796407"/>
+<connection id="24662" src-id="2368" dest-id="19644" weight="0.616447925567627"/>
+<connection id="24674" src-id="1191" dest-id="21403" weight="-0.4979778112480435"/>
+<connection id="24773" src-id="15" dest-id="21403" weight="-0.3776846888024748"/>
+<connection id="24786" src-id="1191" dest-id="3880" weight="0.7555606365203857"/>
+<connection id="24796" src-id="714" dest-id="16063" weight="1.1294405278944781"/>
+<connection id="24799" src-id="13034" dest-id="21406" weight="-0.5753726959228516"/>
+<connection id="24813" src-id="13034" dest-id="1212" weight="-4.576826333277416"/>
+<connection id="24859" src-id="672" dest-id="798" weight="0.7880356345553701"/>
+<connection id="24867" src-id="711" dest-id="15964" weight="0.6560488564228354"/>
+<connection id="24878" src-id="2350" dest-id="723" weight="-0.27721428871154785"/>
+<connection id="24925" src-id="759" dest-id="2368" weight="-0.07404494066932236"/>
+<connection id="25301" src-id="672" dest-id="2350" weight="1.179465022088821"/>
+<connection id="25326" src-id="1212" dest-id="4307" weight="2.696860609722756"/>
+<connection id="25493" src-id="17057" dest-id="4307" weight="2.2323320286992727"/>
+<connection id="26659" src-id="16" dest-id="16066" weight="-0.9720412492752075"/>
+<neuron id="27124" type="hid" activation="sigmoid"/>
+<connection id="27125" src-id="15970" dest-id="27124" weight="-2.3908828188390494"/>
+<connection id="27126" src-id="27124" dest-id="2365" weight="0.9610377410275213"/>
+<connection id="27875" src-id="774" dest-id="16063" weight="0.06355643272399902"/>
+<connection id="28098" src-id="19644" dest-id="783" weight="1.1316319356179116"/>
+<connection id="28120" src-id="13058" dest-id="16069" weight="0.3290284598477192"/>
+<connection id="28121" src-id="5625" dest-id="13034" weight="0.5643080472946167"/>
+<connection id="28141" src-id="798" dest-id="2350" weight="-5.250758703164751"/>
+<connection id="28158" src-id="15063" dest-id="74" weight="-0.6153476002751903"/>
+<connection id="28168" src-id="21406" dest-id="15138" weight="-2.4451618971729805"/>
+<connection id="28170" src-id="19644" dest-id="16045" weight="-0.6000947604957869"/>
+<connection id="28199" src-id="774" dest-id="17057" weight="1.8191476503133048"/>
+<connection id="28223" src-id="21403" dest-id="1212" weight="0.2154388761628333"/>
+<connection id="30747" src-id="17" dest-id="1191" weight="1.653161013474008"/>
+<connection id="30772" src-id="786" dest-id="15964" weight="-0.03917119856623574"/>
+<connection id="30967" src-id="1233" dest-id="21406" weight="3.9491391967559917"/>
+<neuron id="31170" type="hid" activation="sigmoid"/>
+<connection id="31171" src-id="0" dest-id="31170" weight="-0.6666565454969229"/>
+<connection id="31172" src-id="31170" dest-id="17054" weight="10.261358008054637"/>
+<connection id="31949" src-id="21406" dest-id="732" weight="1.220997870229685"/>
+<connection id="32065" src-id="15063" dest-id="21406" weight="-1.1901873674534074"/>
+<connection id="32136" src-id="15970" dest-id="21406" weight="1.8539107678901967"/>
+<connection id="32313" src-id="798" dest-id="1161" weight="4.773870250197445"/>
+<connection id="32314" src-id="1191" dest-id="696" weight="0.44658588583436104"/>
+<connection id="32316" src-id="672" dest-id="5625" weight="-1.0667237075141887"/>
+<connection id="32317" src-id="7" dest-id="15964" weight="0.44745302200317383"/>
+<connection id="32318" src-id="15" dest-id="21406" weight="1.1620623770586396"/>
+<connection id="32321" src-id="2368" dest-id="15964" weight="0.2453669309616089"/>
+<connection id="32322" src-id="777" dest-id="21403" weight="-1.8092644031907417"/>
+<connection id="32323" src-id="21403" dest-id="729" weight="-2.2143156058883546"/>
+<connection id="32324" src-id="684" dest-id="21406" weight="-0.07706785202026367"/>
+<connection id="32337" src-id="17054" dest-id="15063" weight="3.0842898845915983"/>
+<connection id="32607" src-id="19" dest-id="13058" weight="1.4200781427482316"/>
+<neuron id="35284" type="hid" activation="sigmoid"/>
+<connection id="35285" src-id="1191" dest-id="35284" weight="1.0"/>
+<connection id="35286" src-id="35284" dest-id="792" weight="-1.547214991390315"/>
+<connection id="36174" src-id="1233" dest-id="16054" weight="-0.9594357059916541"/>
+<connection id="36957" src-id="17054" dest-id="1212" weight="-0.5153533220291138"/>
+<connection id="36962" src-id="1191" dest-id="2098" weight="0.4976649284362793"/>
+<connection id="37048" src-id="798" dest-id="1167" weight="-0.4421779993235315"/>
+<connection id="37215" src-id="23949" dest-id="24" weight="1.160713832797863"/>
+<connection id="37269" src-id="777" dest-id="16958" weight="0.9196890696832708"/>
+<connection id="37404" src-id="9" dest-id="24012" weight="-1.156851165221019"/>
+<connection id="37436" src-id="11322" dest-id="786" weight="0.0067321004395965445"/>
+<connection id="37445" src-id="765" dest-id="2755" weight="-0.3890839859445735"/>
+<connection id="37500" src-id="5" dest-id="31170" weight="0.9103351608640908"/>
+<connection id="37599" src-id="27124" dest-id="4307" weight="-0.4665981494022079"/>
+<connection id="37625" src-id="27124" dest-id="1212" weight="-2.7078578585679596"/>
+<connection id="37659" src-id="2365" dest-id="19500" weight="0.9650128374568552"/>
+<connection id="37691" src-id="35284" dest-id="2368" weight="-0.5871621370315552"/>
+<connection id="37712" src-id="723" dest-id="16054" weight="0.11216366291046143"/>
+<connection id="37713" src-id="1194" dest-id="23949" weight="0.7570640562471328"/>
+<connection id="37825" src-id="31170" dest-id="1194" weight="-1.7915812915813523"/>
+<connection id="37918" src-id="11325" dest-id="2755" weight="-3.2436069235255847"/>
+<connection id="37948" src-id="24045" dest-id="2350" weight="0.7780503034591675"/>
+<connection id="41704" src-id="1194" dest-id="3189" weight="-0.3886075550749424"/>
+<connection id="41716" src-id="18" dest-id="35284" weight="0.2336602597765377"/>
+<connection id="41722" src-id="11322" dest-id="24012" weight="0.3158918258770577"/>
+<connection id="41847" src-id="31170" dest-id="19644" weight="-0.876251795044146"/>
+<connection id="42122" src-id="21658" dest-id="17051" weight="1.2354121415925092"/>
+<connection id="42189" src-id="16054" dest-id="1152" weight="0.1633054896505588"/>
+<connection id="42240" src-id="27124" dest-id="759" weight="-1.9741802060992386"/>
+<connection id="42410" src-id="11" dest-id="1194" weight="-0.16119584661975606"/>
+<connection id="42498" src-id="11322" dest-id="1167" weight="0.6515561754323639"/>
+<connection id="42532" src-id="5" dest-id="16054" weight="-2.999617651952884"/>
+<connection id="42612" src-id="17054" dest-id="19500" weight="0.28031396865844727"/>
+<connection id="42697" src-id="23949" dest-id="13034" weight="0.8825821876525879"/>
+<connection id="43374" src-id="759" dest-id="16054" weight="1.5322651137490308"/>
+<connection id="43430" src-id="13" dest-id="16958" weight="0.3029104471206665"/>
+<connection id="43512" src-id="13058" dest-id="16958" weight="-3.625765282443041"/>
+<connection id="43560" src-id="7" dest-id="16958" weight="-1.1433262340273402"/>
+<connection id="43920" src-id="16958" dest-id="3189" weight="0.17448055744171143"/>
+<connection id="44015" src-id="19608" dest-id="15964" weight="1.8848184724442598"/>
+<connection id="44087" src-id="1191" dest-id="1194" weight="-0.6501869676921213"/>
+<connection id="44464" src-id="11322" dest-id="49" weight="0.6888128243236129"/>
+<connection id="44472" src-id="24045" dest-id="696" weight="-1.7500546944886675"/>
+<connection id="44610" src-id="21658" dest-id="2704" weight="-4.236054136124878"/>
+<connection id="44752" src-id="11322" dest-id="15970" weight="1.2552208401713467"/>
+<neuron id="45612" type="hid" activation="sigmoid"/>
+<connection id="45613" src-id="3189" dest-id="45612" weight="3.462012656754615"/>
+<connection id="45614" src-id="45612" dest-id="2365" weight="-2.475863995967857"/>
+<connection id="45861" src-id="11325" dest-id="672" weight="-1.9672500440893348"/>
+<connection id="46060" src-id="16958" dest-id="11325" weight="1.8259075538059288"/>
+<connection id="46534" src-id="3189" dest-id="21658" weight="-2.315009949842481"/>
+<connection id="46538" src-id="18" dest-id="24012" weight="-0.6521777690635532"/>
+<connection id="46620" src-id="765" dest-id="16054" weight="4.148950260150457"/>
+<connection id="46839" src-id="21658" dest-id="13034" weight="-1.6592727305474502"/>
+<connection id="47950" src-id="21658" dest-id="747" weight="0.333706701404596"/>
+<connection id="49647" src-id="17051" dest-id="15964" weight="3.4751150277142435"/>
+<connection id="50020" src-id="10" dest-id="27124" weight="0.043723216117553476"/>
+<connection id="50103" src-id="24051" dest-id="2704" weight="1.0885230760007125"/>
+<connection id="50523" src-id="31170" dest-id="1152" weight="-0.6494486331939697"/>
+<connection id="52798" src-id="20" dest-id="16958" weight="0.7748148441314697"/>
+<connection id="52832" src-id="13034" dest-id="2755" weight="2.828360610417726"/>
+<neuron id="62760" type="hid" activation="sigmoid"/>
+<connection id="62761" src-id="24045" dest-id="62760" weight="0.2943246530674164"/>
+<connection id="62762" src-id="62760" dest-id="11905" weight="0.9147699279783446"/>
+<neuron id="62763" type="hid" activation="sigmoid"/>
+<connection id="62764" src-id="774" dest-id="62763" weight="-0.04123957532650402"/>
+<connection id="62765" src-id="62763" dest-id="7391" weight="-3.130448566566616"/>
+<neuron id="62766" type="hid" activation="sigmoid"/>
+<connection id="62767" src-id="1191" dest-id="62766" weight="0.5588523870910381"/>
+<connection id="62768" src-id="62766" dest-id="31170" weight="-1.1386742233901441"/>
+<neuron id="62769" type="hid" activation="sigmoid"/>
+<connection id="62770" src-id="35284" dest-id="62769" weight="-0.8775855562025359"/>
+<connection id="62771" src-id="62769" dest-id="15135" weight="-0.9161451294793546"/>
+<neuron id="62772" type="hid" activation="sigmoid"/>
+<connection id="62773" src-id="1194" dest-id="62772" weight="0.44830937609511834"/>
+<connection id="62774" src-id="62772" dest-id="21406" weight="0.3004553067982392"/>
+<neuron id="62775" type="hid" activation="sigmoid"/>
+<connection id="62776" src-id="22" dest-id="62775" weight="1.0"/>
+<connection id="62777" src-id="62775" dest-id="16063" weight="0.6664541293204392"/>
+<neuron id="62778" type="hid" activation="sigmoid"/>
+<connection id="62779" src-id="5625" dest-id="62778" weight="0.6427195021917802"/>
+<connection id="62780" src-id="62778" dest-id="2350" weight="0.8535960234013341"/>
+</chromosome>

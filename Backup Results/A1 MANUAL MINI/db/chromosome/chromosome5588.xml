@@ -1,0 +1,18 @@
+<chromosome id="5588" primary-parent-id="4570"><neuron id="0" type="in" activation="linear"/>
+<neuron id="1" type="in" activation="linear"/>
+<neuron id="2" type="in" activation="linear"/>
+<neuron id="3" type="out" activation="sigmoid"/>
+<connection id="5" src-id="1" dest-id="3" weight="-1.4377419226558177"/>
+<connection id="6" src-id="2" dest-id="3" weight="1.0900816402536155"/>
+<neuron id="164" type="hid" activation="sigmoid"/>
+<connection id="166" src-id="164" dest-id="3" weight="11.08843743474467"/>
+<neuron id="418" type="hid" activation="sigmoid"/>
+<connection id="419" src-id="0" dest-id="418" weight="-4.324200589943295"/>
+<connection id="420" src-id="418" dest-id="164" weight="0.76153168972325"/>
+<connection id="542" src-id="2" dest-id="164" weight="-1.4738797332860887"/>
+<connection id="544" src-id="418" dest-id="3" weight="-2.908671685505104"/>
+<neuron id="545" type="hid" activation="sigmoid"/>
+<connection id="546" src-id="418" dest-id="545" weight="8.65666108040451"/>
+<connection id="547" src-id="545" dest-id="164" weight="-0.4349461993862369"/>
+<connection id="1320" src-id="0" dest-id="545" weight="0.2603977865362447"/>
+</chromosome>

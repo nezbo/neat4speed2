@@ -1,0 +1,137 @@
+
+C:\Users\Emil\Dropbox\workspace-laptop\ANJI>evolve.bat torcs.properties 
+ANJI v2.0, Copyright (C) 2004 Derek James and Philip Tucker
+ANJI comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under the conditions of the GNU General Public License.
+INFO  loaded properties from torcs.properties
+INFO  Properties: run.reset == false
+INFO  Properties: random.seed == 0
+INFO  Properties: id.file == ./test/db/id.xml
+INFO  Properties: survival.rate == 0.1
+INFO  Properties: selector.roulette == false
+INFO  Properties: selector.elitism == true
+INFO  Properties: selector.elitism.min.specie.size == 6
+INFO  Properties: remove.connection.mutation.rate == null [0.01]
+INFO  Properties: remove.connection.max.weight == null [0.1]
+INFO  Properties: remove.connection.strategy == null [skewed]
+INFO  Properties: topology.mutation.classic == null [false]
+INFO  Properties: add.connection.mutation.rate == 0.03
+INFO  Properties: recurrent == disallowed
+INFO  Properties: add.neuron.mutation.rate == 0.03
+INFO  Properties: weight.mutation.rate == 0.75
+INFO  Properties: weight.mutation.std.dev == 1.5
+INFO  Properties: prune.mutation.rate == null [1.0]
+INFO  Properties: popul.size == 50
+INFO  Properties: initial.topology.activation == sigmoid
+INFO  Properties: initial.topology.activation.input == null [null]
+INFO  Properties: initial.topology.activation.output == null [null]
+INFO  Properties: neat.id.file == ./test/db/neatid.xml
+INFO  Properties: stimulus.size == 24
+INFO  Properties: initial.topology.num.hidden.neurons == 0
+INFO  Properties: response.size == 3
+INFO  Properties: initial.topology.fully.connected == true
+INFO  Properties: weight.min == -500.0
+INFO  Properties: weight.max == 500.0
+INFO  Properties: chrom.compat.excess.coeff == 1.0
+INFO  Properties: chrom.compat.disjoint.coeff == 1.0
+INFO  Properties: chrom.compat.common.coeff == 0.04
+INFO  Properties: speciation.threshold == 0.2
+INFO  Properties: persistence.class == com.anji.persistence.FilePersistence
+INFO  Properties: base.dir == ./test/db
+INFO  Properties: num.generations == 60
+INFO  Properties: fitness.target == 0.999
+INFO  Properties: fitness.threshold == null [0.999]
+INFO  Properties: run.name == testrun
+INFO  Properties: persist.all == false
+INFO  Properties: persist.champions == true
+INFO  Properties: persist.last == false
+INFO  Properties: presentation.dir == ./nevt/test
+INFO  Properties: fitness_function.class == itu.jgdiejuu.torcs.TorcsFitnessFunction
+INFO  Properties: itu.manual == false
+INFO  Properties: ann.type == anji
+INFO  Properties: recurrent.cycles == 1
+INFO  Properties: recurrent == disallowed
+WARN  chromosome in run not found: 44461
+WARN  chromosome in run not found: 92579
+WARN  chromosome in run not found: 92580
+WARN  chromosome in run not found: 92581
+WARN  chromosome in run not found: 92582
+WARN  chromosome in run not found: 92583
+WARN  chromosome in run not found: 92584
+WARN  chromosome in run not found: 92585
+WARN  chromosome in run not found: 92586
+WARN  chromosome in run not found: 92587
+WARN  chromosome in run not found: 92588
+WARN  chromosome in run not found: 92589
+WARN  chromosome in run not found: 92590
+WARN  chromosome in run not found: 92591
+WARN  chromosome in run not found: 92592
+WARN  chromosome in run not found: 92593
+WARN  chromosome in run not found: 92594
+WARN  chromosome in run not found: 92595
+WARN  chromosome in run not found: 92596
+WARN  chromosome in run not found: 92597
+WARN  chromosome in run not found: 92598
+WARN  chromosome in run not found: 92599
+WARN  chromosome in run not found: 92600
+WARN  chromosome in run not found: 92601
+WARN  chromosome in run not found: 92602
+WARN  chromosome in run not found: 92603
+WARN  chromosome in run not found: 92604
+WARN  chromosome in run not found: 92605
+WARN  chromosome in run not found: 92606
+WARN  chromosome in run not found: 92607
+WARN  chromosome in run not found: 92608
+WARN  chromosome in run not found: 92609
+WARN  chromosome in run not found: 92610
+WARN  chromosome in run not found: 92611
+WARN  chromosome in run not found: 92612
+WARN  chromosome in run not found: 92613
+WARN  chromosome in run not found: 92614
+WARN  chromosome in run not found: 92615
+WARN  chromosome in run not found: 92616
+WARN  chromosome in run not found: 92617
+WARN  chromosome in run not found: 92618
+WARN  chromosome in run not found: 92619
+WARN  chromosome in run not found: 92620
+WARN  chromosome in run not found: 92621
+WARN  chromosome in run not found: 92622
+WARN  chromosome in run not found: 92623
+INFO  genotype from previous run
+INFO  Run: start
+INFO  Generation 0: start
+>> Controller #1 - id: 30802
+Client Connected.
+>>	Controller Stuck: d=0.18300000000002115 step 1001
+>> Get fitness: 206.561
+>>	Dist: 206 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 206.561
+>> Controller #2 - id: 37652
+>>	Controller Stuck: d=0.09649999999999892 step 501
+>> Get fitness: 56.1046
+>>	Dist: 56 Laps: 0 Taken: 1 Overtakes: 4 Pos: 4
+>> Get fitness: 56.1046
+>> Controller #3 - id: 44436
+>>	Controller Stuck: d=0.4099999999999966 step 1126
+>> Get fitness: 208.963
+>>	Dist: 208 Laps: 0 Taken: 1 Overtakes: 4 Pos: 4
+>> Get fitness: 208.963
+>> Controller #4 - id: 54396
+>>	Controller Stuck: d=0.900000000000091 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 1 Overtakes: 4 Pos: 4
+>> Get fitness: 0.0
+>> Controller #5 - id: 96653
+>>	Controller Stuck: d=0.21300000000002228 step 876
+>> Get fitness: 221.99
+>>	Dist: 221 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 221.99
+>> Controller #6 - id: 96654
+>>	Controller Stuck: d=0.09649999999999892 step 501
+>> Get fitness: 56.1046
+>>	Dist: 56 Laps: 0 Taken: 1 Overtakes: 4 Pos: 4
+>> Get fitness: 56.1046
+>> Controller #7 - id: 96655
+Terminate batch job (Y/N)? 
+Terminate batch job (Y/N)? 

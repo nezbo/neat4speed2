@@ -1,0 +1,4477 @@
+
+D:\Dropbox\workspace-laptop\ANJI>evolve.bat torcs-minimal-manual.properties 
+ANJI v2.0, Copyright (C) 2004 Derek James and Philip Tucker
+ANJI comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under the conditions of the GNU General Public License.
+INFO  loaded properties from torcs-minimal-manual.properties
+INFO  Properties: run.reset == false
+INFO  Properties: random.seed == 0
+INFO  Properties: id.file == ./test/db/id.xml
+INFO  Properties: survival.rate == 0.1
+INFO  Properties: selector.roulette == false
+INFO  Properties: selector.elitism == true
+INFO  Properties: selector.elitism.min.specie.size == 6
+INFO  Properties: remove.connection.mutation.rate == null [0.01]
+INFO  Properties: remove.connection.max.weight == null [0.1]
+INFO  Properties: remove.connection.strategy == null [skewed]
+INFO  Properties: topology.mutation.classic == null [false]
+INFO  Properties: add.connection.mutation.rate == 0.03
+INFO  Properties: recurrent == disallowed
+INFO  Properties: add.neuron.mutation.rate == 0.03
+INFO  Properties: weight.mutation.rate == 0.75
+INFO  Properties: weight.mutation.std.dev == 1.5
+INFO  Properties: prune.mutation.rate == null [1.0]
+INFO  Properties: popul.size == 50
+INFO  Properties: initial.topology.activation == sigmoid
+INFO  Properties: initial.topology.activation.input == null [null]
+INFO  Properties: initial.topology.activation.output == null [null]
+INFO  Properties: neat.id.file == ./test/db/neatid.xml
+INFO  couldn't load NEAT ids from file, starting with new mapping
+INFO  Properties: stimulus.size == 6
+INFO  Properties: initial.topology.num.hidden.neurons == 0
+INFO  Properties: response.size == 4
+INFO  Properties: initial.topology.fully.connected == true
+INFO  Properties: weight.min == -500.0
+INFO  Properties: weight.max == 500.0
+INFO  Properties: chrom.compat.excess.coeff == 1.0
+INFO  Properties: chrom.compat.disjoint.coeff == 1.0
+INFO  Properties: chrom.compat.common.coeff == 0.04
+INFO  Properties: speciation.threshold == 0.2
+INFO  Properties: persistence.class == com.anji.persistence.FilePersistence
+INFO  Properties: base.dir == ./test-minimal2/db
+INFO  Properties: num.generations == 60
+INFO  Properties: fitness.target == 0.999
+INFO  Properties: fitness.threshold == null [0.999]
+INFO  Properties: run.name == testrun
+INFO  Properties: persist.all == false
+INFO  Properties: persist.champions == true
+INFO  Properties: persist.last == false
+INFO  Properties: presentation.dir == ./nevt/test-minimal2
+INFO  Properties: fitness_function.class == itu.jgdiejuu.torcs.TorcsFitnessFunction
+INFO  Properties: itu.manual == true
+INFO  Properties: ann.type == anji
+INFO  Properties: recurrent.cycles == 1
+INFO  Properties: recurrent == disallowed
+INFO  random genotype
+INFO  Run: start
+INFO  Generation 0: start
+>> Controller #1 - id: 34
+Client Connected.
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #2 - id: 35
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 37
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 38
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 39
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 40
+>>	Controller Stuck: d=0.5299999999999727 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 41
+>>	Controller Stuck: d=0.6400000000001 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 42
+>>	Controller Stuck: d=0.8299999999999272 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 43
+>>	Controller Stuck: d=0.38999999999987267 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 44
+>>	Controller Stuck: d=0.8199999999999363 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 45
+>>	Controller Stuck: d=0.8200000000001637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 46
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 47
+>>	Controller Stuck: d=0.6799999999998363 step 1251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 48
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 49
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 50
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 51
+>>	Controller Stuck: d=0.44000000000005457 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 52
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 53
+>>	Controller Stuck: d=0.6200000000001182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 54
+>>	Controller Stuck: d=0.2999999999999545 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 55
+>>	Controller Stuck: d=0.5900000000001455 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 56
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 57
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 58
+>>	Controller Stuck: d=0.6300000000001091 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 59
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 60
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 61
+>>	Controller Stuck: d=0.6000000000001364 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 62
+>>	Controller Stuck: d=0.5900000000001455 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 63
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 64
+>>	Controller Stuck: d=0.06999999999993634 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 65
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 66
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 67
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 68
+>>	Controller Stuck: d=0.16999999999984539 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 69
+>>	Controller Stuck: d=0.6100000000001273 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 70
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 71
+>>	Controller Stuck: d=0.36000000000012733 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 72
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 73
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 74
+>>	Controller Stuck: d=0.8200000000001637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 75
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 76
+>>	Controller Stuck: d=0.2300000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 77
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 78
+>>	Controller Stuck: d=0.19000000000005457 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 79
+>>	Controller Stuck: d=0.4600000000000364 step 3376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 80
+>>	Controller Stuck: d=0.9300000000000637 step 7626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 81
+>>	Controller Stuck: d=0.5 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 82
+>>	Controller Stuck: d=0.07999999999992724 step 1126
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 83
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 0.0
+INFO  connection->neuron id map size == 19
+INFO  neurons->connection id map size == 119
+INFO  species count: 5
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=34 score=7.497938067031566E-5 size=34
+INFO  Generation 0: end [15:45:44 - 15:55:04] [560440]
+INFO  Generation 1: start
+>> Controller #1 - id: 34
+Client Connected.
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #2 - id: 35
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 37
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 38
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 198
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 199
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 200
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 201
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 202
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 203
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 204
+>>	Controller Stuck: d=0.5799999999999272 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 205
+>>	Controller Stuck: d=0.6599999999998545 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 206
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 207
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 208
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 209
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 210
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 211
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 212
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 213
+>>	Controller Stuck: d=0.7899999999999636 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 214
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 215
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 216
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 217
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 218
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 219
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 220
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 221
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 222
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 223
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 224
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 225
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 226
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 227
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 228
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 229
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 230
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 231
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 232
+>>	Controller Stuck: d=0.75 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 233
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 234
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 235
+>>	Controller Stuck: d=0.8899999999998727 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 236
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 237
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 238
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 239
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 240
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 241
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 242
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 0.0
+INFO  connection->neuron id map size == 24
+INFO  neurons->connection id map size == 146
+INFO  species count: 8
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=34 score=7.497938067031566E-5 size=34
+INFO  Generation 1: end [15:55:04 - 16:03:32] [507695]
+INFO  Generation 2: start
+>> Controller #1 - id: 34
+Client Connected.
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #2 - id: 35
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 37
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 38
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 275
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 276
+>>	Controller Stuck: d=0.049999999999954525 step 876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 277
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 278
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 279
+>>	Controller Stuck: d=0.17000000000007276 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 280
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 281
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 282
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 283
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 284
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 285
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 286
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 287
+>>	Controller Stuck: d=0.8600000000001273 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 288
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 289
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 290
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 291
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 292
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 293
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 294
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 295
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 296
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 297
+>>	Controller Stuck: d=0.849999999999909 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 298
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 299
+>>	Controller Stuck: d=0.3500000000001364 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 300
+>>	Controller Stuck: d=0.7100000000000364 step 876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 301
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 302
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 303
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 304
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 305
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 306
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 307
+>>	Controller Stuck: d=0.7899999999999636 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 308
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 309
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 310
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 311
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 312
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 313
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 314
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 315
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 316
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 317
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 318
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 319
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 0.0
+INFO  connection->neuron id map size == 24
+INFO  neurons->connection id map size == 148
+INFO  species count: 8
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=34 score=7.497938067031566E-5 size=34
+INFO  Generation 2: end [16:03:32 - 16:12:03] [510607]
+INFO  Generation 3: start
+>> Controller #1 - id: 34
+Client Connected.
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #2 - id: 35
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 37
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 38
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 322
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 323
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 324
+>>	Controller Stuck: d=0.38000000000010914 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 325
+>>	Controller Stuck: d=0.009999999999990905 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 326
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 327
+>>	Controller Stuck: d=0.18000000000006366 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 328
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 329
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 330
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 331
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 332
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 333
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 334
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 335
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 336
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 337
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 338
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 339
+>>	Controller Stuck: d=0.7800000000002001 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 340
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 341
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 342
+>>	Controller Stuck: d=0.6199999999998909 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 343
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 344
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 345
+>>	Controller Stuck: d=0.8900000000001 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 346
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 347
+>>	Controller Stuck: d=0.8900000000001 step 2001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 348
+>>	Controller Stuck: d=0.8199999999999363 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 349
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 350
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 351
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 352
+>>	Controller Stuck: d=0.040000000000190994 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 353
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 354
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 355
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 356
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 357
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 358
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 359
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 360
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 361
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 362
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 363
+>>	Controller Stuck: d=0.5499999999999545 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 364
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 365
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 366
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 0.0
+INFO  connection->neuron id map size == 24
+INFO  neurons->connection id map size == 148
+INFO  species count: 12
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=34 score=7.497938067031566E-5 size=34
+INFO  Generation 3: end [16:12:03 - 16:20:31] [508010]
+INFO  Generation 4: start
+>> Controller #1 - id: 34
+Client Connected.
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #2 - id: 35
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 37
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 38
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 367
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 368
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 369
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 370
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 371
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 372
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 373
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 374
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 375
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 376
+>>	Controller Stuck: d=0.8600000000001273 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 377
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 378
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 379
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 380
+>>	Controller Stuck: d=0.4700000000000273 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 381
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 382
+>>	Controller Stuck: d=0.5099999999999909 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 383
+>>	Controller Stuck: d=0.01999999999998181 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 384
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 385
+>>	Controller Stuck: d=0.44000000000005457 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 386
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 387
+>>	Controller Stuck: d=0.7100000000000364 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 388
+>>	Controller Stuck: d=0.040000000000190994 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 389
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 390
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 391
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 392
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 393
+>>	Controller Stuck: d=0.9600000000000364 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 394
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 395
+>>	Controller Stuck: d=0.2599999999999909 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 396
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 397
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 398
+>>	Controller Stuck: d=0.5499999999999545 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 399
+>>	Controller Stuck: d=0.2899999999999636 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 400
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 401
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 402
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 403
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 404
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 405
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 406
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 407
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 408
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 409
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 410
+>>	Controller Stuck: d=0.41000000000008185 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 411
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 0.0
+INFO  connection->neuron id map size == 24
+INFO  neurons->connection id map size == 148
+INFO  species count: 4
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=34 score=7.497938067031566E-5 size=34
+INFO  Generation 4: end [16:20:31 - 16:28:58] [507514]
+INFO  Generation 5: start
+>> Controller #1 - id: 34
+Client Connected.
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #2 - id: 35
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 37
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 38
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 412
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 413
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 414
+>>	Controller Stuck: d=0.8299999999999272 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 415
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 416
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 417
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 418
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 419
+>>	Controller Stuck: d=0.9900000000000091 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 420
+>>	Controller Stuck: d=0.8400000000001455 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 421
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 422
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 423
+>>	Controller Stuck: d=0.2599999999999909 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 424
+>>	Controller Stuck: d=0.2899999999999636 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 425
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 426
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 427
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 428
+>>	Controller Stuck: d=0.7599999999999909 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 429
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 430
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 431
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 432
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 433
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 434
+>>	Controller Stuck: d=0.4609999999999985 step 1126
+>> Get fitness: 102.31
+>>	Dist: 102 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 102.31
+>> Controller #29 - id: 435
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 436
+>>	Controller Stuck: d=0.009999999999990905 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 437
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 438
+>>	Controller Stuck: d=0.75 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 439
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 440
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 441
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 442
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 443
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 444
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 445
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 446
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 447
+>>	Controller Stuck: d=0.7200000000000273 step 876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 448
+>>	Controller Stuck: d=0.05999999999994543 step 876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 449
+>>	Controller Stuck: d=0.7799999999999727 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 450
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 451
+>>	Controller Stuck: d=0.37000000000011823 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 452
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 453
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 454
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 455
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 456
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 2.04
+INFO  connection->neuron id map size == 25
+INFO  neurons->connection id map size == 156
+INFO  species count: 20
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=434 score=0.007647896828372198 size=36
+INFO  Generation 5: end [16:28:58 - 16:37:27] [508549]
+INFO  Generation 6: start
+>> Controller #1 - id: 434
+Client Connected.
+>>	Controller Stuck: d=0.4609999999999985 step 1126
+>> Get fitness: 102.31
+>>	Dist: 102 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 102.31
+>> Controller #2 - id: 34
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 35
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 37
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 466
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 467
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 468
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 469
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 470
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 471
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 472
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 473
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 474
+>>	Controller Stuck: d=0.32999999999992724 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 475
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 476
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 477
+>>	Controller Stuck: d=0.5 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 478
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 479
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 480
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 481
+>>	Controller Stuck: d=0.11999999999989086 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 482
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 483
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 484
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 485
+>>	Controller Stuck: d=0.5800000000001546 step 3626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 486
+>>	Controller Stuck: d=0.9200000000000728 step 1251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 487
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 488
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 489
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 490
+>>	Controller Stuck: d=0.5699999999999363 step 751
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 491
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 492
+>>	Controller Stuck: d=0.8200000000001637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 493
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 494
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 495
+>>	Controller Stuck: d=0.07999999999992724 step 876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 496
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 497
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 498
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 499
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 500
+>>	Controller Stuck: d=0.5499999999999545 step 876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 501
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 502
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 503
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 504
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 505
+>>	Controller Stuck: d=0.9399999999998272 step 876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 506
+>>	Controller Stuck: d=0.9900000000000091 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 507
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 508
+>>	Controller Stuck: d=0.6800000000000637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 509
+>>	Controller Stuck: d=0.16000000000008185 step 4501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 510
+>>	Controller Stuck: d=0.22000000000002728 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 2.04
+INFO  connection->neuron id map size == 26
+INFO  neurons->connection id map size == 163
+INFO  species count: 15
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=434 score=0.007647896828372198 size=36
+INFO  Generation 6: end [16:37:27 - 16:45:57] [510114]
+INFO  Generation 7: start
+>> Controller #1 - id: 434
+Client Connected.
+>>	Controller Stuck: d=0.4609999999999985 step 1126
+>> Get fitness: 102.31
+>>	Dist: 102 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 102.31
+>> Controller #2 - id: 34
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 35
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 37
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 519
+>>	Controller Stuck: d=0.36999999999989086 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 520
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 521
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 522
+>>	Controller Stuck: d=0.42000000000007276 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 523
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 524
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 525
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 526
+>>	Controller Stuck: d=0.30999999999994543 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 527
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 528
+>>	Controller Stuck: d=0.6099999999999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 529
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 530
+>>	Controller Stuck: d=0.8999999999998636 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 531
+>>	Controller Stuck: d=0.6400000000001 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 532
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 533
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 534
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 535
+>>	Controller Stuck: d=0.9400000000000546 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 536
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 537
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 538
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 539
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 540
+>>	Controller Stuck: d=0.2899999999999636 step 4876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 541
+>>	Controller Stuck: d=0.8800000000001091 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 542
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 543
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 544
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 545
+>>	Controller Stuck: d=0.7000000000000455 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 546
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 547
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 548
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 549
+>>	Controller Stuck: d=0.6900000000000546 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 550
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 551
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 552
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 553
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 554
+>>	Controller Stuck: d=0.11000000000012733 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 555
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 556
+>>	Controller Stuck: d=0.5299999999999727 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 557
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 558
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 559
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 560
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 561
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 562
+>>	Controller Stuck: d=0.599999999999909 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 563
+>>	Controller Stuck: d=0.7100000000000364 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 2.04
+INFO  connection->neuron id map size == 26
+INFO  neurons->connection id map size == 168
+INFO  species count: 16
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=434 score=0.007647896828372198 size=36
+INFO  Generation 7: end [16:45:57 - 16:54:26] [508770]
+INFO  Generation 8: start
+>> Controller #1 - id: 434
+Client Connected.
+>>	Controller Stuck: d=0.4609999999999985 step 1126
+>> Get fitness: 102.31
+>>	Dist: 102 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 102.31
+>> Controller #2 - id: 34
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 35
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 37
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 569
+>>	Controller Stuck: d=0.41000000000008185 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 570
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 571
+>>	Controller Stuck: d=0.2400000000000091 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 572
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 573
+>>	Controller Stuck: d=0.5800000000001546 step 2876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 574
+>>	Controller Stuck: d=0.029999999999972715 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 575
+>>	Controller Stuck: d=0.5799999999999272 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 576
+>>	Controller Stuck: d=0.42000000000007276 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 577
+>>	Controller Stuck: d=0.7899999999999636 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 578
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 579
+>>	Controller Stuck: d=0.8700000000001182 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 580
+>>	Controller Stuck: d=0.8599999999999 step 4876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 581
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 582
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 583
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 584
+>>	Controller Stuck: d=0.9300000000000637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 585
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 586
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 587
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 588
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 589
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 590
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 591
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 592
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 593
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 594
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 595
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 596
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 597
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 598
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 599
+>>	Controller Stuck: d=0.9200000000000728 step 876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 600
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 601
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 602
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 603
+>>	Controller Stuck: d=0.4499999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 604
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 605
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 606
+>>	Controller Stuck: d=0.36999999999989086 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 607
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 608
+>>	Controller Stuck: d=0.900000000000091 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 609
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 610
+>>	Controller Stuck: d=0.9500000000000455 step 4876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 611
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 612
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 613
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 2.04
+INFO  connection->neuron id map size == 26
+INFO  neurons->connection id map size == 169
+INFO  species count: 11
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=434 score=0.007647896828372198 size=36
+INFO  Generation 8: end [16:54:26 - 17:02:56] [510622]
+INFO  Generation 9: start
+>> Controller #1 - id: 434
+Client Connected.
+>>	Controller Stuck: d=0.4609999999999985 step 1126
+>> Get fitness: 102.31
+>>	Dist: 102 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 102.31
+>> Controller #2 - id: 34
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 35
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 36
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 37
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 615
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 616
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 617
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 618
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 619
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 620
+>>	Controller Stuck: d=0.8399999999999181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 621
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 622
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 623
+>>	Controller Stuck: d=0.009999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 624
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 625
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 626
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 627
+>>	Controller Stuck: d=0.5700000000001637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 628
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 629
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 630
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 631
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 632
+>>	Controller Stuck: d=0.7563999999999993 step 626
+>> Get fitness: 17.1749
+>>	Dist: 17 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 17.1749
+>> Controller #24 - id: 633
+>>	Controller Stuck: d=0.8200000000001637 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 634
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 635
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 636
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 637
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 638
+>>	Controller Stuck: d=0.5299999999999727 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 639
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 640
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 641
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 642
+>>	Controller Stuck: d=0.9200000000000728 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 643
+>>	Controller Stuck: d=0.8800000000001091 step 1626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 644
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 645
+>>	Controller Stuck: d=0.7000000000000455 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 646
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 647
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 648
+>>	Controller Stuck: d=0.2400000000000091 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 649
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 650
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 651
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 652
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 653
+>>	Controller Stuck: d=0.4399999999998272 step 876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 654
+>>	Controller Stuck: d=0.8299999999999272 step 4251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 655
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 656
+>>	Controller Stuck: d=0.5 step 4001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 657
+>>	Controller Stuck: d=0.0 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 658
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 659
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 2.38
+INFO  connection->neuron id map size == 26
+INFO  neurons->connection id map size == 169
+INFO  species count: 15
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=434 score=0.007647896828372198 size=36
+INFO  Generation 9: end [17:02:56 - 17:11:26] [509615]
+INFO  Generation 10: start
+>> Controller #1 - id: 434
+Client Connected.
+>>	Controller Stuck: d=0.4329999999999927 step 3001
+>> Get fitness: 491.443
+>>	Dist: 491 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 491.443
+>> Controller #2 - id: 34
+>>	Controller Stuck: d=0.5099999999997635 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #3 - id: 35
+>>	Controller Stuck: d=0.5099999999997635 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #4 - id: 36
+>>	Controller Stuck: d=0.4600000000000364 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #5 - id: 37
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #6 - id: 660
+>>	Controller Stuck: d=0.4499999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #7 - id: 661
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #8 - id: 662
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #9 - id: 663
+>>	Controller Stuck: d=0.5099999999997635 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #10 - id: 664
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #11 - id: 665
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #12 - id: 666
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #13 - id: 667
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #14 - id: 668
+>>	Controller Stuck: d=0.4899999999997817 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #15 - id: 669
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #16 - id: 670
+>>	Controller Stuck: d=0.6300000000001091 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #17 - id: 671
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #18 - id: 672
+>>	Controller Stuck: d=0.4899999999997817 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #19 - id: 673
+>>	Controller Stuck: d=0.14000000000032742 step 1376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #20 - id: 674
+>>	Controller Stuck: d=0.6199999999998909 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #21 - id: 675
+>>	Controller Stuck: d=0.7200000000002547 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #22 - id: 676
+>>	Controller Stuck: d=0.4600000000000364 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #23 - id: 677
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #24 - id: 678
+>>	Controller Stuck: d=0.6970000000000027 step 3001
+>> Get fitness: 204.297
+>>	Dist: 204 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 204.297
+>> Controller #25 - id: 679
+>>	Controller Stuck: d=0.05999999999994543 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #26 - id: 680
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #27 - id: 681
+>>	Controller Stuck: d=0.6900000000000546 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #28 - id: 682
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #29 - id: 683
+>>	Controller Stuck: d=0.05999999999994543 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #30 - id: 684
+>>	Controller Stuck: d=0.9979999999999905 step 1751
+>> Get fitness: 72.6081
+>>	Dist: 72 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 72.6081
+>> Controller #31 - id: 685
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #32 - id: 686
+>>	Controller Stuck: d=0.5 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #33 - id: 687
+>>	Controller Stuck: d=0.5 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #34 - id: 688
+>>	Controller Stuck: d=0.669999999999618 step 1376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #35 - id: 689
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #36 - id: 690
+>>	Controller Stuck: d=0.4899999999997817 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #37 - id: 691
+>>	Controller Stuck: d=0.4499999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #38 - id: 692
+>>	Controller Stuck: d=0.6300000000001091 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #39 - id: 693
+>>	Controller Stuck: d=0.7699999999999818 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #40 - id: 694
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #41 - id: 695
+>>	Controller Stuck: d=0.05999999999994543 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #42 - id: 696
+>>	Controller Stuck: d=0.0 step 2251
+>> Get fitness: 0.346344
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.346344
+>> Controller #43 - id: 697
+>>	Controller Stuck: d=0.4899999999997817 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #44 - id: 698
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #45 - id: 699
+>>	Controller Stuck: d=0.4600000000000364 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #46 - id: 700
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #47 - id: 701
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #48 - id: 702
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #49 - id: 703
+>>	Controller Stuck: d=0.8099999999999454 step 1126
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #50 - id: 704
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Average Fitness: 15.34
+INFO  connection->neuron id map size == 27
+INFO  neurons->connection id map size == 182
+INFO  species count: 17
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=434 score=0.03681487590912499 size=36
+INFO  Generation 10: end [17:11:26 - 17:20:24] [538650]
+INFO  Generation 11: start
+>> Controller #1 - id: 434
+Client Connected.
+>>	Controller Stuck: d=0.4329999999999927 step 3001
+>> Get fitness: 491.443
+>>	Dist: 491 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 491.443
+>> Controller #2 - id: 678
+>>	Controller Stuck: d=0.6970000000000027 step 3001
+>> Get fitness: 204.297
+>>	Dist: 204 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 204.297
+>> Controller #3 - id: 684
+>>	Controller Stuck: d=0.9979999999999905 step 1751
+>> Get fitness: 72.6081
+>>	Dist: 72 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 72.6081
+>> Controller #4 - id: 34
+>>	Controller Stuck: d=0.5099999999997635 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #5 - id: 35
+>>	Controller Stuck: d=0.5099999999997635 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #6 - id: 719
+>>	Controller Stuck: d=0.6199999999998909 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #7 - id: 720
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #8 - id: 721
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #9 - id: 722
+>>	Controller Stuck: d=0.6399999999998727 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #10 - id: 723
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #11 - id: 724
+>>	Controller Stuck: d=0.6100000000001273 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #12 - id: 725
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #13 - id: 726
+>>	Controller Stuck: d=0.4899999999997817 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #14 - id: 727
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #15 - id: 728
+>>	Controller Stuck: d=0.6399999999998727 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #16 - id: 729
+>>	Controller Stuck: d=0.9500000000002728 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #17 - id: 730
+>>	Controller Stuck: d=0.05999999999994543 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #18 - id: 731
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #19 - id: 732
+>>	Controller Stuck: d=0.6939999999999884 step 1376
+>> Get fitness: 231.826
+>>	Dist: 231 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 231.826
+>> Controller #20 - id: 733
+>>	Controller Stuck: d=0.4899999999997817 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #21 - id: 734
+>>	Controller Stuck: d=0.12300000000001887 step 1626
+>> Get fitness: 227.711
+>>	Dist: 227 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 227.711
+>> Controller #22 - id: 735
+>>	Controller Stuck: d=0.3350000000000364 step 1251
+>> Get fitness: 262.374
+>>	Dist: 262 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 262.374
+>> Controller #23 - id: 736
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #24 - id: 737
+>>	Controller Stuck: d=0.4340000000000259 step 3251
+>> Get fitness: 212.997
+>>	Dist: 212 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 212.997
+>> Controller #25 - id: 738
+>>	Controller Stuck: d=0.05999999999994543 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #26 - id: 739
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #27 - id: 740
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #28 - id: 741
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #29 - id: 742
+>>	Controller Stuck: d=0.05999999999994543 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #30 - id: 743
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #31 - id: 744
+>>	Controller Stuck: d=0.6100000000001273 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #32 - id: 745
+>>	Controller Stuck: d=0.7300000000000182 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #33 - id: 746
+>>	Controller Stuck: d=0.05999999999994543 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #34 - id: 747
+>>	Controller Stuck: d=0.6100000000001273 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #35 - id: 748
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #36 - id: 749
+>>	Controller Stuck: d=0.04000000000041837 step 876
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #37 - id: 750
+>>	Controller Stuck: d=0.4600000000000364 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #38 - id: 751
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #39 - id: 752
+>>	Controller Stuck: d=0.4600000000000364 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #40 - id: 753
+>>	Controller Stuck: d=0.6399999999998727 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #41 - id: 754
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #42 - id: 755
+>>	Controller Stuck: d=0.8558000000000021 step 1376
+>> Get fitness: 36.6224
+>>	Dist: 36 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 36.6224
+>> Controller #43 - id: 756
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #44 - id: 757
+>>	Controller Stuck: d=0.4800000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #45 - id: 758
+>>	Controller Stuck: d=0.4899999999997817 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 1 Pos: 2
+>> Get fitness: 0.0
+>> Controller #46 - id: 759
+>>	Controller Stuck: d=0.6200000000003456 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #47 - id: 760
+>>	Controller Stuck: d=0.7000000000002728 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #48 - id: 761
+>>	Controller Stuck: d=0.6399999999998727 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #49 - id: 762
+>>	Controller Stuck: d=0.5900000000001455 step 2751
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Controller #50 - id: 763
+>>	Controller Stuck: d=0.6100000000001273 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 3 Pos: 4
+>> Get fitness: 0.0
+>> Average Fitness: 34.7
+INFO  connection->neuron id map size == 28
+INFO  neurons->connection id map size == 204
+INFO  species count: 15
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=434 score=0.03681487590912499 size=36
+INFO  Generation 11: end [17:20:24 - 17:29:26] [541813]
+INFO  Generation 12: start
+>> Controller #1 - id: 434
+Client Connected.
+>>	Controller Stuck: d=0.10500000000000398 step 1126
+>> Get fitness: 124.89
+>>	Dist: 124 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 124.89
+>> Controller #2 - id: 734
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 737
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #4 - id: 755
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 735
+>>	Controller Stuck: d=0.8319999999999936 step 2001
+>> Get fitness: 359.262
+>>	Dist: 359 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 359.262
+>> Controller #6 - id: 787
+>>	Controller Stuck: d=0.05999999999994543 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 788
+>>	Controller Stuck: d=0.930000000000291 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 789
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 790
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 791
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 792
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 793
+>>	Controller Stuck: d=0.7599999999997635 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 794
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 795
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 796
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 797
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 798
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 799
+>>	Controller Stuck: d=0.16399999999998727 step 1751
+>> Get fitness: 342.762
+>>	Dist: 342 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 342.762
+>> Controller #19 - id: 800
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 801
+>>	Controller Stuck: d=0.9499999999998181 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 802
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 803
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 804
+>>	Controller Stuck: d=0.03999999999996362 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 805
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 806
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 807
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 808
+>>	Controller Stuck: d=0.21000000000003638 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 809
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 810
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 811
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 812
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 813
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 814
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 815
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 816
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 817
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 818
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 819
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 820
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 821
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 822
+>>	Controller Stuck: d=0.19000000000005457 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 823
+>>	Controller Stuck: d=0.07000000000016371 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 824
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 825
+>>	Controller Stuck: d=0.01999999999998181 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 826
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 827
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 828
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 829
+>>	Controller Stuck: d=0.7799999999997453 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 830
+>>	Controller Stuck: d=0.4699999999997999 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 831
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 16.5
+INFO  connection->neuron id map size == 29
+INFO  neurons->connection id map size == 219
+INFO  species count: 15
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=735 score=0.026917597660643323 size=36
+INFO  Generation 12: end [17:29:26 - 17:37:58] [511435]
+INFO  Generation 13: start
+>> Controller #1 - id: 734
+Client Connected.
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #2 - id: 737
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #3 - id: 735
+>>	Controller Stuck: d=0.8319999999999936 step 2001
+>> Get fitness: 359.262
+>>	Dist: 359 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 359.262
+>> Controller #4 - id: 799
+>>	Controller Stuck: d=0.16399999999998727 step 1751
+>> Get fitness: 342.762
+>>	Dist: 342 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 342.762
+>> Controller #5 - id: 434
+>>	Controller Stuck: d=0.10500000000000398 step 1126
+>> Get fitness: 124.89
+>>	Dist: 124 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 124.89
+>> Controller #6 - id: 848
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 849
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 850
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 851
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 852
+>>	Controller Stuck: d=0.9099999999998545 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 853
+>>	Controller Stuck: d=0.919999999999618 step 1001
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 854
+>>	Controller Stuck: d=0.27999999999974534 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 855
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 856
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 857
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 858
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 859
+>>	Controller Stuck: d=0.4099999999998545 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 860
+>>	Controller Stuck: d=0.9600000000000364 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 861
+>>	Controller Stuck: d=0.9800000000000182 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 862
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 863
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 864
+>>	Controller Stuck: d=0.02999999999974534 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 865
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 866
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 867
+>>	Controller Stuck: d=0.36000000000012733 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 868
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 869
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 870
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 871
+>>	Controller Stuck: d=0.07000000000016371 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 872
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 873
+>>	Controller Stuck: d=0.849999999999909 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 874
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 875
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 876
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 877
+>>	Controller Stuck: d=0.2300000000000182 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 878
+>>	Controller Stuck: d=0.7867999999999995 step 1001
+>> Get fitness: 4.03729
+>>	Dist: 4 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 4.03729
+>> Controller #37 - id: 879
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 880
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 881
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 882
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 883
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 884
+>>	Controller Stuck: d=0.8400000000001455 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 885
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 886
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 887
+>>	Controller Stuck: d=0.009999999999763531 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 888
+>>	Controller Stuck: d=0.8999999999996362 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 889
+>>	Controller Stuck: d=0.2899999999999636 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 890
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 891
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 892
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 16.58
+INFO  connection->neuron id map size == 31
+INFO  neurons->connection id map size == 229
+INFO  species count: 21
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=735 score=0.026917597660643323 size=36
+INFO  Generation 13: end [17:37:58 - 17:46:30] [512050]
+INFO  Generation 14: start
+>> Controller #1 - id: 735
+Client Connected.
+>>	Controller Stuck: d=0.8319999999999936 step 2001
+>> Get fitness: 359.262
+>>	Dist: 359 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 359.262
+>> Controller #2 - id: 799
+>>	Controller Stuck: d=0.16399999999998727 step 1751
+>> Get fitness: 342.762
+>>	Dist: 342 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 342.762
+>> Controller #3 - id: 434
+>>	Controller Stuck: d=0.10500000000000398 step 1126
+>> Get fitness: 124.89
+>>	Dist: 124 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 124.89
+>> Controller #4 - id: 734
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 737
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 905
+>>	Controller Stuck: d=0.3599999999996726 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 906
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 907
+>>	Controller Stuck: d=0.5199999999999818 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 908
+>>	Controller Stuck: d=0.9900000000002365 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 909
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 910
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 911
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 912
+>>	Controller Stuck: d=0.010000000000218279 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 913
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 914
+>>	Controller Stuck: d=0.33999999999969077 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 915
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 916
+>>	Controller Stuck: d=0.4499999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 917
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 918
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 919
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 920
+>>	Controller Stuck: d=0.34999999999990905 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 921
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 922
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 923
+>>	Controller Stuck: d=0.01999999999998181 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 924
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 925
+>>	Controller Stuck: d=0.03999999999996362 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 926
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 927
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 928
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 929
+>>	Controller Stuck: d=0.2899999999999636 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 930
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 931
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 932
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 933
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 934
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 935
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 936
+>>	Controller Stuck: d=0.4899999999997817 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 937
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 938
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 939
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 940
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 941
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 942
+>>	Controller Stuck: d=0.6399999999998727 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 943
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 944
+>>	Controller Stuck: d=0.27999999999974534 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 945
+>>	Controller Stuck: d=0.18000000000029104 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 946
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 947
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 948
+>>	Controller Stuck: d=0.8500000000003638 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 949
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 16.5
+INFO  connection->neuron id map size == 31
+INFO  neurons->connection id map size == 230
+INFO  species count: 16
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=735 score=0.026917597660643323 size=36
+INFO  Generation 14: end [17:46:30 - 17:55:02] [511792]
+INFO  Generation 15: start
+>> Controller #1 - id: 735
+Client Connected.
+>>	Controller Stuck: d=0.8319999999999936 step 2001
+>> Get fitness: 359.262
+>>	Dist: 359 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 359.262
+>> Controller #2 - id: 799
+>>	Controller Stuck: d=0.16399999999998727 step 1751
+>> Get fitness: 342.762
+>>	Dist: 342 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 342.762
+>> Controller #3 - id: 434
+>>	Controller Stuck: d=0.10500000000000398 step 1126
+>> Get fitness: 124.89
+>>	Dist: 124 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 124.89
+>> Controller #4 - id: 734
+>>	Controller Stuck: d=0.919999999999618 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #5 - id: 737
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #6 - id: 951
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 952
+>>	Controller Stuck: d=0.010000000000218279 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 953
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 954
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 955
+>>	Controller Stuck: d=0.40000000000009095 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 956
+>>	Controller Stuck: d=0.32999999999992724 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 957
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 958
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 959
+>>	Controller Stuck: d=0.08299999999999841 step 1251
+>> Get fitness: 103.666
+>>	Dist: 103 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 103.666
+>> Controller #15 - id: 960
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 961
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 962
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 963
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 964
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 965
+>>	Controller Stuck: d=0.5408000000000044 step 751
+>> Get fitness: 45.0544
+>>	Dist: 45 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 45.0544
+>> Controller #21 - id: 966
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 967
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 968
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 969
+>>	Controller Stuck: d=0.009999999999763531 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 970
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 971
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 972
+>>	Controller Stuck: d=0.01999999999998181 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 973
+>>	Controller Stuck: d=0.1499999999996362 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 974
+>>	Controller Stuck: d=0.9099999999998545 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 975
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 976
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 977
+>>	Controller Stuck: d=0.36000000000012733 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 978
+>>	Controller Stuck: d=0.010000000000218279 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 979
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 980
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 981
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 982
+>>	Controller Stuck: d=0.9600000000000364 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 983
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 984
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 57.2647
+>>	Dist: 57 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 57.2647
+>> Controller #40 - id: 985
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 986
+>>	Controller Stuck: d=0.30999999999994543 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 987
+>>	Controller Stuck: d=0.2600000000002183 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 988
+>>	Controller Stuck: d=0.009999999999763531 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 989
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 990
+>>	Controller Stuck: d=0.3000000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 991
+>>	Controller Stuck: d=0.9400000000000546 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 992
+>>	Controller Stuck: d=0.31999999999970896 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 993
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 994
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 995
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 20.6
+INFO  connection->neuron id map size == 31
+INFO  neurons->connection id map size == 230
+INFO  species count: 17
+INFO  # chromosomes with max fitness: 0
+INFO  champ: id=735 score=0.026917597660643323 size=36
+INFO  Generation 15: end [17:55:02 - 18:03:36] [514260]
+INFO  Generation 16: start
+>> Controller #1 - id: 735
+Client Connected.
+>>	Controller Stuck: d=0.8319999999999936 step 2001
+>> Get fitness: 359.262
+>>	Dist: 359 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 359.262
+>> Controller #2 - id: 799
+>>	Controller Stuck: d=0.16399999999998727 step 1751
+>> Get fitness: 342.762
+>>	Dist: 342 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 342.762
+>> Controller #3 - id: 434
+>>	Controller Stuck: d=0.10500000000000398 step 1126
+>> Get fitness: 124.89
+>>	Dist: 124 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 124.89
+>> Controller #4 - id: 959
+>>	Controller Stuck: d=0.08299999999999841 step 1251
+>> Get fitness: 103.666
+>>	Dist: 103 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 103.666
+>> Controller #5 - id: 984
+>>	Controller Out of Time: 8000 = 8000
+>> Get fitness: 57.2647
+>>	Dist: 57 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 57.2647
+>> Controller #6 - id: 996
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #7 - id: 997
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #8 - id: 998
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #9 - id: 999
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #10 - id: 1000
+>>	Controller Stuck: d=0.009999999999763531 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #11 - id: 1001
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #12 - id: 1002
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #13 - id: 1003
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #14 - id: 1004
+>>	Controller Stuck: d=0.9200000000000728 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #15 - id: 1005
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #16 - id: 1006
+>>	Controller Stuck: d=0.9400000000000546 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #17 - id: 1007
+>>	Controller Stuck: d=0.24000000000023647 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #18 - id: 1008
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #19 - id: 1009
+>>	Controller Stuck: d=0.9299999999998363 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #20 - id: 1010
+>>	Controller Stuck: d=0.9100000000003092 step 626
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #21 - id: 1011
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #22 - id: 1012
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #23 - id: 1013
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #24 - id: 1014
+>>	Controller Stuck: d=0.07999999999992724 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #25 - id: 1015
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #26 - id: 1016
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #27 - id: 1017
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #28 - id: 1018
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #29 - id: 1019
+>>	Controller Stuck: d=0.8099999999999454 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #30 - id: 1020
+>>	Controller Stuck: d=0.0500000000001819 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #31 - id: 1021
+>>	Controller Stuck: d=0.569999999999709 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #32 - id: 1022
+>>	Controller Stuck: d=0.7699999999999818 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #33 - id: 1023
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #34 - id: 1024
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #35 - id: 1025
+>>	Controller Stuck: d=0.6799999999998363 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #36 - id: 1026
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #37 - id: 1027
+>>	Controller Stuck: d=0.9900000000002365 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #38 - id: 1028
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #39 - id: 1029
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #40 - id: 1030
+>>	Controller Stuck: d=0.06999999999970896 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #41 - id: 1031
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #42 - id: 1032
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #43 - id: 1033
+>>	Controller Stuck: d=0.900000000000091 step 1376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #44 - id: 1034
+>>	Controller Stuck: d=0.03999999999996362 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #45 - id: 1035
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #46 - id: 1036
+>>	Controller Stuck: d=0.9700000000002547 step 376
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #47 - id: 1037
+>>	Controller Stuck: d=0.0 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #48 - id: 1038
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #49 - id: 1039
+>>	Controller Stuck: d=0.15999999999985448 step 251
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Controller #50 - id: 1040
+>>	Controller Stuck: d=0.0 step 501
+>> Get fitness: 0.0
+>>	Dist: 0 Laps: 0 Taken: 0 Overtakes: 0 Pos: 1
+>> Get fitness: 0.0
+>> Average Fitness: 19.7
+ERROR PersistenceEventListener: error storing chromosome 735
+java.io.FileNotFoundException: D:\Dropbox\workspace-laptop\ANJI\.\test-minimal2\db\chromosome\chromosome735.xml (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at com.anji.persistence.FilePersistence.storeXml(Unknown Source)
+	at com.anji.persistence.FilePersistence.store(Unknown Source)
+	at com.anji.integration.PersistenceEventListener.storeChromosome(Unknown Source)
+	at com.anji.integration.PersistenceEventListener.genotypeEvaluatedEvent(Unknown Source)
+	at com.anji.integration.PersistenceEventListener.geneticEventFired(Unknown Source)
+	at org.jgap.event.EventManager.fireGeneticEvent(Unknown Source)
+	at org.jgap.Genotype.evolve(Unknown Source)
+	at com.anji.neat.Evolver.run(Unknown Source)
+	at com.anji.neat.Evolver.main(Unknown Source)
+ERROR 
+java.lang.IllegalStateException: PersistenceEventListener: error storing chromosome 735: java.io.FileNotFoundException: D:\Dropbox\workspace-laptop\ANJI\.\test-minimal2\db\chromosome\chromosome735.xml (The system cannot find the path specified)
+	at com.anji.integration.PersistenceEventListener.storeChromosome(Unknown Source)
+	at com.anji.integration.PersistenceEventListener.genotypeEvaluatedEvent(Unknown Source)
+	at com.anji.integration.PersistenceEventListener.geneticEventFired(Unknown Source)
+	at org.jgap.event.EventManager.fireGeneticEvent(Unknown Source)
+	at org.jgap.Genotype.evolve(Unknown Source)
+	at com.anji.neat.Evolver.run(Unknown Source)
+	at com.anji.neat.Evolver.main(Unknown Source)
